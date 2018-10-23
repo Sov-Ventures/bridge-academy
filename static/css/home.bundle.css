@@ -593,24 +593,24 @@ header {
   margin-right: 3em;
   margin-bottom: 2em; }
 
-section#partners {
+section#how-it-works {
   background-color: #def4f1;
   margin-top: 3.1em;
   padding-top: 2em;
   margin-bottom: 60px; }
-  section#partners h2.section-header {
+  section#how-it-works h2.section-header {
     font-size: 2em;
     font-weight: normal;
     margin-bottom: 0.5em; }
-  section#partners .logos-container {
+  section#how-it-works .logos-container {
     margin-top: 3em;
     opacity: .7;
     margin-bottom: -60px; }
-    section#partners .logos-container img {
+    section#how-it-works .logos-container img {
       margin-right: 20px;
       margin-bottom: 2em;
       height: 40px; }
-  section#partners .raised-paper {
+  section#how-it-works .raised-paper {
     background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
@@ -620,18 +620,18 @@ section#partners {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-    section#partners .raised-paper > div {
+    section#how-it-works .raised-paper > div {
       display: flex;
       text-align: left;
       flex-direction: row;
       align-items: center;
       max-width: 45em; }
-    section#partners .raised-paper p {
+    section#how-it-works .raised-paper p {
       max-width: 30em; }
-    section#partners .raised-paper h3 {
+    section#how-it-works .raised-paper h3 {
       font-size: 1.7em;
       font-weight: normal; }
-    section#partners .raised-paper #grow-together .btn > .ss-icon {
+    section#how-it-works .raised-paper #grow-together .btn > .ss-icon {
       font-size: 1.2rem;
       top: 4px;
       position: relative; }
@@ -1842,6 +1842,7 @@ ul.menu-header {
 @media screen and (max-width: 62em) {
   .mobile-nav {
     float: right;
+    margin: .6em 0;
     display: block;
     z-index: 1000; } }
 
