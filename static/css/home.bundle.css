@@ -2342,30 +2342,6 @@ pre.language-curl .line-numbers > span:first-child:before {
   padding-left: 30px;
   padding-right: 30px; }
 
-@media (max-width: 534px) {
-  .container {
-    width: 400px; } }
-
-@media (min-width: 535px) {
-  .container {
-    width: 550px; } }
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px; } }
-
-@media (min-width: 992px) {
-  .container {
-    width: 970px; } }
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px; } }
-
-@media (min-width: 1400px) {
-  .container {
-    width: 1170px; } }
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
