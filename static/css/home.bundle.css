@@ -1155,6 +1155,10 @@ section#explore-communities {
 ul#screeners li {
   width: 100%; }
 
+.dropdown .btn-primary{
+  user-select: none;
+}
+
 .btn,
 .btn:hover,
 .btn:active,
@@ -1168,7 +1172,7 @@ ul#screeners li {
   background: #59cbb9;
   border: 2px solid transparent;
   border-radius: 2px;
-  padding: 0.625em 1.6875em;
+  padding: 1em 1.6em !important;
   display: inline-block;
   text-transform: uppercase;
   font-size: 1em;
@@ -1176,6 +1180,7 @@ ul#screeners li {
   -webkit-transition: all 0.05s;
   -moz-transition: all 0.05s;
   transition: all 0.05s;
+  font-family: inherit !important;
   transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1); }
 
 .btn a,
@@ -2905,3 +2910,17 @@ pre.language-curl .line-numbers > span:first-child:before {
 
 .affix {
   position: fixed; }
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 1em 0em !important;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
