@@ -446,8 +446,8 @@ header {
     width: 100% !important;
     right: 0 !important; }
   #home-tagline {
-    text-align: center !important;
-    margin: 2em auto !important;
+    text-align: left !important;
+    margin: 0em auto !important;
     float: none; }
   #home-tagline .btn-primary {
     margin-bottom: 1em; } }
