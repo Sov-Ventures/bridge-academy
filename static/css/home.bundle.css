@@ -353,7 +353,7 @@ header {
   font-weight: normal; }
 
 #content {
-  padding: 0 30px;
+  padding: 0 0 0 0;
   text-align: center;
   background: #ffffff; }
 
@@ -2341,6 +2341,30 @@ pre.language-curl .line-numbers > span:first-child:before {
   margin-left: auto;
   padding-left: 30px;
   padding-right: 30px; }
+
+@media (max-width: 534px) {
+  .container {
+    max-width: 400px; } }
+
+@media (min-width: 535px) {
+  .container {
+    width: 550px; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1170px; } }
 
 .container-fluid {
   margin-right: auto;
