@@ -2344,8 +2344,8 @@ pre.language-curl .line-numbers > span:first-child:before {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 30px;
-  padding-right: 30px; }
+  padding-left: 20px;
+  padding-right: 20px; }
 
 @media (max-width: 534px) {
   .container {
