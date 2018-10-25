@@ -1275,7 +1275,7 @@ ul.menu-header {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 360px;
+  min-width: 325px;
   padding: 25px;
   margin: 2px 0 0;
   font-size: 14px;
