@@ -388,7 +388,7 @@ Cosmos is a launching pad for new cryptocurrencies, upgrades to existing cryptoc
       <div class="communities-container row">
 
 
-      <!--<div class="col-md-4">
+      <div class="col-md-4">
           <div class="community-item card">
             <div class="card-img-top">
               <img src="https://pbs.twimg.com/profile_images/1029553392975134721/aAAPt18h_400x400.jpg" alt="Ramon Recuero">
@@ -400,7 +400,7 @@ Cosmos is a launching pad for new cryptocurrencies, upgrades to existing cryptoc
               </p>
             </div>
           </div>
-        </div>-->
+        </div>
 
         <!--<div class="col-md-4" style="display:inline-block;float:none;">
           <div class="community-item card">
@@ -416,7 +416,7 @@ Cosmos is a launching pad for new cryptocurrencies, upgrades to existing cryptoc
           </div>
         </div>-->
 
-<div class="col-md-4" style="display:inline-block;float:none;">
+<div class="col-md-4" >
           <div class="community-item card mentor">
             <div class="card-img-top">
               <img src="https://avatars3.githubusercontent.com/u/22377405?s=460&v=4" alt="Dmitrii Fotesco">
@@ -433,7 +433,7 @@ Cosmos is a launching pad for new cryptocurrencies, upgrades to existing cryptoc
 
 
       
-        <div class="col-md-4" style="display:inline-block;float:none;">
+        <div class="col-md-4" >
           <div class="community-item card mentor">
             <div class="card-img-top">
               <img src="https://pbs.twimg.com/profile_images/810403136879857664/mntxtIB2_400x400.jpg" alt="Rahul Rumalla">
@@ -448,7 +448,8 @@ Cosmos is a launching pad for new cryptocurrencies, upgrades to existing cryptoc
         </div>
 
 
-    <p><center><br /><a class="btn btn-primary" href="/">Apply now</a></center></p>
+    <br  style="clear:both;" />
+    <p><center><a class="btn btn-primary" href="/">Apply now</a></center></p>
 
 
       </div>
@@ -695,6 +696,12 @@ Cosmos is a launching pad for new cryptocurrencies, upgrades to existing cryptoc
                     scrollTop: $(window.location.hash).offset().top + 'px'
                 }, 1000, 'swing');
             }
+
+        $("#dropdownMenuButton").click(function() {
+          $('html,body').animate({
+              scrollTop: $("#dropdownMenuButton").offset().top},
+              'slow');
+          });
 
             //jquery redirect links in dropdown
             $('.dropdown-menu a').click(function() {
