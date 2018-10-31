@@ -768,7 +768,8 @@ section#tour {
     margin-bottom: 2.5em; }
 
 section.social-links {
-  margin-top: 4em; }
+  margin-top: 4em; 
+float:right;}
   section.social-links h2 {
     font-size: 2em;
     font-weight: normal; }
