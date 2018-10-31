@@ -229,21 +229,15 @@ td,
 th {
   vertical-align: middle; }
 
-h1 {
-  font-family: "IBM Plex Sans", Helvetica, sans-serif !important;
-  color: #323648; }
-
-h2.section-header {
-  font-weight: 300; }
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-family: 'Merriweather', serif  !important;;
   font-size: 1em;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.2; }
 
 hr {
@@ -315,12 +309,10 @@ body h2 em {
   font-weight: 400; }
 
 h1 {
-  font-weight: bolder;
   letter-spacing: -1px;
   font-size: 3.125em; }
 
 h2 {
-  font-weight: lighter;
   font-size: 1.675em; }
 
 h3 {
