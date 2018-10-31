@@ -507,9 +507,11 @@ header {
     text-align: center; }
 
 @media screen and (max-width: 50em) {
-  h1 {
-    font-size: 2em !important;
-    margin-bottom: 0em; }
+
+  #home-tagline h1 {
+    font-size:2em !important;
+    margin-bottom:0;
+  }
   .hero h1 {
     margin-bottom: 0em;
     margin-top: .25em;
