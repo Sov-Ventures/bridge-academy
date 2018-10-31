@@ -753,6 +753,12 @@ section#tour {
     font-weight: bold;
     color: #ffffff;
     text-transform: uppercase; }
+
+  #footer ul {
+    float:left;
+    margin-right:3em;
+  }
+
   #footer ul li {
     margin-bottom: 1em; }
   #footer a.logo img {
