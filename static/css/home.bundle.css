@@ -851,16 +851,11 @@ section#explore-communities {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  padding: 2em 3.5em 1em 3em; }
+  padding: 2em ; }
 
 .how-item:last-child {
   margin-right: 0; }
 
-.how-item:nth-child(3n) {
-  margin-right: 0; }
-
-.how-item:nth-child(3n+1) {
-  clear: left; }
 
 .how-item h3 {
   font-size: 1em;
@@ -876,7 +871,7 @@ section#explore-communities {
 
 @media screen and (min-width: 68em) {
   .how-item {
-    width: 31.76157%; } }
+    width: 30%; } }
 
 .how-icon {
   font-size: 2em;
@@ -895,14 +890,10 @@ section#explore-communities {
     background-position: right center;
     background-repeat: no-repeat; } }
 
-#how-item-1,
-#how-item-2,
-#how-item-3 {
-  padding-left: 1em; }
 
 @media screen and (min-width: 68em) {
   .how {
-    padding: 3em 4em 5em 4em; } }
+    padding: 2em; } }
 
 .feature {
   clear: both;
