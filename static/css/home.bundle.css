@@ -1886,7 +1886,7 @@ ul.menu-header {
   text-align: center; }
 
 #faq-items .faq-item {
-  padding: 2em 2em 2em 2em;
+  padding: 2em 1em;
   text-align: left;
   width: 50%;
   float: left; }
@@ -2904,6 +2904,10 @@ pre.language-curl .line-numbers > span:first-child:before {
   position: fixed; }
 
 
+.communities-container{
+  padding:1em;
+}
+
 .dropdown-item {
     display: block;
     width: 100%;
@@ -2922,6 +2926,7 @@ pre.language-curl .line-numbers > span:first-child:before {
 }
 
 .description {
-    margin:1em auto 3em auto;
+    padding:1em;
+    margin:1em auto 2em auto;
     max-width: 32rem;
 }
