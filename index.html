@@ -209,7 +209,7 @@
 </div>
 
     
-      <p  style="display:none;width:100%;" class="lighter" style="color:#999;">2+ yrs full-stack dev required ☝</p>
+      <p  style="width:100%;padding:1em 0;" class="lighter" style="color:#999;">Still have questions? <a href="#" class="ask">Chat with us</a>.</p>
 
 
  
@@ -906,6 +906,13 @@ The Hydrogen Atom platform has powerful modules built for fintech powered by lig
 
     <script language="javascript">
         (function() {
+
+          $('.ask').click(function() {
+
+              Intercom('show');
+
+          });
+
             $('.video').click(function() {
                 this.paused ? this.play() : this.pause();
                 $('.video').prop("volume", 0.0);
