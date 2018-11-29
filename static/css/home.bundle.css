@@ -2926,7 +2926,7 @@ pre.language-curl .line-numbers > span:first-child:before {
 }
 
 .description {
-    padding:1em;
+    padding:.8em;
     margin:1em auto 2em auto;
     max-width: 32rem;
 }
