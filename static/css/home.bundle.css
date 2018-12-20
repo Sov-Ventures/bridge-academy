@@ -592,8 +592,6 @@ section#how-it-works {
   padding-top: 2em;
   margin-bottom: 60px; }
   section#how-it-works h2.section-header {
-    font-size: 2em;
-    font-weight: normal;
     margin-bottom: 0.5em; }
   section#how-it-works .logos-container {
     margin-top: 3em;
@@ -678,7 +676,6 @@ section#tour {
   background-color: #def4f1;
   margin-bottom: 0; }
   section#tour h2.section-header {
-    font-size: 2em;
     font-weight: normal; }
   section#tour section#howitworks {
     padding-top: 30px; }
