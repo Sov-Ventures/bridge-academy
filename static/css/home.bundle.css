@@ -745,8 +745,8 @@ section#tour {
    }
   #footer a {
     margin-bottom: 2em;
-    font-weight: bold;
-    text-transform: uppercase; }
+    color: grey;
+    }
 
   #footer ul {
     float:left;
