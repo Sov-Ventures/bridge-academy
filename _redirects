@@ -1,3 +1,6 @@
 # Rewrite a path
 /pass-through /index.html    200
 /choose /choose.html    200
+/blockchain-pt /blockchain-pt.html 200
+/blockchain-ft /blockchain-ft.html 200
+

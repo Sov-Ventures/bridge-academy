@@ -269,12 +269,15 @@ picture {
   margin: 0px auto; }
 
 @media screen and (max-width: 68em) {
+
   .container .inner {
     width: 100%; } }
 
 @media screen and (min-width: 68em) {
+
   .container {
     padding: 0; } }
+
 
 .alternate {
   background-color: #7A45BE !important;
@@ -519,7 +522,7 @@ header {
     display: block; }
     .hero h1:last-child {
       margin-right: 0; }
-  .hero p {
+  #homepage.hero p {
     float: left;
     display: block;
     margin-right: 2.35765%; }
@@ -2920,7 +2923,7 @@ pre.language-curl .line-numbers > span:first-child:before {
 }
 
 .description {
-    padding:.7em;
-    margin:1em auto 2em auto;
-    max-width: 32rem;
+    padding: .7em;
+    margin: 1em 25% 1em 25%;
+    max-width: 50%;
 }
