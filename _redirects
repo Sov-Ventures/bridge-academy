@@ -1,2 +1,3 @@
 # Rewrite a path
 /pass-through /index.html    200
+/choose /choose.html    200
