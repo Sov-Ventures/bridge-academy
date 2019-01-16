@@ -2325,6 +2325,12 @@ pre.language-curl .line-numbers > span:first-child:before {
   margin-right: -75px; }
 
 @media screen and (max-width: 62em) {
+
+  .description {
+    max-width:100% !important;
+    margin:0 !important;
+  }
+
   #laptop-iframe {
     margin-top: 20px;
     margin-left: -75px; } }
