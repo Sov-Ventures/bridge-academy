@@ -1257,6 +1257,10 @@ ul.menu-header {
 .open > .dropdown-menu {
   display: block; }
 
+.navbar .dropdown-menu {
+    left:-100%;
+}
+
 .dropdown-menu {
   position: absolute;
   top: 100%;
