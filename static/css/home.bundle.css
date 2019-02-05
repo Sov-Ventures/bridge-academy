@@ -2937,3 +2937,9 @@ pre.language-curl .line-numbers > span:first-child:before {
     margin: 1em 25% 1em 25%;
     max-width: 50%;
 }
+
+#flash-bar{
+    margin-top: -1em;
+    margin-right: -1em;
+    margin-left: -1em;
+}
