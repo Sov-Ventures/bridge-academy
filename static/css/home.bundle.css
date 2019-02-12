@@ -503,7 +503,7 @@ header {
 @media screen and (max-width: 50em) {
 
   #home-tagline h1 {
-    font-size:2em !important;
+    font-size:1.75em !important;
     margin-bottom:0;
   }
   .hero h1 {
