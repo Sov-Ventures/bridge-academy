@@ -812,7 +812,7 @@ section#explore-communities {
       text-align: center; }
       section#explore-communities .community-item.card .card-img-top img {
         max-height: 100%;
-        max-width: 100%; }
+        max-width: 70%; }
     section#explore-communities .community-item.card .card-body {
       text-align: left;
       padding: 1em; }
