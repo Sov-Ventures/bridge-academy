@@ -36,7 +36,7 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha256-1A78rJEdiWTzco6qdn3igTBv9VupN3Q1ozZNTR4WE/Y=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js" integrity="sha256-V1VQYyDCfJqlhl3BJnGu8hpodtkri7VafAzkkvd2K8c=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js" integrity="sha256-Lj47JmDL+qxf6/elCzHQSUFZmJYmqEECssN5LP/ifRM=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dropdown/2.0.3/jquery.dropdown.min.js" integrity="sha256-WjSLNFIPnKGDcCD43ypegq+F+/M0WFws4KmtyOVsf0g=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha256-+u54FaX9J+k40eAcg5K2YzICSQjrEYBI9gju5nE3HfY=" crossorigin="anonymous"></script>
@@ -196,9 +196,18 @@
 
     <div id="home-tagline" class="bridge">
 
-        <h1>Break into Blockchain </h1>
+
+        <div id="typed-strings">
+          <h1>Break into Blockchain</h1>
+          <h1>Break into Full-stack</h1>
+          <h1>Break into Startups</h1>
+          <h1>Break into Silicon Valley</h1>
+        </div>
+        <h1>
+          <span id="typed"></span>
+        </h1>
         
-        <p style="margin-bottom:0;">Bridge is an online career accelerator for top software developers.</p>
+        <p style="margin-bottom:0;">Bridge is a globally focused career accelerator for top software developers.</p>
 
         <p style="margin-bottom:0;"><strong>Our program:</strong> A Mentorship-driven approach + Our online community help to accelerate mastery.</p>
 
@@ -275,7 +284,7 @@
 
         <div class="container" id="how-items">
 
-            <p class="description" align="center"> Our three step process to joining.</p>
+            <p class="description" align="center">Our three step process to joining.</p>
 
 
             <div id="how-item-1" class="how-item">
@@ -286,7 +295,7 @@
                 <div class="progress">
                     <div class="progress-bar" style="width: 33%;"></div>
                 </div>
-                <p>Fill out one of our application forms with details about yourself and your goals so we can see if you are a fit. </p>
+                <p>First things first, fill out one of our program application forms so we can assess your fit. </p>
 
             </div>
             <div id="how-item-2" class="how-item">
@@ -298,7 +307,7 @@
                     <div class="progress-bar" style="width: 66%;"></div>
                 </div>
                 <p>
-                New to Blockchain dev? No problem. Complete our <a href="#curriculum">crash course</a> to get up to speed in ~2-3 weeks.            
+                Optional: Complete one of our crash courses to get up to speed on an area if you are a newb (~2-3 weeks) 
                </p>
 
             </div>
@@ -646,7 +655,7 @@ The Hydrogen Atom platform has powerful modules built for fintech powered by lig
 
     <div class="faq-item">
           <h3>What is the total cost of the program?</h3>
-          <p>Please see our <a href="/blockchain-pt">Part-time</a> and <a href="/blockchain-ft">Full-time</a> program pages for a breakdown of costs.</p>
+          <p>Please see our individual program pages for a breakdown of costs of each part-time and full-time program.</p>
           </p>
         </div>
 
@@ -691,7 +700,7 @@ The Hydrogen Atom platform has powerful modules built for fintech powered by lig
 
      <div class="faq-item">
           <h3>I’d like to start my own company. Should I apply?</h3>
-          <p>It depends, but if your primary interest is starting a company, you should apply to <a href="https://www.ycombinator.com/" target="_blank">Y Combinator</a>.
+          <p>It depends, we have had some companies formed out of Bridge, but if your primary interest is starting a company, you should apply to <a href="https://www.ycombinator.com/" target="_blank">Y Combinator</a>.
           </p>
         </div>
 
@@ -1149,10 +1158,22 @@ The Hydrogen Atom platform has powerful modules built for fintech powered by lig
         }();
     </script>
 
+    <script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+      typeSpeed: 50,
+      startDelay: 120,
+      backSpeed: 30,
+      backDelay: 200
+  });
+</script>
+
+
      
 <script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>
 
     
+
 
 </body>
 
