@@ -586,8 +586,7 @@ header {
   text-align: left; }
 
 #how-items img {
-  margin-right: 3em;
-  margin-bottom: 2em; }
+}
 
 section#how-it-works {
   background-color: #def4f1;
@@ -848,7 +847,7 @@ section#explore-communities {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  padding: 2em ; }
+  padding: 2em .5em; }
 
 .how-item:last-child {
   margin-right: 0; }
