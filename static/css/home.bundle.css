@@ -313,7 +313,7 @@ body h2 em {
 
 h1 {
   letter-spacing: -1px;
-  font-size: 3.125em; }
+  font-size: 2.0em; }
 
 h2 {
   font-size: 1.675em; }
@@ -502,14 +502,11 @@ header {
 
 @media screen and (max-width: 50em) {
 
-  #home-tagline h1 {
+  .hero h1 {
     font-size:1.55em !important;
     margin-bottom:0;
   }
-  .hero h1 {
-    margin-bottom: 0em;
-    margin-top: .25em;
-    font-size: 2.75em !important; } }
+}
 
 @media screen and (min-width: 40em) {
   .hero .btn-group {
