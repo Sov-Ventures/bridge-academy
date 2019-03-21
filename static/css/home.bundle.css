@@ -2918,7 +2918,6 @@ pre.language-curl .line-numbers > span:first-child:before {
     width: 100%;
     clear: both;
     font-weight: 400;
-    color: #212529;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
