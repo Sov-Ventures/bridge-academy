@@ -78,22 +78,18 @@ const mentors = [
   },
 ];
 
-export default function() {
+export default function({ desc }) {
   return (
     <section id="mentors">
       <div className="container">
         <h2 className="section-header">
           <big>
             <br />
-            <span style={{ textAlign: "center" }}>Our Mentors</span>
+            <span>Our Mentors</span>
           </big>
         </h2>
 
-        <p className="description">
-          Our team of mentors host office hours, review your final project ideas
-          and give you detailed and personalized feedback throughout the
-          program.
-        </p>
+        {desc && <p className="description">{desc}</p>}
 
         <div className="communities-container row">
           {mentors.map(mentor => (
