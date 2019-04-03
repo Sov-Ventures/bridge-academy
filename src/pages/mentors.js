@@ -1,10 +1,12 @@
 import React, { Fragment } from "react";
+import PrimaryButton from "../components/button";
 import Footer from "../components/footer";
 import FAQ from "../components/faq";
 import Header from "../components/header";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import Mentors from "../components/mentors";
+import ReadyTo from "../components/readyTo";
 
 export default function MentorsPage() {
   return (
@@ -15,7 +17,11 @@ export default function MentorsPage() {
           headline={`Becoming a Mentor`}
           firstDesc={`Take a moment to reflect on your career journey. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes?`}
           secondDesc={`If so, becoming a Bridge Mentor could be for you.`}
-        />
+        >
+          <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+            Apply Now
+          </PrimaryButton>
+        </Hero>
         <section id="apply" className="tools">
           <div className="triangle triangle--bottom triangle--gray">
             <svg
@@ -104,6 +110,11 @@ export default function MentorsPage() {
           </div>
         </section>
         <Mentors />
+        <ReadyTo headline="Ready to become a mentor?">
+          <PrimaryButton to="https://blockchain.bridge.academy/b/zjvgu7/view">
+            Apply Now
+          </PrimaryButton>
+        </ReadyTo>
         <FAQ data={faqData} />
       </Layout>
       <Footer />
