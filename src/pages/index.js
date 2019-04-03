@@ -17,7 +17,11 @@ export default () => (
     <Layout>
       <Header />
       <HomeHero />
-      <ApplicationProcess />
+      <ApplicationProcess
+        headline="Application Process"
+        desc="Our three step process to joining."
+        data={processData}
+      />
       <HiringPartners />
       <Mentors
         desc={`Our team of mentors host office hours, review your final project ideas
@@ -33,6 +37,24 @@ export default () => (
     <Footer />
   </Fragment>
 );
+
+const processData = [
+  {
+    headline: "Online Application",
+    desc:
+      "Complete a 10-15 minute application covering your background, goals, and experience.",
+  },
+  {
+    headline: "Fit Interview",
+    desc:
+      "A short IM interview to assess your fit for our program, after which we'll send you a customized program plan based on your goals.",
+  },
+  {
+    headline: "Accept & Start",
+    desc:
+      "If accepted, we'll send you an offer. Select a payment plan, or choose from one of our many financing options.",
+  },
+];
 
 const faqData = [
   {
