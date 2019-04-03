@@ -1,7 +1,6 @@
 import React from "react";
-import PrimaryButton from "./button";
 
-export default function Hero({ headline, firstDesc, secondDesc }) {
+export default function Hero({ children, headline, firstDesc, secondDesc }) {
   return (
     <section className="hero">
       {headline && (
@@ -25,9 +24,7 @@ export default function Hero({ headline, firstDesc, secondDesc }) {
         </p>
       )}
 
-      <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
-        Apply Now
-      </PrimaryButton>
+      {children}
     </section>
   );
 }
