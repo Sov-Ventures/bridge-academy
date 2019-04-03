@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "bridge-acedemy-gatsby",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A converted version of Bridge Acedemy website to Gatsby",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
