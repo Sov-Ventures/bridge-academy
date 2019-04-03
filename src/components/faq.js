@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 
 export default function FAQ({ data }) {
   return (
@@ -31,7 +31,7 @@ export default function FAQ({ data }) {
 
           <div id="faq-items">
             {data.map(faq => (
-              <div className="faq-item">
+              <div key={faq.question} className="faq-item">
                 <h3>{faq.question}</h3>
                 <p>{faq.answer}</p>
               </div>
