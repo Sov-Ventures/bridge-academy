@@ -1,87 +1,84 @@
 import React from "react";
 import dharma from "../img/home/dharma.png";
 import blockstack from "../img/home/blockstack.png";
-import hyrdogen from "../img/home/hyrdogen.svg";
+import hydrogen from "../img/home/hyrdogen.svg";
+import zeppelin from "../img/home/zeppelin.svg";
+import opensea from "../img/home/opensea.png";
+import terminal from "../img/home/terminal.png";
 
-export default function HiringPartners() {
+export default function HiringPartners({ headline, desc, endSlice }) {
   return (
     <section id="explore-communities">
       <div id="partners" className="container">
         <h2 className="section-header">
           <big>
-            <span style={{ textAlign: "center" }}>
-              Featured Hiring Partners
-            </span>
+            <span style={{ textAlign: "center" }}>{headline}</span>
           </big>
         </h2>
-        <p className="description">
-          Our hiring partners provide training materials, beta developer tools
-          and access to real problems &amp; projects.
-        </p>
+        <p className="description">{desc}</p>
         <div className="communities-container row">
-          <div className="col-md-4">
-            <div className="community-item card">
-              <div
-                className="card-img-top"
-                style={{ backgroundColor: "#F3764B" }}
-              >
-                <img src={dharma} alt="Dharma" />
-              </div>
-              <div className="card-body">
-                <p className="card-text">
-                  Dharma is a generic, permissionless protocol for issuing,
-                  underwriting, and administering debt instruments.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="community-item card">
-              <div
-                className="card-img-top"
-                style={{ backgroundColor: "#290f34" }}
-              >
-                <img src={blockstack} alt="Blockstack" />
-              </div>
-              <div className="card-body">
-                <p className="card-text">
-                  Blockstack is a new digital ecosystem that users, not big
-                  Internet companies, control and users can move seamlessly.
-                </p>
+          {partners.slice(0, endSlice || partners.length).map(partner => (
+            <div key={partner.name} className="col-md-4">
+              <div className="community-item card">
+                <div
+                  className="card-img-top"
+                  style={{ backgroundColor: partner.color }}
+                >
+                  <img src={partner.image} alt={partner.name} />
+                </div>
+                <div className="card-body">
+                  <p className="card-text">{partner.desc}</p>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="community-item card">
-              <div
-                className="card-img-top"
-                style={{ backgroundColor: "#096ff0" }}
-              >
-                <img src={hyrdogen} alt="Hyrdrogen" />
-              </div>
-              <div className="card-body">
-                <p className="card-text">
-                  The Hydrogen Atom platform has powerful modules built for
-                  fintech powered by light, modular, global REST APIs.
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
-        <br />
-        <h3>Interested in becoming a hiring partner?</h3>
-        <center>
-          <p>
-            <br />
-            <a className="btn btn-primary" href="/partners">
-              Learn more
-            </a>
-          </p>
-        </center>
-        <br /> <br />
       </div>
     </section>
   );
 }
+
+const partners = [
+  {
+    name: "Dharma",
+    image: dharma,
+    desc:
+      "Dharma is a generic, permissionless protocol for issuing, underwriting, and administering debt instruments.",
+    color: "#F3764B",
+  },
+  {
+    name: "Blockstack",
+    image: blockstack,
+    desc:
+      "Blockstack is a new digital ecosystem that users, not big Internet companies, control and users can move seamlessly.",
+    color: "#290f34",
+  },
+  {
+    name: "Hydrogen",
+    image: hydrogen,
+    desc:
+      "The Hydrogen Atom platform has powerful modules built for fintech powered by light, modular, global REST APIs.",
+    color: "#096ff0",
+  },
+  {
+    name: "Zeppelin",
+    image: zeppelin,
+    desc:
+      "Zeppelin builds key infrastructure to develop and operate smart contract systems and conducts security audits.",
+    color: "#0e3368",
+  },
+  {
+    name: "OpenSea",
+    image: opensea,
+    desc:
+      "The world’s largest digital marketplace for crypto collectibles. Buy, sell, and discover new assets.",
+    color: "#fcfcfc",
+  },
+  {
+    name: "Terminal",
+    image: terminal,
+    desc:
+      "Terminal.co is a blockchain focused startup currently in stealth-mode.",
+    color: "#000000",
+  },
+];
