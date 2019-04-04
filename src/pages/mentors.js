@@ -1,8 +1,6 @@
-import React, { Fragment } from "react";
+import React from "react";
 import PrimaryButton from "../components/button";
-import Footer from "../components/footer";
 import FAQ from "../components/faq";
-import Header from "../components/header";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import Mentors from "../components/mentors";
@@ -10,115 +8,111 @@ import ReadyTo from "../components/readyTo";
 
 export default function MentorsPage() {
   return (
-    <Fragment>
-      <Header />
-      <Layout>
-        <Hero
-          headline={`Becoming a Mentor`}
-          firstDesc={`Take a moment to reflect on your career journey. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes?`}
-          secondDesc={`If so, becoming a Bridge Mentor could be for you.`}
-        >
-          <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
-            Apply Now
-          </PrimaryButton>
-        </Hero>
-        <section id="apply" className="tools">
-          <div className="triangle triangle--bottom triangle--gray">
-            <svg
-              x="0"
-              y="0"
-              viewBox="0 0 2560 100"
-              preserveAspectRatio="none"
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polygon points="2560 0 2560 100 0 100" />
-            </svg>
-          </div>
+    <Layout>
+      <Hero
+        headline={`Becoming a Mentor`}
+        firstDesc={`Take a moment to reflect on your career journey. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes?`}
+        secondDesc={`If so, becoming a Bridge Mentor could be for you.`}
+      >
+        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+          Apply Now
+        </PrimaryButton>
+      </Hero>
+      <section id="apply" className="tools">
+        <div className="triangle triangle--bottom triangle--gray">
+          <svg
+            x="0"
+            y="0"
+            viewBox="0 0 2560 100"
+            preserveAspectRatio="none"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polygon points="2560 0 2560 100 0 100" />
+          </svg>
+        </div>
 
-          <div className="grey">
-            <div>
-              <div className="container" id="how-items">
-                <div id="faq-items">
-                  <div className="faq-item">
-                    <h5>OVERVIEW</h5>
-                    <p>
-                      Our mentors are a key part of the Bridge experience for
-                      students who are looking for connections to the latest
-                      best practices and practioners. Since our program is 100%
-                      online, you'll be doing office hours and chats via your
-                      preferred method of online communication.{" "}
-                    </p>
-                  </div>
+        <div className="grey">
+          <div>
+            <div className="container" id="how-items">
+              <div id="faq-items">
+                <div className="faq-item">
+                  <h5>OVERVIEW</h5>
+                  <p>
+                    Our mentors are a key part of the Bridge experience for
+                    students who are looking for connections to the latest best
+                    practices and practioners. Since our program is 100% online,
+                    you'll be doing office hours and chats via your preferred
+                    method of online communication.{" "}
+                  </p>
+                </div>
 
-                  <div className="faq-item">
-                    <h5>BENEFITS</h5>
-                    <p>1. One POC project of you and your mentee's choosing.</p>
-                    <p>
-                      2. Access to our Private Discord group of mentors and
-                      apprentices.
-                    </p>
-                    <p>
-                      3. A $1k bonus in ETH/BTC paid out when your apprentice
-                      gets placed/hired.
-                    </p>
-                  </div>
+                <div className="faq-item">
+                  <h5>BENEFITS</h5>
+                  <p>1. One POC project of you and your mentee's choosing.</p>
+                  <p>
+                    2. Access to our Private Discord group of mentors and
+                    apprentices.
+                  </p>
+                  <p>
+                    3. A $1k bonus in ETH/BTC paid out when your apprentice gets
+                    placed/hired.
+                  </p>
+                </div>
 
-                  <div className="faq-item">
-                    <h5>COMMITMENT</h5>
-                    <p>
-                      1. Weekly check-ins to stay in sync with your apprentice
-                      and give feedback to them.{" "}
-                    </p>
+                <div className="faq-item">
+                  <h5>COMMITMENT</h5>
+                  <p>
+                    1. Weekly check-ins to stay in sync with your apprentice and
+                    give feedback to them.{" "}
+                  </p>
 
-                    <p>
-                      2. Optional: First access to hire your mentee to continue
-                      their POC work in 9-month long apprenticeship or full-time
-                      role.
-                    </p>
-                  </div>
+                  <p>
+                    2. Optional: First access to hire your mentee to continue
+                    their POC work in 9-month long apprenticeship or full-time
+                    role.
+                  </p>
+                </div>
 
-                  <div className="faq-item">
-                    <h5>UPCOMING BATCHES</h5>
-                    <p>
-                      - March 6th
-                      <br />
-                      <br />- April 6th
-                      <br />
-                      <br />- May 6th
-                      <br />
-                      <br />- June 6th
-                      <br />
-                    </p>
-                  </div>
+                <div className="faq-item">
+                  <h5>UPCOMING BATCHES</h5>
+                  <p>
+                    - March 6th
+                    <br />
+                    <br />- April 6th
+                    <br />
+                    <br />- May 6th
+                    <br />
+                    <br />- June 6th
+                    <br />
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="triangle triangle--top triangle--gray triangle--rotated">
-            <svg
-              x="0"
-              y="0"
-              viewBox="0 0 2560 100"
-              preserveAspectRatio="none"
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <polygon points="2560 0 2560 100 0 100" />
-            </svg>
-          </div>
-        </section>
-        <Mentors />
-        <ReadyTo headline="Ready to become a mentor?">
-          <PrimaryButton to="https://blockchain.bridge.academy/b/zjvgu7/view">
-            Apply Now
-          </PrimaryButton>
-        </ReadyTo>
-        <FAQ data={faqData} />
-      </Layout>
-      <Footer />
-    </Fragment>
+        <div className="triangle triangle--top triangle--gray triangle--rotated">
+          <svg
+            x="0"
+            y="0"
+            viewBox="0 0 2560 100"
+            preserveAspectRatio="none"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polygon points="2560 0 2560 100 0 100" />
+          </svg>
+        </div>
+      </section>
+      <Mentors />
+      <ReadyTo headline="Ready to become a mentor?">
+        <PrimaryButton to="https://blockchain.bridge.academy/b/zjvgu7/view">
+          Apply Now
+        </PrimaryButton>
+      </ReadyTo>
+      <FAQ data={faqData} />
+    </Layout>
   );
 }
 

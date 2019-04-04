@@ -1,10 +1,9 @@
 import React, { Fragment } from "react";
 import Alumni from "../components/alumni";
+import PrimaryButton from "../components/button";
 import ApplicationProcess from "../components/application-process";
 import FAQ from "../components/faq";
 import FlashBar from "../components/flash-bar";
-import Footer from "../components/footer";
-import Header from "../components/header";
 import HiringPartners from "../components/hiring-partners";
 import HomeHero from "../components/home-hero";
 import Investors from "../components/investors";
@@ -15,14 +14,19 @@ export default () => (
   <Fragment>
     <FlashBar />
     <Layout>
-      <Header />
       <HomeHero />
       <ApplicationProcess
         headline="Application Process"
         desc="Our three step process to joining."
         data={processData}
       />
-      <HiringPartners />
+      <HiringPartners
+        headline="Featured Hiring Partners"
+        desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
+        endSlice={3}
+      >
+        <PrimaryButton to="/partners">Learn More</PrimaryButton>
+      </HiringPartners>
       <Mentors
         desc={`Our team of mentors host office hours, review your final project ideas
           and give you detailed and personalized feedback throughout the
@@ -34,7 +38,6 @@ export default () => (
       <br />
       <Investors />
     </Layout>
-    <Footer />
   </Fragment>
 );
 
