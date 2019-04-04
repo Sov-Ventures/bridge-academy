@@ -1,9 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Header from "./header";
+import Footer from "./footer";
 
 export default function Layout({ children }) {
   return (
-    <div id="content" className="container-fluid pub-content">
-      <div className="row">{children}</div>
-    </div>
+    <Fragment>
+      <Header />
+      <div id="content" className="container-fluid pub-content">
+        <div className="row">{children}</div>
+      </div>
+      <Footer />
+    </Fragment>
   );
 }
