@@ -6,14 +6,14 @@ export default function FlashBar() {
       <span role="img" aria-label="icon">
         🏆
       </span>{" "}
-      The April Tournament is live!{" "}
+      The Build Challenge is live!{" "}
       <a
         style={{ fontWeight: "bold", color: "white" }}
-        href="/tournament"
+        href="/build"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Join the tournament&#187;
+        Join now&#187;
       </a>
     </center>
   );
