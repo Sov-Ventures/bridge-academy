@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Layout from "../components/layout";
 import PrimaryButton from "../components/button";
 import Mentors from "../components/mentors";
+import FlashBar from "../components/flash-bar";
 import FAQ from "../components/faq";
 import ReadyTo from "../components/readyTo";
 import ContestHero from "../components/contest-hero";
@@ -10,6 +11,8 @@ import { contestFAQData } from "../api/data";
 
 export default function Build() {
   return (
+  <Fragment>
+  <FlashBar />
     <Layout seoTitle="Build Challenge">
       <ContestHero />
       <ContestHow />
@@ -21,5 +24,6 @@ export default function Build() {
         </PrimaryButton>
       </ReadyTo>
     </Layout>
+    </Fragment>
   );
 }

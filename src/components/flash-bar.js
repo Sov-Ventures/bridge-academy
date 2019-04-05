@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FlashBar() {
   return (
-    <center style={{ display: "none" }} id="flash-bar">
+    <center id="flash-bar">
       <span role="img" aria-label="icon">
         🏆
       </span>{" "}
@@ -10,7 +10,6 @@ export default function FlashBar() {
       <a
         style={{ fontWeight: "bold", color: "white" }}
         href="/build"
-        target="_blank"
         rel="noopener noreferrer"
       >
         Join now&#187;

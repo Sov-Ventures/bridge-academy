@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PrimaryButton from "../components/button";
 import FAQ from "../components/faq";
+import FlashBar from "../components/flash-bar";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import Mentors from "../components/mentors";
@@ -8,6 +9,8 @@ import ReadyTo from "../components/readyTo";
 
 export default function MentorsPage() {
   return (
+    <Fragment>
+    <FlashBar />
     <Layout seoTitle="Mentorship Info">
       <Hero
         headline={`Becoming a Mentor`}
@@ -113,6 +116,7 @@ export default function MentorsPage() {
       </ReadyTo>
       <FAQ data={faqData} />
     </Layout>
+    </Fragment>
   );
 }
 

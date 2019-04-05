@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ApplicationProcess from "../components/application-process";
 import PrimaryButton from "../components/button";
 import FAQ from "../components/faq";
+import FlashBar from "../components/flash-bar";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import Mentors from "../components/mentors";
@@ -11,6 +12,8 @@ import { partnersFAQData, partnersProcessData } from "../api/data";
 
 export default function PartnersPage() {
   return (
+    <Fragment>
+    <FlashBar />
     <Layout seoTitle="For Hiring Partners">
       <Hero
         headline="Your Bridge to Global Tech Talent Awaits"
@@ -106,5 +109,6 @@ export default function PartnersPage() {
         </PrimaryButton>
       </ReadyTo>
     </Layout>
+    </Fragment>
   );
 }

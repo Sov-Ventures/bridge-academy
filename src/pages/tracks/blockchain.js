@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 import ApplicationProcess from "../../components/application-process";
 import TracksHow from "../../components/tracks-how";
@@ -6,6 +6,7 @@ import Layout from "../../components/layout";
 import Hero from "../../components/hero";
 import ReadyTo from "../../components/readyTo";
 import FAQ from "../../components/faq";
+import FlashBar from "../../components/flash-bar";
 import HiringPartners from "../../components/hiring-partners";
 import PrimaryButton from "../../components/button";
 import Mentors from "../../components/mentors";
@@ -14,6 +15,8 @@ import { faqData, processData } from "../../api/data";
 
 export default function BlockChain() {
   return (
+  <Fragment>
+   <FlashBar />
     <Layout seoTitle="Blockchain Engineer Career Track">
       <Hero
         className="grey"
@@ -68,5 +71,6 @@ export default function BlockChain() {
         </div>
       </section>
     </Layout>
+    </Fragment>
   );
 }

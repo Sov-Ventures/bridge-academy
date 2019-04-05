@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ApplicationProcess from "../components/application-process";
 import PrimaryButton from "../components/button";
 import HiringPartners from "../components/hiring-partners";
+import FlashBar from "../components/flash-bar";
 import FAQ from "../components/faq";
 import ReadyTo from "../components/readyTo";
 import Layout from "../components/layout";
@@ -11,6 +12,8 @@ import { faqData, processData } from "../api/data";
 
 export default function Apply() {
   return (
+  <Fragment>
+  <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">
       <Hero
         headline="Work with World Class Tech Startups"
@@ -48,5 +51,7 @@ export default function Apply() {
         </PrimaryButton>
       </ReadyTo>
     </Layout>
+  </Fragment>
+
   );
 }
