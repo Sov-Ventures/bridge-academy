@@ -8,7 +8,7 @@ import ReadyTo from "../components/readyTo";
 
 export default function MentorsPage() {
   return (
-    <Layout>
+    <Layout seoTitle="Mentorship Info">
       <Hero
         headline={`Becoming a Mentor`}
         firstDesc={`Take a moment to reflect on your career journey. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes?`}

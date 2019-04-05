@@ -7,10 +7,11 @@ import Layout from "../components/layout";
 import Mentors from "../components/mentors";
 import ReadyTo from "../components/readyTo";
 import HiringPartners from "../components/hiring-partners";
+import { partnersFAQData, partnersProcessData } from "../api/data";
 
 export default function PartnersPage() {
   return (
-    <Layout>
+    <Layout seoTitle="For Hiring Partners">
       <Hero
         headline="Your Bridge to Global Tech Talent Awaits"
         firstDesc="We train and mentor the world's next top software engineers to help turn them into the world's best product-centric remote employees for your company."
@@ -24,7 +25,7 @@ export default function PartnersPage() {
       <ApplicationProcess
         headline="How it works"
         desc="Our process takes ~1-2 months from start to hire."
-        data={processData}
+        data={partnersProcessData}
       />
 
       <section className="container" id="how-items">
@@ -86,7 +87,7 @@ export default function PartnersPage() {
         </div>
       </section>
 
-      <FAQ data={faqData} />
+      <FAQ data={partnersFAQData} />
 
       <HiringPartners
         headline="Featured Hiring Partners"
@@ -107,59 +108,3 @@ export default function PartnersPage() {
     </Layout>
   );
 }
-
-const processData = [
-  {
-    headline: "Fill out our form",
-    desc:
-      "Send us your hiring requirements and we'll hop on a short call to discuss how we can help (10 minutes)",
-  },
-  {
-    headline: "Candidates sourcing & vetting",
-    desc:
-      "We'll source at least three candidates from our talent network or recruit new candidates based on your specific requirements (2 weeks)",
-  },
-  {
-    headline: "Hire your developer",
-    desc:
-      "Schedule an interview with your candidates to choose who is right for your team. No contracts, no legislation to worry about & no visas (2 weeks).",
-  },
-  {
-    headline: "Our custom tailored bootcamp",
-    desc:
-      "We'll mentor and train your chosen developer in your chosen technology stack to make sure they are ready to contribute on day one (1 month).",
-  },
-  {
-    headline: "Welcome your new team member",
-    desc:
-      "Since our graduates are already vetted & trained on your tech-stack they are ready to start working for your team on day one.",
-  },
-  {
-    headline: "Seamless Onboarding",
-    desc:
-      "We'll be there to help support you if any issues arrise or you for some reason things don't work out.",
-  },
-];
-
-const faqData = [
-  {
-    question: "Is Bridge a Coding Bootcamp?",
-    answer:
-      "No. Our program is built for software engineers who are looking to gain new skills. They run the gammut from junior to senior developers.",
-  },
-  {
-    question: "How do the hiring logistics work?",
-    answer:
-      "We can take care of all of the tax, legal and logistical complexities for you. We have standard contract templates and offer cross currency payroll.",
-  },
-  {
-    question: "How much does it cost?",
-    answer:
-      "Since we don't charge a recruiting fee for companies, the costs to you are nothing outside of apprenticeship stipends or full-time salaries.",
-  },
-  {
-    question: "How do you make money?",
-    answer:
-      "We make money once our developers get hired, they start to pay back their tuition via an ISA agreement (See example).",
-  },
-];
