@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FlashBar() {
   return (
-    <center style="display:none;" id="flash-bar">
+    <center style={{ display: "none" }} id="flash-bar">
       <span role="img" aria-label="icon">
         🏆
       </span>{" "}
