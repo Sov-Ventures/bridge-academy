@@ -92,12 +92,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $(".navbar").toggleClass("expanded-nav");
   });
 
-  // let menuBtn = document.getElementsByClassName("menu-btn");
-
-  // menuBtn.addEventListener("click", function(event) {
-  //   console.log("event");
-  // });
-
   /***/
   $(".navbar").data("size", "big");
 
