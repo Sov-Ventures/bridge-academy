@@ -164,3 +164,22 @@ function handleMobileNav() {
   $(".mobile-nav").toggleClass("expand");
   $(".navbar").toggleClass("expanded-nav");
 }
+
+function handleMenuItem() {
+  let menuItems = document.querySelectorAll(".mobile-nav .menu-item");
+
+  menuItems = Array.from(menuItems);
+
+  menuItems.forEach(item => {
+    item.addEventListener("click", function() {
+      $(".mobile-nav").toggleClass("expand");
+      $(".navbar").toggleClass("expanded-nav");
+    });
+  });
+
+  console.log(menuItems);
+}
+
+setTimeout(() => {
+  handleMenuItem();
+}, 1000);

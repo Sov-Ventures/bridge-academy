@@ -7,17 +7,22 @@ import "bootstrap/dist/js/bootstrap.min";
 
 // import "./src/styles/ss-gizmo/ss-gizmo.css";
 
+// function handleMenuItem() {
+//   let menuItems = document.querySelectorAll(".mobile-nav .menu-item");
+
+//   menuItems = Array.from(menuItems);
+
+//   menuItems.forEach(item => {
+//     item.addEventListener("click", function() {
+//       $(".mobile-nav").toggleClass("expand");
+//       $(".navbar").toggleClass("expanded-nav");
+//     });
+//   });
+
+//   console.log(menuItems);
+// }
+
 document.addEventListener("DOMContentLoaded", function(event) {
-  // $(".ask").click(function() {
-  //   Intercom("show");
-  // });
-
-  $(".video").click(function() {
-    this.paused ? this.play() : this.pause();
-    $(".video").prop("volume", 0.0);
-    $(this).prop("volume", 0.5);
-  });
-
   /***/
   // to top right away
   // if (window.location.hash) scroll(0, 0);
