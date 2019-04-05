@@ -1536,6 +1536,7 @@ ul.menu-header li.menu-item > a {
   font-size: 1em;
   font-weight: bold;
   padding: 0 1em !important;
+  cursor: pointer;
 }
 ul.menu-header li.menu-item .ss-icon {
   position: relative;

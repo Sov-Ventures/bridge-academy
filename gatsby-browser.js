@@ -44,16 +44,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // });
 
   // *only* if we have anchor on the url
-  if (window.location.hash && $(window.location.hash).length > 0) {
-    // smooth scroll to the anchor id
-    $("html, body").animate(
-      {
-        scrollTop: $(window.location.hash).offset().top + "px",
-      },
-      1000,
-      "swing"
-    );
-  }
+  // if (window.location.hash && $(window.location.hash).length > 0) {
+  //   // smooth scroll to the anchor id
+  //   $("html, body").animate(
+  //     {
+  //       scrollTop: $(window.location.hash).offset().top + "px",
+  //     },
+  //     1000,
+  //     "swing"
+  //   );
+  // }
   // $("#dropdownMenuButton").click(function() {
   //   $("html,body").animate(
   //     {
@@ -73,12 +73,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // });
 
   //jquery redirect links in dropdown
-  $(".dropdown-menu a").click(function() {
-    //event.preventDefault();
-    //event.stopPropagation();
-    //var hash = window.location.hash;
-    //$(location).attr('href',$(this).attr('href'));
-  });
+  // $(".dropdown-menu a").click(function() {
+  //   //event.preventDefault();
+  //   //event.stopPropagation();
+  //   //var hash = window.location.hash;
+  //   //$(location).attr('href',$(this).attr('href'));
+  // });
 
   //$(".dropdown-menu").dropdown();
 
@@ -92,6 +92,67 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $(".navbar").toggleClass("expanded-nav");
   });
 
+  // let menuBtn = document.getElementsByClassName("menu-btn");
+
+  // menuBtn.addEventListener("click", function(event) {
+  //   console.log("event");
+  // });
+
   /***/
   $(".navbar").data("size", "big");
+
+  // ! function() {
+  var analytics = (window.analytics = window.analytics || []);
+  if (!analytics.initialize)
+    if (analytics.invoked)
+      window.console &&
+        console.error &&
+        console.error("Segment snippet included twice.");
+    else {
+      analytics.invoked = !0;
+      analytics.methods = [
+        "trackSubmit",
+        "trackClick",
+        "trackLink",
+        "trackForm",
+        "pageview",
+        "identify",
+        "group",
+        "track",
+        "ready",
+        "alias",
+        "page",
+        "once",
+        "off",
+        "on",
+      ];
+      analytics.factory = function(t) {
+        return function() {
+          var e = Array.prototype.slice.call(arguments);
+          e.unshift(t);
+          analytics.push(e);
+          return analytics;
+        };
+      };
+      for (var t = 0; t < analytics.methods.length; t++) {
+        var e = analytics.methods[t];
+        analytics[e] = analytics.factory(e);
+      }
+      analytics.load = function(t) {
+        var e = document.createElement("script");
+        e.type = "text/javascript";
+        e.async = !0;
+        e.src =
+          ("https:" === document.location.protocol ? "https://" : "http://") +
+          "cdn.segment.com/analytics.js/v1/" +
+          t +
+          "/analytics.min.js";
+        var n = document.getElementsByTagName("script")[0];
+        n.parentNode.insertBefore(e, n);
+      };
+      analytics.SNIPPET_VERSION = "3.0.1";
+      analytics.load("RkOVgrq95SpTAxLiircyuR5jvQ29jC8j");
+      analytics.page();
+    }
+  // }();
 });

@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
+import { Link as AnimatedLink } from "react-scroll";
+
+import $ from "jquery";
 
 export default () => (
   <header className="navbar navbar-default">
@@ -94,7 +97,15 @@ export default () => (
         </li>
 
         <li className="menu-item">
-          <Link to="/#faq">FAQ</Link>
+          <AnimatedLink
+            to="faq"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            FAQ
+          </AnimatedLink>
         </li>
 
         <li className="menu-item">
@@ -105,7 +116,7 @@ export default () => (
       </ul>
 
       <div className="mobile-nav">
-        <div className="menu-btn" id="menu-btn">
+        <div className="menu-btn" id="menu-btn" onClick={handleMobileNav}>
           <span className="sr-only">Toggle navigation</span>
           <span />
           <span />
@@ -126,7 +137,15 @@ export default () => (
             </li>
 
             <li className="menu-item">
-              <Link to="/faq">FAQ</Link>
+              <AnimatedLink
+                to="faq"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                FAQ
+              </AnimatedLink>
             </li>
 
             <li className="menu-item">
@@ -140,3 +159,8 @@ export default () => (
     </nav>
   </header>
 );
+
+function handleMobileNav() {
+  $(".mobile-nav").toggleClass("expand");
+  $(".navbar").toggleClass("expanded-nav");
+}
