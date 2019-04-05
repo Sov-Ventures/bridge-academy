@@ -212,6 +212,40 @@ export const mentors = [
   },
 ];
 
+export const contestFAQData = [
+  {
+    question: "Is Bridge a Coding Bootcamp?",
+    answer:
+      "No. Our program is built for experienced developers, looking to gain new skills and uplevel their careers.",
+  },
+  {
+    question: "How long does the core program last?",
+    answer:
+      "The build challenge lasts for 4 weeks. The part-time core program lasts for twelve weeks.  The full-time program lasts for sixteen weeks.",
+  },
+  {
+    question: "Is playing in the build challenge required to join Bridge?",
+    answer:
+      "Participating in the build challenge is not required, but it greatly increases your chances of being accepted and earning a scholarship.",
+  },
+  {
+    question: "Do I need a project idea in order to join?",
+    answer:
+      "You don't need your own project in order to join, you can select from our list. Your project should reflect the skills you would like to pick up and enhance when joining Bridge and related to the career track you would like to join.",
+  },
+  {
+    question: "Can I participate from anywhere? ",
+    answer:
+      "As long as you have a reliable internet connection you can join the build challenge.",
+  },
+
+  {
+    question: "Can I participate while employed?",
+    answer:
+      "Sure! Your application will be judged based on your progress you make, not how many hours you put in.",
+  },
+];
+
 export const socialIcons = {
   twitter: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className="twtr-icon twtr-color-fill--blue-dark has-hover">
                 <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578 9.3 9.3 0 0 1-2.958 1.13 4.66 4.66 0 0 0-7.938 4.25 13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568 4.692 4.692 0 0 1-2.104.08 4.661 4.661 0 0 0 4.352 3.234 9.348 9.348 0 0 1-5.786 1.995 9.5 9.5 0 0 1-1.112-.065 13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41z"/>
