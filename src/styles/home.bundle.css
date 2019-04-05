@@ -3807,6 +3807,12 @@ pre.language-curl .line-numbers > span:first-child:before {
   border: 0;
 }
 
+@media screen and (min-width: 68em) {
+  .hero .mentor {
+    width: 33%;
+  }
+}
+
 .mentor img {
   float: right;
 }

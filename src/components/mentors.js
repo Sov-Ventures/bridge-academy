@@ -1,5 +1,5 @@
 import React from "react";
-import { mentors } from "../api/data";
+import { mentors, socialIcons } from "../api/data";
 
 export default function({ desc }) {
   return (
@@ -22,6 +22,9 @@ export default function({ desc }) {
               image={mentor.image}
               desc={mentor.desc}
               link={mentor.social.twitter || mentor.social.github}
+              socialIcon={
+                mentor.social.twitter ? socialIcons.twitter : socialIcons.github
+              }
             />
           ))}
         </div>
@@ -41,8 +44,8 @@ function MentorCard({ image, name, desc, link, socialIcon }) {
           <p className="card-text">
             <strong>{name}</strong>
             <br />
-            {desc}
-            <a href={link}>{socialIcon}</a>
+            {desc}{" "}
+            <a href={link} dangerouslySetInnerHTML={{ __html: socialIcon }} />
           </p>
         </div>
       </div>
