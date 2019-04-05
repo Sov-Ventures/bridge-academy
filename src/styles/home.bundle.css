@@ -3808,7 +3808,7 @@ pre.language-curl .line-numbers > span:first-child:before {
 }
 
 @media screen and (min-width: 68em) {
-  .hero .mentor {
+  .contest .mentor {
     width: 33%;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContestHero() {
   return (
-    <section id="homepage" className="hero">
+    <section id="homepage" className="hero contest">
       <div className="container">
         <div id="home-tagline" className="bridge">
           <h1 style={{ marginTop: "1em !important" }}>
