@@ -1,3 +1,12 @@
+import preston from "../img/home/preston.jpg";
+import prabhaav from "../img/home/PBJ_2.jpg";
+import justin from "../img/home/justin.jpg";
+import sina from "../img/home/sina.jpg";
+import robbie from "../img/home/robbie.jpg";
+import jaynti from "../img/home/jaynti.png";
+import doris from "../img/home/doris.jpg";
+import kartik from "../img/home/kartik.jpg";
+
 export const processData = [
   {
     headline: "Online Application",
@@ -137,7 +146,7 @@ export const mentors = [
   },
   {
     desc: "@prylabs #BUIDL @Ethereum 2.0. Formerly: @Google. scale or die",
-    image: "https://bridge.academy/static/img/home/preston.jpg",
+    image: preston,
     name: "Preston Van Loon",
     social: {
       twitter: "https://twitter.com/preston_vanloon",
@@ -145,7 +154,7 @@ export const mentors = [
   },
   {
     desc: "Cofounder/CEO @Stealthy, a decentralized & encrypted P2P chat app.",
-    image: "https://bridge.academy/static/img/home/PBJ_2.jpg",
+    image: prabhaav,
     name: "Prabhaav Bhardwaj",
     social: {
       github: "https://github.com/prabhaav",
@@ -153,7 +162,7 @@ export const mentors = [
   },
   {
     desc: "Writer. Founder of @graphitedocs.",
-    image: "https://bridge.academy/static/img/home/justin.jpg",
+    image: justin,
     name: "Justin Hunter",
     social: {
       twitter: "https://twitter.com/polluterofminds",
@@ -161,7 +170,7 @@ export const mentors = [
   },
   {
     desc: "Ethereum Foundation + other early experiments using Ethereum",
-    image: "https://bridge.academy/static/img/home/sina.jpg",
+    image: sina,
     name: "Sina Habibian",
     social: {
       twitter: "https://twitter.com/sinahab",
@@ -170,7 +179,7 @@ export const mentors = [
   {
     desc:
       "@ethereum Advisor, @truebitprotocol first hire @ethprize @ETHSecurity",
-    image: "https://bridge.academy/static/img/home/robbie.jpg",
+    image: robbie,
     name: "Robert Bent",
     social: {
       twitter: "https://twitter.com/robbiebent1s",
@@ -179,7 +188,7 @@ export const mentors = [
   {
     desc:
       "Bringing massive scale to Ethereum as Co-founder & CEO @maticnetwork",
-    image: "https://bridge.academy/static/img/home/jaynti.png",
+    image: jaynti,
     name: "Jaynti Kanani",
     social: {
       github: "https://github.com/jdkanani",
@@ -187,7 +196,7 @@ export const mentors = [
   },
   {
     desc: "VP of Engineering @Cruzeo_io, Founder @Mooqita, Lecturer @UCB",
-    image: "https://bridge.academy/static/img/home/doris.jpg",
+    image: doris,
     name: "Doris Schioberg",
     social: {
       twitter: "https://twitter.com/dorisschioberg",
@@ -195,7 +204,7 @@ export const mentors = [
   },
   {
     desc: "Founder @ SpringRole, Ex CTO @ Science, Advising Science, Burst",
-    image: "https://bridge.academy/static/img/home/kartik.jpg",
+    image: kartik,
     name: "Kartik Mandaville",
     social: {
       github: "https://github.com/kar2905",
