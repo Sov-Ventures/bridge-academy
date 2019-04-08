@@ -153,7 +153,7 @@ export const mentors = [
     },
   },
   {
-    desc: "Cofounder/CEO @Stealthy, a decentralized & encrypted P2P chat app.",
+    desc: "Cofounder/CEO @Stealthy, a decentralized & encrypted P2P chat app focused on privacy.",
     image: prabhaav,
     name: "Prabhaav Bhardwaj",
     social: {
