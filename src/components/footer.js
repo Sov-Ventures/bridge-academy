@@ -40,9 +40,6 @@ export default function Footer() {
               <li className="menu-item">
                 <a href="https://bridge.academy">Bridge.Academy</a>
               </li>
-              <li className="menu-item">
-                <a href="https://openproofs.com">OpenProofs</a>
-              </li>
             </ul>
           </section>
 
