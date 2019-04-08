@@ -97,7 +97,7 @@ export default function PartnersPage() {
         desc="Our hiring partners range from early-stage to later-stage startups."
       />
       <ReadyTo headline="Interested in becoming a hiring partner?">
-        <PrimaryButton to="https://goo.gl/forms/zG2AxZ4x9hUgnYSm2">
+        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
           Start Hiring Now
         </PrimaryButton>
       </ReadyTo>

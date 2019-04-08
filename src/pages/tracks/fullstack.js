@@ -36,12 +36,12 @@ export default function FullStack() {
         data={processData}
       />
       <HiringPartners
-        headline="Featured Technology Partners"
+        headline="Featured Hiring Partners"
         desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
       />
-      <ReadyTo headline="Interested in becoming a technology partner?">
-        <PrimaryButton to="https://goo.gl/forms/qtScXtCY68S21tQc2">
+      <ReadyTo headline="Interested in becoming a hiring partner?">
+        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
           Contact Us
         </PrimaryButton>
       </ReadyTo>

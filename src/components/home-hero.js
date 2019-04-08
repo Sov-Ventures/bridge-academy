@@ -79,7 +79,7 @@ class HomeHero extends Component {
                 type="button"
                 id="dropdownMenuButton"
               >
-                Learn how it works and apply
+                Learn more and apply
               </button>
 
               <div
