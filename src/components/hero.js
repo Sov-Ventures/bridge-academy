@@ -9,7 +9,7 @@ export default function Hero({
   className,
 }) {
   return (
-    <section className="hero">
+    <section className="hero container">
       <div className={className}>
         {headline && (
           <h1>
@@ -23,13 +23,13 @@ export default function Hero({
         {subHeadline && <h3>{subHeadline}</h3>}
 
         {firstDesc && (
-          <p className="description" align="center">
+          <p className="description">
             {firstDesc}
           </p>
         )}
 
         {secondDesc && (
-          <p className="description" align="center">
+          <p className="description">
             {secondDesc}
           </p>
         )}
