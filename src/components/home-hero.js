@@ -39,28 +39,28 @@ class HomeHero extends Component {
 
             <p style={{ marginBottom: "0" }}>
               Bridge is a career accelerator for emerging global tech talent
-              looking to level-up their skills &amp; networks.
+              looking to level-up their skills &amp; network.
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our program:</strong> Project-based w/ your own personalized curriculum,
+              <strong>Our program:</strong> Project-based w/ a custom curriculum,
              1:1 Mentorship &amp; Our online community.
             </p>
 
             <p style={{ marginBottom: "0" }}>
               <strong>Our philosophy:</strong> We believe people learn best when
-              pursuing their interests, alongside others.
+              pursuing their own interests.
             </p>
 
             <p style={{ marginBottom: "0" }}>
               <strong>Our mission:</strong> Enabling equal access to
-              opportunities.&nbsp;
+              opportunity.&nbsp;
               <a
                 href="https://medium.com/the-spectrum/%C6%80uilding-a-%C6%80ridge-to-the-%C6%80lockchain-economy-c1a25fd119bd"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Read more &#187;
+                More &#187;
               </a>
             </p>
 
