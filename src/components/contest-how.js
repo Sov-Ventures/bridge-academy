@@ -53,8 +53,7 @@ export default function ContestHow() {
               </div>
 
               <p>
-                First signup for an account and fill our our application
-                form(s). Past applicants have built niche Social Networks,
+                Past applicants have built niche Social Networks,
                 Decentralized Contact Managers, AI News Readers + more. You can
                 read more about some of the past projects{" "}
                 <a
@@ -85,8 +84,8 @@ export default function ContestHow() {
 
               <p>
                 Every week you'll receive feedback and points based on your
-                progress. Each month, the top-ranked applicants get accepted to
-                join Bridge and scholarships are awarded based on merit.
+                progress. Each month, the top-ranked candidates get accepted to
+                join Bridge Core.
               </p>
             </div>
             <div id="how-item-3" className="how-item">
@@ -107,7 +106,7 @@ export default function ContestHow() {
               <p>
                 Bridge has a diverse network of mentors across different
                 disciplines. Mentors both review applications and provide advice
-                to Bridge members. After 3 months you'll present your project.
+                to Bridge members. 
               </p>
             </div>
 

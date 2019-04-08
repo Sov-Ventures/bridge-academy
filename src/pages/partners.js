@@ -27,7 +27,7 @@ export default function PartnersPage() {
 
       <ApplicationProcess
         headline="How it works"
-        desc="Our process takes ~1-2 months from start to hire."
+        desc="Our process takes one month from start to hire."
         data={partnersProcessData}
       />
 
