@@ -74,12 +74,12 @@ class HomeHero extends Component {
               }}
             >
               <button
-                onClick={() => (window.location = "/apply")}
+                onClick={() => (window.location = "https://apply.bridge.academy/b/rvd2ba/view")}
                 className="btn btn-primary"
                 type="button"
                 id="dropdownMenuButton"
               >
-                Learn more and apply
+                Create Your Profile
               </button>
 
               <div

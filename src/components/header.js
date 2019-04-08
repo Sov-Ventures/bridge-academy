@@ -110,7 +110,7 @@ export default () => (
 
         <li className="menu-item">
           <Link style={{ color: "#59cbb9" }} to="/apply">
-            APPLY
+           APPLY
           </Link>
         </li>
       </ul>
