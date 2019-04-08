@@ -54,13 +54,13 @@ class HomeHero extends Component {
 
             <p style={{ marginBottom: "0" }}>
               <strong>Our mission:</strong> Enabling equal access to
-              opportunities, globally.&nbsp;
+              opportunities.&nbsp;
               <a
                 href="https://medium.com/the-spectrum/%C6%80uilding-a-%C6%80ridge-to-the-%C6%80lockchain-economy-c1a25fd119bd"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                More &#187;
+                Read more &#187;
               </a>
             </p>
 

@@ -3813,7 +3813,8 @@ pre.language-curl .line-numbers > span:first-child:before {
   }
 }
 
-.mentor img {
+.hero .mentor img {
+  float:right;
 }
 
 .description {
