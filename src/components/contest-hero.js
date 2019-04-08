@@ -52,7 +52,7 @@ export default function ContestHero() {
                 className="btn btn-primary"
                 href="https://apply.bridge.academy/b/lxshok/view"
               >
-                Register to join now
+                Register to join
               </a>
             </p>
 

@@ -43,8 +43,8 @@ class HomeHero extends Component {
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our program:</strong> A project-based custom curriculum w/
-              personal mentorship + our online community.
+              <strong>Our program:</strong> Project-based w/ your own personalized curriculum,
+             1:1 Mentorship &amp; Our online community.
             </p>
 
             <p style={{ marginBottom: "0" }}>
