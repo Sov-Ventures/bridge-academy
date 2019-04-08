@@ -18,11 +18,13 @@ export default function Apply() {
       <Hero
         headline="Join World Class Startups"
         firstDesc="Join world class distributed engineering teams at tech startups in Silicon Valley & Europe working on large-scale web, blockchain and mobile platforms."
-        secondDesc="Create your profile to connect with top companies, get preparation materials, courses and receive job offers."
+        secondDesc="Create your profile to connect with top companies, apply for training and receive job offers."
+        caveat="One application. Dozens of companies excited to hire remote talent."
       >
         <PrimaryButton to="https://apply.bridge.academy/b/rvd2ba/view">
-          Sign Up Here to Apply
+          Create a free profile
         </PrimaryButton>
+        <caveat></caveat>
       </Hero>
       <ApplicationProcess
         headline="How it works"

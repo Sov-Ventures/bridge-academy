@@ -18,7 +18,7 @@ export default function MentorsPage() {
         secondDesc={`If so, becoming a Bridge Mentor could be for you.`}
       >
         <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
-          Apply Now
+          Apply to become a mentor
         </PrimaryButton>
       </Hero>
       <section id="apply" className="tools">

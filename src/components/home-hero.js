@@ -110,7 +110,7 @@ class HomeHero extends Component {
               style={{ width: "100%", padding: "1em 0", color: "#999" }}
               className="lighter"
             >
-              Hiring? <Link to="/partners">Learn more</Link>.
+              Hiring remotely? <Link to="/partners">Click here</Link>.
             </p>
           </div>
 
