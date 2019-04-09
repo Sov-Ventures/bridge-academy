@@ -3,7 +3,7 @@ import Header from "./header";
 import Footer from "./footer";
 import { Helmet } from "react-helmet";
 
-export default function Layout({ children, seoTitle }) {
+export default function Layout({ children, seoTitle, termsPage }) {
   return (
     <Fragment>
       <Helmet>
@@ -18,7 +18,7 @@ export default function Layout({ children, seoTitle }) {
       <div id="content" className="container-fluid pub-content">
         <div className="row">{children}</div>
       </div>
-      <Footer />
+      {!termsPage ? <Footer /> : null}
     </Fragment>
   );
 }
