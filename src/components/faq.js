@@ -33,7 +33,7 @@ export default function FAQ({ data }) {
             {data.map(faq => (
               <div key={faq.question} className="faq-item">
                 <h3>{faq.question}</h3>
-                <p>{faq.answer}</p>
+                <p dangerouslySetInnerHTML={{ __html: faq.answer }} />
               </div>
             ))}
           </div>
