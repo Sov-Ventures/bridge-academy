@@ -14,7 +14,7 @@ import { faqData, processData } from "../api/data";
 export default () => (
   <Fragment>
     <FlashBar />
-    <Layout seoTitle="Bridge.Academy - Frontier-Tech Focused Talent Accelerator">
+    <Layout seoTitle="Frontier-Tech Focused Talent Accelerator">
       <HomeHero />
       <ApplicationProcess
         headline="Application Process"
