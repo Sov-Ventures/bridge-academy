@@ -16,7 +16,7 @@ export default function Apply() {
   <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">
       <Hero
-        headline="Join World Class Startups"
+        headline="Join World Class Tech Startups"
         firstDesc="Join world class distributed engineering teams at tech startups in Silicon Valley & Europe working on large-scale web, blockchain and mobile platforms."
         secondDesc="Create your profile to connect with top companies, apply for training and receive job offers."
         caveat="One application. Dozens of companies excited to hire remote talent."
