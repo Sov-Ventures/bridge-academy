@@ -21,14 +21,14 @@ export default function Apply() {
         secondDesc="Create your profile to connect with top companies, apply for training and receive job offers."
         caveat="One application. Dozens of companies excited to hire remote talent."
       >
-        <PrimaryButton to="https://apply.bridge.academy/b/rvd2ba/view">
+        <PrimaryButton to="https://apply.bridge.academy/register?next=%2Fb%2Flxshok%2Fview">
           Create a free profile
         </PrimaryButton>
         <caveat></caveat>
       </Hero>
       <ApplicationProcess
         headline="How it works"
-        desc="Our three step process to joining."
+        desc="Our simple three step process."
         data={processData}
       />
       <HiringPartners

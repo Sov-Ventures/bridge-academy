@@ -74,7 +74,7 @@ class HomeHero extends Component {
               }}
             >
               <button
-                onClick={() => (window.location = "https://apply.bridge.academy/b/rvd2ba/view")}
+                onClick={() => (window.location = "https://apply.bridge.academy/register?next=%2Fb%2Flxshok%2Fview")}
                 className="btn btn-primary"
                 type="button"
                 id="dropdownMenuButton"
