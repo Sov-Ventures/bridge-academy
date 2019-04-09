@@ -38,8 +38,7 @@ class HomeHero extends Component {
             </h1>
 
             <p style={{ marginBottom: "0" }}>
-              Bridge is a career accelerator for emerging global tech talent
-              looking to level-up their skills &amp; network.
+              Bridge is a career accelerator focused on global tech talent in frontier industries.
             </p>
 
             <p style={{ marginBottom: "0" }}>
