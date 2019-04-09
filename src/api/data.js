@@ -49,7 +49,7 @@ export const faqData = [
   {
     question: "Can I see an example ISA?",
     answer:
-      "Yes, you can see a template we use here. ISAs are not a loan so they have no interest and are paid back over time.",
+      "Yes, you can see a template we use <a href='/candidate-agreement'>here</a>. ISAs are not a loan so they have no interest and are paid back over time.",
   },
   {
     question: "How do I know if i'm qualified to join?",
