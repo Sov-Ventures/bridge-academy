@@ -9,7 +9,7 @@ class HomeHero extends Component {
       strings: [
         "Break into Blockchain",
         "Break into Full-stack",
-        "Break into Silicon Valley",
+        "Break into Remote Work",
       ],
       typeSpeed: 50,
       startDelay: 120,
