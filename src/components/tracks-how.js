@@ -16,10 +16,9 @@ export default function TracksHow() {
         <div className="faq-item">
           <h5>PAYMENT OPTIONS</h5>
           <p>
-            1. $0 up-front + $19,000 maximum repayment via an ISA agreement,
-            repaid while employed. <a href="#faq">See FAQ</a> for details.
+            1. $0 up-front + $19,000 maximum repayment via our <a href="/candidate-agreement">deffered fee agreement</a>. <a href="#faq">See our FAQ</a> for details.
           </p>
-          <p>2. $13,000 up-front + no income-based repayment.</p>
+          <p>2. $13,000 up-front.</p>
         </div>
 
         <div className="faq-item">

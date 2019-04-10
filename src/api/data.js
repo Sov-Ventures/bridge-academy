@@ -47,9 +47,9 @@ export const faqData = [
       "You will never pay more than the total $19,000 USD cap. Payments are made month by month as a % of your salary, only if you are making above a certain amount.",
   },
   {
-    question: "Can I see an example ISA?",
+    question: "Can I see an example fee agreement?",
     answer:
-      "Yes, you can see a template we use <a href='/candidate-agreement'>here</a>. ISAs are not a loan so they have no interest and are paid back over time.",
+      "Yes, you can see the default template agreement that we use <a href='/candidate-agreement'>here</a>. Our deffered fee program is not a loan and you can think of it like a 'reverse recruiting fee'.",
   },
   {
     question: "How do I know if i'm qualified to join?",
@@ -97,7 +97,7 @@ export const partnersFAQData = [
   {
     question: "How do you make money?",
     answer:
-      "We make money once our developers get hired, they start to pay back their tuition via an ISA agreement (See example).",
+      "We make money once our developers get hired, they start to pay back their tuition va our candidate payment agreement (<a href='/candidate-agreement'>See example</a>).",
   },
 ];
 

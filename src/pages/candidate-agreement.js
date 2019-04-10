@@ -4,12 +4,12 @@ import Layout from "../components/layout";
 export default function CandidateAgreement() {
   return (
     <Layout
-      seoTitle="Frontier-Tech Focused Talent Accelerator"
+      seoTitle="Candidate Deffered Fee Agreement"
       termsPage={true}
     >
       <section>
         <div className="container" style={{ textAlign: "left" }}>
-          <h2 className="legalese-title">Candidate Income Share Agreement</h2>
+          <h2 className="legalese-title">Candidate Deffered Fee Agreement</h2>
           <p>
             Prism Labs Inc (referred to here as “we”, “our” and “BridgeAcademy”)
             is a company that operates a mentorship and technical training
@@ -82,18 +82,18 @@ export default function CandidateAgreement() {
             the purpose of this Agreement.
           </p>
           <p>
-            <strong>I.</strong> “Prism Labs Income Share Percentage” is the
+            <strong>I.</strong> “Prism Labs Fee Percentage” is the
             percentage of Candidate's salary that shall be owed to BridgeAcademy
             in exchange for Candidate's use of the Platform in connection with a
             Mentorship. Unless otherwise specified in writing, the Prism Labs
-            Income Share Percentage shall be equal to % of Candidate's salary,
+            Fee Percentage shall be equal to % of Candidate's salary,
             plus applicable taxes and transaction fees, for the first 36 months
             of Candidate's employment in an Eligible Field.
           </p>
 
           <p>
-            <strong>J.</strong> "Monthly Payment" means your Income Share times
-            the amount of your Qualified Monthly Earned Income.
+            <strong>J.</strong> "Monthly Payment" means your Fee percentage times
+            the amount of your Qualified Monthly Earnings.
           </p>
 
           <p>
@@ -435,7 +435,7 @@ export default function CandidateAgreement() {
             BridgeAcademy network and Candidate.
           </p>
           <p>
-            <strong>Last updated on February 21, 2019.</strong>
+            <strong>Last updated on April 10, 2019.</strong>
           </p>
         </div>
       </section>
