@@ -18,30 +18,30 @@ export default function TracksHow() {
           <p>
             1. $0 up-front + $19,000 maximum repayment via our <a href="/candidate-agreement">deffered fee agreement</a>. <a href="#faq">See our FAQ</a> for details.
           </p>
-          <p>2. $13,000 up-front.</p>
+          <p>2. $9,500 up-front.</p>
         </div>
 
         <div className="faq-item">
-          <h5>Optional: Tournament Phase (4 weeks)</h5>
+          <h5>Optional: Build Challenge (4 weeks)</h5>
           <p>
             In order to participate in one of the Bridge programs, you first
-            need to either a) demonstrate a basic competence in the required
-            track skills through a previous project OR b) join the monthly
-            tournament.
+            need to either a) demonstrate basic competence in the required
+            track skills through a previous project or b) join our monthly&nbsp;
+            <a href="/build">build challenge</a>.
           </p>
         </div>
 
         <div className="faq-item">
-          <h5>Phase 1 (4-8 weeks): Project &amp; Mentoring</h5>
+          <h5>Phase 1 (Weeks 1-8): Project Phase &amp; Personal Mentorship</h5>
           <p>
-            For these phase you'll be matched with a personal mentor who will
+            For this phase you'll be matched with a personal mentor who will
             provide you feedback on your project. The project will map to the
             new skills you've acquired and would like to take to the next level.{" "}
           </p>
         </div>
 
         <div className="faq-item">
-          <h5>Phase 2 (4-8 weeks): Interview Prep &amp; Interviews</h5>
+          <h5>Phase 2 (Weeks 8-12): Interview Prep &amp; Interviews</h5>
           <p>
             During this phase you'll run practice interviews and challenges and
             get feedback. You'll also be connected with companies to interview
@@ -77,10 +77,9 @@ export default function TracksHow() {
           <ul>
             <li>- 1:1 Mentorship from leading industry experts</li>
             <li>- Private TA + Discussion Forum Access</li>
-            <li>- Custom Course Curriculum &amp; Excercises</li>
+            <li>- Lifetime Curriculum Access</li>
             <li>- Resume Review + Professional Headshots</li>
-            <li>- Access to Alumni network job alerts</li>
-            <li>- Continued Career Services Post-Program</li>
+            <li>- Access to Alumni Network of Jobs</li>
           </ul>
         </div>
       </div>
