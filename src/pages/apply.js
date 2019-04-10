@@ -48,7 +48,7 @@ export default function Apply() {
       <Mentors />
 
       <ReadyTo headline="Want to become a mentor?">
-        <PrimaryButton to="https://blockchain.bridge.academy/b/zjvgu7/view">
+        <PrimaryButton to="https://apply.bridge.academy/b/zjvgu7/view">
           Apply Now
         </PrimaryButton>
       </ReadyTo>
