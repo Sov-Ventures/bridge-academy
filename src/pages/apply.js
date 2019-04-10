@@ -21,7 +21,7 @@ export default function Apply() {
         secondDesc="Create your profile to connect with top companies, apply for training and receive job offers."
         caveat="One application. Dozens of companies excited to hire remote talent."
       >
-        <PrimaryButton to="https://apply.bridge.academy/register?next=%2Fb%2Flxshok%2Fview">
+        <PrimaryButton to="https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview">
           Create a free profile
         </PrimaryButton>
         <caveat></caveat>
