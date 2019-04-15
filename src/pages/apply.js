@@ -19,8 +19,6 @@ export default function Apply() {
   <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">
       <Tracks
-        headline="Apply to join Bridge"
-        desc="You may apply to as many tracks as you like. "
         endSlice={null}
       />
       <ApplicationProcess

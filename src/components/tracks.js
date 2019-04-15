@@ -5,12 +5,6 @@ export default function Tracks({ headline, desc, endSlice }) {
   return (
     <section id="explore-communities">
       <div id="tracks" className="container">
-        <h2 className="section-header">
-          <big>
-            <span style={{ textAlign: "center" }}>{headline}</span>
-          </big>
-        </h2>
-        <p className="description">{desc}</p>
         <div className="communities-container row">
           {tracks.slice(0, endSlice || tracks.length).map(track => (
             <div key={track.name} className="col-md-4">
