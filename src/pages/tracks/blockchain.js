@@ -20,7 +20,7 @@ export default function BlockChain() {
     <Layout seoTitle="Blockchain Engineer Career Track">
       <Hero
         className="grey"
-        headline="Blockchain Engineer (Career Track)"
+        headline="Blockchain (Career Track)"
         subHeadline="$0 Up-front. Part-time: 10-15hrs /week."
         firstDesc="Your bridge into a Silicon-valley tech career working remotely as a Blockchain Developer, dApp Developer + more."
         secondDesc="Learn: Smart Contracts & dApp development + more alongside top industry mentors."
