@@ -14,9 +14,9 @@ export const processData = [
       "Complete a 10-15 minute application covering your background, goals, and experience.",
   },
   {
-    headline: "Fit Interview",
+    headline: "Fit Interview & Challenge",
     desc:
-      "A short IM interview to assess your fit for our program, after which we'll send you a customized program plan based on your goals.",
+      "Take our short challenge to proove your skills, followed by a short interview to assess your fit for our program.",
   },
   {
     headline: "Accept & Start",
@@ -44,7 +44,7 @@ export const faqData = [
   {
     question: "How much do I pay in total?",
     answer:
-      "You will never pay more than the total $19,000 USD cap. Payments are made month by month as a % of your salary, only if you are making above a certain amount.",
+      "You will never pay more than the total repayment cap for your track. Payments are made month by month as a % of your salary, only if you are making above a certain amount.",
   },
   {
     question: "Can I see an example fee agreement?",

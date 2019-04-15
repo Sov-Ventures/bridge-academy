@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 import ApplicationProcess from "../../components/application-process";
-import TracksHow from "../../components/tracks-how";
+import FastTrackHow from "../../components/fasttrack-how";
 import Layout from "../../components/layout";
 import Hero from "../../components/hero";
 import ReadyTo from "../../components/readyTo";
@@ -13,26 +13,28 @@ import Mentors from "../../components/mentors";
 
 import { faqData, processData } from "../../api/data";
 
-export default function BlockChain() {
+export default function FullStack() {
   return (
   <Fragment>
    <FlashBar />
-    <Layout seoTitle="Blockchain Engineer Career Track">
+    <Layout seoTitle="FastTrack Your Career">
       <Hero
         className="grey"
-        headline="Blockchain Engineer (Career Track)"
-        subHeadline="$0 Up-front. Part-time: 10-15hrs /week."
-        firstDesc="Your bridge into a Silicon-valley tech career working remotely as a Blockchain Developer, dApp Developer + more."
-        secondDesc="Learn: Smart Contracts & dApp development + more alongside top industry mentors."
+        headline="Career FastTrack"
+        subHeadline="$0 up-front. "
+        firstDesc="Your Bridge into a Silicon-valley tech career working remotely. Only make payments if you are earning at least a 25% higher salary."
+        secondDesc="Includes: Interview Prep, Career Coaching/Mentoring & Relevant Intros & Job Referrals."
       >
         <PrimaryButton to="https://apply.bridge.academy/b/rvd2ba/view">
           Apply Now
         </PrimaryButton>
       </Hero>
-      <TracksHow />
+
+      <FastTrackHow />
+
       <ApplicationProcess
         headline="Application Process"
-        repaymentcap="19,000"
+        repaymentcap="9,500"
         desc="Our three step process to joining."
         data={processData}
       />
@@ -73,5 +75,6 @@ export default function BlockChain() {
       </section>
     </Layout>
     </Fragment>
+
   );
 }

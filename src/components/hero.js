@@ -23,15 +23,11 @@ export default function Hero({
         {subHeadline && <h3>{subHeadline}</h3>}
 
         {firstDesc && (
-          <p className="description">
-            {firstDesc}
-          </p>
+          <p className="description" dangerouslySetInnerHTML={{ __html: firstDesc }} />
         )}
 
         {secondDesc && (
-          <p className="description">
-            {secondDesc}
-          </p>
+          <p className="description" dangerouslySetInnerHTML={{ __html: secondDesc }} />
         )}
 
         {children}

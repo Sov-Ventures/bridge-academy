@@ -1590,7 +1590,7 @@ ul.menu-header .menu-item#navbar-login > a {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 450px;
+  min-width: 500px;
   padding: 25px;
   margin: 2px 0 0;
   font-size: 14px;
@@ -1965,6 +1965,17 @@ ul.menu-header .menu-item#navbar-login > a {
 .box-grid #examples-tabs h3 {
   font-weight: bold;
   color: black;
+}
+
+h3.card-name {margin-bottom:0;}
+.card-desc ul {list-style-type: circle;padding:0 2em;}
+
+.ss-check {
+    font-weight: bold;
+    color: #59cbb9;
+    font-size: 1.2em;
+    top: .2em;
+    position: relative;
 }
 
 .box-grid .tabs li a span {

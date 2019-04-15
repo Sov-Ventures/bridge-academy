@@ -38,7 +38,7 @@ class HomeHero extends Component {
             </h1>
 
             <p style={{ marginBottom: "0" }}>
-              Bridge is a career accelerator focused on global tech talent in frontier industries.
+              Bridge is the world's first peer-to-peer tech career accelerator focused on global frontier-tech talent.
             </p>
 
             <p style={{ marginBottom: "0" }}>
@@ -73,12 +73,12 @@ class HomeHero extends Component {
               }}
             >
               <button
-                onClick={() => (window.location = "https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview")}
+                onClick={() => (window.location = "/apply")}
                 className="btn btn-primary"
                 type="button"
                 id="dropdownMenuButton"
               >
-                Create Your Profile
+              Learn more and apply
               </button>
 
               <div

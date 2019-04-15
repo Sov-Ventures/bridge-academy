@@ -32,6 +32,7 @@ export default function FullStack() {
       <TracksHow />
       <ApplicationProcess
         headline="Application Process"
+        repaymentcap="19,000"
         desc="Our three step process to joining."
         data={processData}
       />

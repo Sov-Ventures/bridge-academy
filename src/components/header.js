@@ -31,32 +31,28 @@ export default () => (
             aria-labelledby="dropdownMenuButton1"
           >
             <ul className="menu-skills">
-              <li>
-                <span className="dropdown-item-header">Skill Tracks</span>
+          <li>
+                <span className="dropdown-item-header">Career "FastTracks"</span>
               </li>
 
-              <li>Javascript </li>
-
-              <li>Python</li>
-
-              <li>Ruby on Rails</li>
-
-              <li>Node.js</li>
-
-              <li>Smart Contracts</li>
-
-              <li>dApp Development</li>
+              <li>
+                <Link className="dropdown-item" to="/tracks/fasttrack">
+                  <strong>
+                    Career FastTrack <span className="tag">New</span>
+                  </strong>
+                </Link>
+              </li>
             </ul>
 
             <ul>
               <li>
-                <span className="dropdown-item-header">Career Tracks</span>
+                <span className="dropdown-item-header">Career "LevelUp" Tracks</span>
               </li>
 
               <li>
                 <Link className="dropdown-item" to="/tracks/fullstack">
                   <strong>
-                    Full Stack Engineer <span className="tag">Career</span>
+                    Full-Stack Engineering <span className="tag">Career</span>
                   </strong>
                 </Link>
               </li>
@@ -64,25 +60,25 @@ export default () => (
               <li>
                 <Link className="dropdown-item" to="/tracks/blockchain">
                   <strong>
-                    Blockchain Engineer <span className="tag">Career</span>
+                    Blockchain Engineering <span className="tag">Career</span>
                   </strong>
                 </Link>
               </li>
 
               <li>
-                Backend Engineer <span className="tag">Coming</span>
+                Backend Engineering <span className="tag">Coming</span>
               </li>
 
               <li>
-                DevOps Engineer <span className="tag">Coming</span>
+                DevOps Engineering <span className="tag">Coming</span>
               </li>
 
               <li>
-                Data Engineer <span className="tag">Coming</span>
+                Data Engineering <span className="tag">Coming</span>
               </li>
 
               <li>
-                AI/ML Engineer <span className="tag">Coming</span>
+                AI/ML Engineering <span className="tag">Coming</span>
               </li>
             </ul>
           </div>
