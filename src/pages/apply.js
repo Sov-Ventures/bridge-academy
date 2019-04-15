@@ -6,7 +6,7 @@ import FlashBar from "../components/flash-bar";
 import FAQ from "../components/faq";
 import ReadyTo from "../components/readyTo";
 import Layout from "../components/layout";
-import Hero from "../components/hero";
+//import Hero from "../components/hero";
 import Mentors from "../components/mentors";
 import Tracks from "../components/tracks";
 import Matrix from "../components/matrix";
@@ -18,7 +18,7 @@ export default function Apply() {
   <Fragment>
   <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">
-        <Tracks
+      <Tracks
         headline="Apply to join Bridge"
         desc="You may apply to as many tracks as you like. "
         endSlice={null}
