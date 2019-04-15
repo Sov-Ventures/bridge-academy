@@ -23,7 +23,7 @@ export default () => (
             aria-haspopup="true"
             aria-expanded="false"
           >
-            TRACKS
+            PROGRAMS
           </Link>
 
           <div
