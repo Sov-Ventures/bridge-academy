@@ -18,7 +18,7 @@ export default function Tracks({ headline, desc, endSlice }) {
                 <h3 className="card-name" dangerouslySetInnerHTML={{ __html: track.name }} />
                 <small dangerouslySetInnerHTML={{ __html: track.subhead }} />
                 <div className="card-body">
-                <p className="card-desc" dangerouslySetInnerHTML={{ __html: track.desc }} />
+                <div className="card-desc" dangerouslySetInnerHTML={{ __html: track.desc }} />
                   <p align="center"><a class="btn btn-primary" href="https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview">Apply Now</a></p>
                 </div>
               </div>
