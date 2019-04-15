@@ -9,7 +9,7 @@ export default function Hero({
   className,
 }) {
   return (
-    <section className="hero container">
+    <section className="hero">
       <div className={className}>
         {headline && (
           <h1>
