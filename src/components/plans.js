@@ -27,19 +27,19 @@ const plans = [
   {
     name: "Start Delegating",
     subhead: "$1.5k/month",
-    desc:"<ul><li><strong>60hrs/month</strong></li><li><strong>Part-time</strong> Developer</li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>60hrs/month</strong></li><li><strong>Part-time</strong> Developer</li><strong>Timezone matching:</strong> Min 2hrs</li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
     color: "#F3764B",
   },
   {
     name: "Full Delegation",
     subhead: "$4k/month",
-    desc:"<ul><li><strong>160hrs/month</strong></li><li><strong>Full-time</strong> Developer</li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>160hrs/month</strong></li><li><strong>Full-time</strong> Developer</li><li><strong>Timezone matching:</strong> Min 5hrs</li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
     color: "#F3764B",
   },
   {
     name: "Unlimited Delegation",
     subhead: "$10k/month",
-    desc:"<ul><li><strong>24/7 availability</strong></li><li><strong>Multiple</strong> Developers </li><li><strong>Global</strong> Timezone coverage</li><li><strong>Extra hours:</strong> Unlimited</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>24/7 availability</strong></li><li><strong>Multiple</strong> Developers </li><strong>Timezone matching:</strong> Global</li><li><strong>Extra hours:</strong> Unlimited</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
     color: "#F3764B",
   }
 ];
