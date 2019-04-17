@@ -31,19 +31,19 @@ const tracks = [
   {
     name: "Career FastTrack",
     subhead: "Only top 10% are accepted",
-    desc:"<ul><li>$0 up-front + $9,500 maximum repayment over 12 months.</li><li> Minimal time committment.</li><li>Includes: Interview Prep, Career Coaching/Mentoring &amp; Relevant Intros & Job Referrals</li></ul><p align='center'><a href='/tracks/fasttrack'>Learn More</a></p>",
+    desc:"<ul><li><strong>Cost:</strong> $0 up-front.</li><li><strong>Minimal</strong> time committment.</li><li><strong>Includes:</strong> Interview Prep, Career Coaching/Mentoring &amp; Relevant Referrals</li></ul><p align='center'><a href='/tracks/fasttrack'>Learn More</a></p>",
     color: "#F3764B",
   },
   {
     name: "FullStack Career Track",
     subhead: "&nbsp;",
-    desc:"<ul><li>$0 up-front + $19,000 max repayment over 36 months or $9,500 up-front.</li><li>Part-time: 10-15hrs /week.</li><li>Includes: Node, React, Serverless, TDD, Graphql + Everything in FastTrack</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
+    desc:"<ul><li><strong>Cost:</strong>$0 up-front.</li><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Node, React, Serverless, TDD, Graphql + Everything in FastTrack</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
     color: "#290f34",
   },
   {
     name: "Blockchain Career Track",
     subhead: "&nbsp;",
-    desc:"<ul><li>$0 up-front + $19,000 max repayment over 36 months or $9,500 up-front.</li><li>Part-time: 10-15hrs /week.</li><li>Includes: Smart Contracts & dApp development + Everything in FastTrack.</li></ul><p align='center'><a href='/tracks/blockchain' align='center'>Learn More</a></p>",
+    desc:"<ul><li><strong>Cost:</strong>$0 up-front.</li><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Smart Contracts & dApp development + Everything in FastTrack.</li></ul><p align='center'><a href='/tracks/blockchain' align='center'>Learn More</a></p>",
     color: "#096ff0",
   },
   {

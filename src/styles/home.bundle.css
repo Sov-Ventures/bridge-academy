@@ -2914,6 +2914,11 @@ pre.language-curl .line-numbers > span:first-child:before {
   padding:0 20px;
 }
 
+.lighter{
+  font-weight: lighter;
+  opacity:.7;
+}
+
 @media (max-width: 534px) {
   .container {
     max-width: 400px;
