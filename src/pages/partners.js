@@ -8,22 +8,29 @@ import Layout from "../components/layout";
 import Mentors from "../components/mentors";
 import ReadyTo from "../components/readyTo";
 import HiringPartners from "../components/hiring-partners";
+import Plans from "../components/plans";
+
 import { partnersFAQData, partnersProcessData } from "../api/data";
 
 export default function PartnersPage() {
   return (
     <Fragment>
     <FlashBar />
-    <Layout seoTitle="For Hiring Partners">
-      <Hero
-        headline="Your Bridge to Global Tech Talent Awaits"
-        firstDesc="We train and mentor the world's next top software engineers to help turn them into the world's best product-centric remote employees for your company."
-        secondDesc="Since our graduates are already vetted & trained on your tech-stack they come ready to start working on your team."
-      >
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
-          Start Hiring Now
-        </PrimaryButton>
-      </Hero>
+    <Layout seoTitle="Bridge for Hiring Partners">
+      
+      <Hero 
+        headline="Amplify your talent"
+        firstDesc="We recruit and train global tech talent on your tech stack, to help your top performers delegate 10x more."
+      />
+
+      <Plans
+       
+        endSlice={null}
+      />
+
+      <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+          Join the waitlist
+      </PrimaryButton>
 
       <ApplicationProcess
         headline="How it works"
@@ -98,7 +105,7 @@ export default function PartnersPage() {
       />
       <ReadyTo headline="Interested in becoming a hiring partner?">
         <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
-          Start Hiring Now
+          Join the waitlist
         </PrimaryButton>
       </ReadyTo>
 

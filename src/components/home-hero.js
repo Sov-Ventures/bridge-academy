@@ -38,12 +38,12 @@ class HomeHero extends Component {
             </h1>
 
             <p style={{ marginBottom: "0" }}>
-              Bridge is the world's first peer-to-peer tech career accelerator focused on global frontier-tech talent.
+              Bridge is a globally distributed training &amp; talent network focused on frontier technologies.
             </p>
 
             <p style={{ marginBottom: "0" }}>
               <strong>Our program:</strong> A project-based curriculum,
-             1:1 mentorship &amp; our online community.
+             1:1 mentorship &amp; peer-to-peer learning.
             </p>
 
             <p style={{ marginBottom: "0" }}>

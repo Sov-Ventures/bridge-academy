@@ -603,8 +603,8 @@ header .logo img {
 }
 
 .hero {
-  padding: 0 0 2.5em 0;
 }
+
 .hero h1 {
   position: relative;
   display: inline-block;
@@ -665,7 +665,7 @@ header .logo img {
 
 @media screen and (min-width: 48em) {
   .hero {
-    padding: 2.75em 0 6.875em;
+    padding: 2.75em 0 0 0;
   }
 }
 
@@ -682,7 +682,7 @@ header .logo img {
 @media screen and (min-width: 68em) {
   .hero {
     background-position: 130% top;
-    padding: 2.75em 0;
+    padding: 2.75em 0 0 0;
   }
 }
 
@@ -1967,7 +1967,12 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 h3.card-name {margin-bottom:0;}
-.card-desc ul {list-style-type: circle;padding:0 2em;}
+
+.card-desc ul {
+    list-style-type: none;
+    padding: 0 1em;
+    margin:0 0 1em 0;
+}
 
 .ss-check {
     font-weight: bold;
