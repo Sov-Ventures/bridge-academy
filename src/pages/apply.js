@@ -6,7 +6,7 @@ import FlashBar from "../components/flash-bar";
 import FAQ from "../components/faq";
 import ReadyTo from "../components/readyTo";
 import Layout from "../components/layout";
-//import Hero from "../components/hero";
+import Hero from "../components/hero";
 import Mentors from "../components/mentors";
 import Tracks from "../components/tracks";
 import Matrix from "../components/matrix";
@@ -17,7 +17,12 @@ export default function Apply() {
   return (
   <Fragment>
   <FlashBar />
-    <Layout seoTitle="Apply to Join Our Talent Network">
+    <Layout seoTitle="Apply to Join Our Talent Network">     
+      <Hero 
+        headline="Your Bridge to Global Opportunity"
+        firstDesc="Join world class distributed engineering teams at tech startups in Silicon Valley & Europe working on large-scale web, blockchain and mobile platforms."
+      />
+
       <Tracks
         endSlice={null}
       />
