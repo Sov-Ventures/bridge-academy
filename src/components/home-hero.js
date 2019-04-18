@@ -38,7 +38,7 @@ class HomeHero extends Component {
             </h1>
 
             <p style={{ marginBottom: "0" }}>
-              Bridge is a globally distributed training &amp; talent network for frontier technology.
+              Bridge is a globally distributed training &amp; tech talent network.
             </p>
 
             <p style={{ marginBottom: "0" }}>
