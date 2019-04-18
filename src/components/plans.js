@@ -39,7 +39,7 @@ const plans = [
   {
     name: "Team",
     subhead: "$10k/month",
-    desc:"<ul><li><strong>320 hours/month</strong></li><li><strong>Two</strong> Developers </li><strong>Timezone matching:</strong> All day</li><li><strong>Extra hours:</strong> Unlimited</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Communication Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>320 hours/month</strong></li><li><strong>Two</strong> Developers </li><strong>Timezone matching:</strong> All day</li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Communication Training:</strong> Included</li></ul>",
     color: "#F3764B",
   }
 ];
