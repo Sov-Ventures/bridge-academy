@@ -43,7 +43,7 @@ export default function PartnersPage() {
         <div id="faq-items">
           <h2 style={{ textAlign: "center" }} className="section-header">
             <big>
-              <span>Why hire with Bridge?</span>
+              <span>Why use Bridge?</span>
             </big>
           </h2>
 
@@ -91,8 +91,7 @@ export default function PartnersPage() {
               We know that on-boarding a new remote team member can be tricky,
               which is why Bridge developers are trained on how to be effective
               as remote employees. They are taught how to on-board themselves
-              onto teams and will even shift their schedules to timezone match
-              initially.
+              onto teams and will even shift their schedules to timezone match.
             </p>
           </div>
         </div>

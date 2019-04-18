@@ -21,7 +21,7 @@ export const processData = [
   {
     headline: "Accept & Start",
     desc:
-      "If accepted, we'll send you an offer. Select a payment plan, or choose from one of our many financing options.",
+      "If accepted, we'll send you an offer. Select a payment plan, or choose from one of our financing options.",
   },
 ];
 

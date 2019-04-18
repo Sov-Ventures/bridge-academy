@@ -36,6 +36,10 @@ body {
   padding: 1em;
 }
 
+section{
+  margin: 0 0 1em 0;
+}
+
 .navbar .logo {
   width: 149px;
   height: 30px;
