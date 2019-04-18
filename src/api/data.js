@@ -16,7 +16,7 @@ export const processData = [
   {
     headline: "Fit Interview & Challenge",
     desc:
-      "Take our short challenge to proove your skills, followed by a short interview to assess your fit for our program.",
+      "Take our short challenge to prove your skills, followed by a short interview to assess your fit for our program.",
   },
   {
     headline: "Accept & Start",
