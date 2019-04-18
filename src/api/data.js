@@ -87,7 +87,7 @@ export const partnersFAQData = [
   {
     question: "How do the hiring logistics work?",
     answer:
-      "We can take care of all of the tax, legal and logistical complexities for you. We have standard contract templates and offer cross currency payroll.",
+      "We'll take care of all the tax, legal and logistical complexities for you. We have standard contract templates and offer cross currency payroll.",
   },
   {
     question: "How much does it cost?",
@@ -97,7 +97,7 @@ export const partnersFAQData = [
   {
     question: "How do you make money?",
     answer:
-      "We make money you hire one of our developers, they start to pay back their tuition via our deffered placement agreement (<a href='/candidate-agreement'>See example</a>).",
+      "We make money when are developers get hired, they start to pay back their tuition according to our deffered placement fee schedule.",
   },
 ];
 
@@ -130,7 +130,7 @@ export const partnersProcessData = [
   {
     headline: "Seamless Onboarding",
     desc:
-      "We'll be there to help support you if any issues arrise or you for some reason things don't work out.",
+      "We'll be there to help support you if any issues arrise or for some reason things don't work out.",
   },
 ];
 

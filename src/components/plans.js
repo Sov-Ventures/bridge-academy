@@ -25,21 +25,21 @@ export default function Plans({ headline, desc, endSlice }) {
 
 const plans = [
   {
-    name: "Start Delegating",
+    name: "Starter",
     subhead: "$1.5k/month",
-    desc:"<ul><li><strong>60 hours/month</strong></li><li><strong>Part-time</strong> Developer</li><strong>Timezone matching:</strong> 2hrs/day </li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>60 hours/month</strong></li><li><strong>Part-time</strong> Developer</li><strong>Timezone matching:</strong> 2hrs/day </li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Communication Training:</strong> Included</li></ul>",
     color: "#F3764B",
   },
   {
-    name: "Full Delegation",
+    name: "Full-time",
     subhead: "$4k/month",
-    desc:"<ul><li><strong>160 hours/month</strong></li><li><strong>Full-time</strong> Developer</li><li><strong>Timezone matching:</strong> 5hrs/day </li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>160 hours/month</strong></li><li><strong>Full-time</strong> Developer</li><li><strong>Timezone matching:</strong> 5hrs/day </li><li><strong>Extra hours:</strong> $25/hr</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Communication Training:</strong> Included</li></ul>",
     color: "#F3764B",
   },
   {
-    name: "Unlimited Delegation",
+    name: "Team",
     subhead: "$10k/month",
-    desc:"<ul><li><strong>24/7 availability</strong></li><li><strong>Two</strong> Developers </li><strong>Timezone matching:</strong> All day</li><li><strong>Extra hours:</strong> Unlimited</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>320 hours/month</strong></li><li><strong>Two</strong> Developers </li><strong>Timezone matching:</strong> All day</li><li><strong>Extra hours:</strong> Unlimited</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Communication Training:</strong> Included</li></ul>",
     color: "#F3764B",
   }
 ];
