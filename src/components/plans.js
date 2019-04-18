@@ -39,7 +39,7 @@ const plans = [
   {
     name: "Unlimited Delegation",
     subhead: "$10k/month",
-    desc:"<ul><li><strong>24/7 availability</strong></li><li><strong>Multiple</strong> Developers </li><strong>Timezone matching:</strong> Global</li><li><strong>Extra hours:</strong> Unlimited</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
+    desc:"<ul><li><strong>24/7 availability</strong></li><li><strong>Two</strong> Developers </li><strong>Timezone matching:</strong> All day</li><li><strong>Extra hours:</strong> Unlimited</li><li><strong>Tech-Stack Training:</strong> Included</li><li><strong>Delegation Training:</strong> Included</li></ul>",
     color: "#F3764B",
   }
 ];

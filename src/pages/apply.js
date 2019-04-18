@@ -19,6 +19,7 @@ export default function Apply() {
   <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">     
       <Hero 
+        className="hero"
         headline="Your Bridge to Global Opportunity"
         firstDesc="Join world class distributed engineering teams at tech startups in Silicon Valley & Europe working on large-scale web, blockchain and mobile platforms."
       />
@@ -32,7 +33,9 @@ export default function Apply() {
         data={processData}
       />
 
-      <Matrix />
+      <Matrix 
+        className="container"
+      />
 
       <HiringPartners
         headline="Featured Hiring Partners"

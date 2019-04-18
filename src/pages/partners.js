@@ -19,8 +19,9 @@ export default function PartnersPage() {
     <Layout seoTitle="Bridge for Hiring Partners">
       
       <Hero 
+        className="hero"
         headline="Amplify your talent"
-        firstDesc="We recruit and train global tech talent on your tech stack, to help your top performers delegate 10x more."
+        firstDesc="We recruit and train global tech talent on your tech stack, to help your top performers 10x their productivity."
       />
 
       <Plans
@@ -34,7 +35,7 @@ export default function PartnersPage() {
 
       <ApplicationProcess
         headline="How it works"
-        desc="Our process takes one month from start to hire."
+        desc="Bridge's talent-as-a-service provides a turn-key solution."
         data={partnersProcessData}
       />
 
@@ -51,10 +52,10 @@ export default function PartnersPage() {
               <strong>100% Screened &amp; Vetted talent.</strong>
             </h3>
             <p>
-              We screen thousands of applicants and accept less than 5% into our
+              We screen thousands of applicants to join Bridge and accept less than 5% into our
               program. Accepted candidates receive hands-on guidance from our
-              mentors who work with them for months so we can verify not just
-              their technical skills but also their integrity and soft-skills.
+              mentors who work w/ them so we can verify not just
+              their technical skills but also soft-skills &amp; integrity.
             </p>
           </div>
 
@@ -65,7 +66,7 @@ export default function PartnersPage() {
             <p>
               Say goodbye to the time stuck of recruiting, screening, code
               interviews, test projects and training &amp; onboarding your new
-              hires. Candidates must show good communicational skills,
+              developers. Our talent must possess good communicational skills,
               structured thinking, and a readiness to learn.
             </p>
           </div>
@@ -88,7 +89,7 @@ export default function PartnersPage() {
             </h3>
             <p>
               We know that on-boarding a new remote team member can be tricky,
-              which is why Bridge engineers are trained on how to be effective
+              which is why Bridge developers are trained on how to be effective
               as remote employees. They are taught how to on-board themselves
               onto teams and will even shift their schedules to timezone match
               initially.

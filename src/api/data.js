@@ -92,12 +92,12 @@ export const partnersFAQData = [
   {
     question: "How much does it cost?",
     answer:
-      "Since we don't charge a recruiting fee for companies, the costs to you are nothing outside of apprenticeship stipends or full-time salaries.",
+      "Since we don't charge a recruiting fee for companies, the costs to you are always fixed.",
   },
   {
     question: "How do you make money?",
     answer:
-      "We make money once our developers get hired, they start to pay back their tuition va our candidate payment agreement (<a href='/candidate-agreement'>See example</a>).",
+      "We make money you hire one of our developers, they start to pay back their tuition via our deffered placement agreement (<a href='/candidate-agreement'>See example</a>).",
   },
 ];
 
@@ -110,17 +110,17 @@ export const partnersProcessData = [
   {
     headline: "Candidates sourcing & vetting",
     desc:
-      "We'll source at least three candidates from our talent network or recruit new candidates based on your specific requirements (2 weeks)",
+      "We'll source candidates from our talent network or recruit new candidates based on your specific requirements (2 weeks)",
   },
   {
-    headline: "Hire your developer",
+    headline: "Bring on your developer",
     desc:
-      "Schedule an interview with your candidates to choose who is right for your team. No contracts, no legislation to worry about & no visas (2 weeks).",
+      "We'll pair you with the right talent for your culture. No contracts, no legislation to worry about & no visas (2 weeks).",
   },
   {
     headline: "Our custom tailored bootcamp",
     desc:
-      "We'll mentor and train your chosen developer in your chosen technology stack to make sure they are ready to contribute on day one (1 month).",
+      "We'll mentor and train your chosen developer in your chosen technology stack to make sure they are ready to contribute on day one (2 weeks).",
   },
   {
     headline: "Welcome your new team member",

@@ -19,7 +19,7 @@ export default function FullStack() {
    <FlashBar />
     <Layout seoTitle="Full-Stack Engineer Career Track">
       <Hero
-        className="grey"
+        className="hero"
         headline="Full Stack (Career Track)"
         subHeadline="$0 Up-front. Part-time: 10-15hrs /week."
         firstDesc="Your bridge into a Silicon-valley tech career working remotely as a Full-stack Engineer, Principal Product Engineer, Lead Software Engineer, Ruby on Rails Engineer + more."

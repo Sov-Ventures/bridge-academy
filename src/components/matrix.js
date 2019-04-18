@@ -32,9 +32,9 @@ export default function Tracks({ headline, desc, endSlice }) {
                  <tr>
                     <td class="plan-matrix-label">Minimum repayment threshold  </td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Minimum 25% salary increase</td>
+                      <span class="ss-check"></span> $3k USD /month</td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Minimum 25% salary increase</td>
+                      <span class="ss-check"></span> $2k USD /month</td>
 
                   </tr>
 
@@ -43,7 +43,7 @@ export default function Tracks({ headline, desc, endSlice }) {
                     <td class="plan-matrix-details active">
                       <span class="ss-check"></span> 15% income for 12 months</td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> 17% income for 36 months</td>
+                      <span class="ss-check"></span> 15% income for 36 months</td>
 
                   </tr>
 
