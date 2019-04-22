@@ -19,8 +19,7 @@ export default function PartnersPage() {
     <Layout seoTitle="Bridge for Hiring Partners">
       
       <Hero 
-        className="hero"
-        headline="Amplify your talent"
+        headline="Amplify your tech talent"
         firstDesc="We recruit and train global engineering talent on your tech stack, to help you scale your engineering efforts at the push of a button."
       />
 

@@ -19,7 +19,6 @@ export default function FullStack() {
    <FlashBar />
     <Layout seoTitle="FastTrack Your Career">
       <Hero
-        className="hero"
         headline="Career FastTrack"
         subHeadline="$0 up-front. "
         firstDesc="Your Bridge into a Silicon-valley tech career working remotely. Only make payments if you are earning at least a 25% higher salary."
