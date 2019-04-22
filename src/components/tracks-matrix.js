@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Tracks({ headline, desc, endSlice }) {
+export default function TracksMatrix({ headline, desc, endSlice }) {
   return (
 <section id="plan-comparison">
 
             <div class="container">
 
-              <h2 class="section-header"><big>Compare Pricing Plans</big></h2>
+              <h2 class="section-header"><big>Compare Financing Options</big></h2>
 
               <p>Select the plan that works for you</p>
 
@@ -39,7 +39,7 @@ export default function Tracks({ headline, desc, endSlice }) {
                   </tr>
 
                   <tr>
-                    <td class="plan-matrix-label">Repayment schedule</td>
+                    <td class="plan-matrix-label">Deffered payment term</td>
                     <td class="plan-matrix-details active">
                       <span class="ss-check"></span> 15% income for 12 months</td>
                     <td class="plan-matrix-details active">
@@ -82,12 +82,24 @@ export default function Tracks({ headline, desc, endSlice }) {
                   </tr>
     
 
+
                   <tr>
                     <td class="plan-matrix-label">Currated Curriculum </td>
-                    <td class="plan-matrix-details active"></td>
-                    <td class="plan-matrix-details active">
+                      <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included
+                     </td>                    <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included</td>
 
+                  </tr>
+
+               <tr>
+                    <td class="plan-matrix-label">Lifetime Course Access  </td>
+                    <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included
+                     </td>
+                     <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included
+                    </td>
                   </tr>
 
                   <tr>
@@ -120,9 +132,6 @@ export default function Tracks({ headline, desc, endSlice }) {
                   </tr>
                   
 
- 
-
- 
                   <tr>
                     <td class="plan-matrix-label">Course Certificate  </td>
                     <td class="plan-matrix-details active"></td>
@@ -131,7 +140,7 @@ export default function Tracks({ headline, desc, endSlice }) {
                     </td>
                   </tr>
                 
-
+ 
                      
 
                 </tbody>

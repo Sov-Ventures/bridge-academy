@@ -9,6 +9,7 @@ import Mentors from "../components/mentors";
 import ReadyTo from "../components/readyTo";
 import HiringPartners from "../components/hiring-partners";
 import Plans from "../components/plans";
+import PlansMatrix from "../components/plans-matrix";
 
 import { partnersFAQData, partnersProcessData } from "../api/data";
 
@@ -32,6 +33,9 @@ export default function PartnersPage() {
         <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
           Join the waitlist
         </PrimaryButton>
+        <div>or&nbsp;
+         <a href="#plan-comparison">Compare Plans</a>
+        </div>
       </p>
 
        <p style={{ width: "100%", padding: "1em 0"}}>
@@ -103,6 +107,18 @@ export default function PartnersPage() {
         </div>
       </section>
 
+
+     <PlansMatrix 
+        className="container"
+      />
+
+
+      <ReadyTo headline="Ready to try it out?">
+        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+          Join the waitlist
+        </PrimaryButton>
+      </ReadyTo>
+
       <FAQ data={partnersFAQData} />
 
       <HiringPartners
@@ -116,12 +132,6 @@ export default function PartnersPage() {
       </ReadyTo>
 
 
-      <Mentors />
-      <ReadyTo headline="Want to become a mentor?">
-        <PrimaryButton to="https://apply.bridge.academy/b/zjvgu7/view">
-          Apply Now
-        </PrimaryButton>
-      </ReadyTo>
     </Layout>
     </Fragment>
   );

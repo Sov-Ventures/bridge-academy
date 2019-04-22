@@ -21,7 +21,7 @@ export default function Tracks({ headline, desc, endSlice }) {
         </div>
       </div>
 
-      <p>Compare pricing plans <a href='#plan-comparison'>here</a></p>
+      <p>Compare our financing options <a href='#plan-comparison'>here</a></p>
 
     </section>
   );

@@ -9,7 +9,7 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import Mentors from "../components/mentors";
 import Tracks from "../components/tracks";
-import Matrix from "../components/matrix";
+import TracksMatrix from "../components/tracks-matrix";
 
 import { faqData, processData } from "../api/data";
 
@@ -32,7 +32,7 @@ export default function Apply() {
         data={processData}
       />
 
-      <Matrix 
+      <TracksMatrix 
         className="container"
       />
 

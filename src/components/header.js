@@ -38,7 +38,7 @@ export default () => (
               <li>
                 <Link className="dropdown-item" to="/tracks/fasttrack">
                   <strong>
-                    Career FastTrack <span className="tag">New</span>
+                    For Senior Developers<span className="tag">New</span>
                   </strong>
                 </Link>
               </li>

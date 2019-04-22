@@ -1592,7 +1592,7 @@ ul.menu-header .menu-item#navbar-login > a {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 500px;
+  min-width: 550px;
   padding: 25px;
   margin: 2px 0 0;
   font-size: 14px;
@@ -2357,8 +2357,12 @@ h3.card-name {margin-bottom:0;}
 
 #plan-matrix td,
 #plan-matrix th {
-  padding: 5px 10px;
+  padding: 1.5em;
   text-align: left;
+}
+
+.plan-matrix-label{
+  font-weight: bold;
 }
 
 .plan-matrix-details {

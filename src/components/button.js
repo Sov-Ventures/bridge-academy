@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-export default function Buttom({ children, to }) {
+export default function Button({ children, to }) {
   return (
     <p>
       {/^\/(?!\/)/.test(to) ? (
