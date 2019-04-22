@@ -78,8 +78,9 @@ class HomeHero extends Component {
                 type="button"
                 id="dropdownMenuButton"
               >
-              Learn more and apply
+              Apply to join
               </button>
+
 
               <div
                 className="dropdown-menu"

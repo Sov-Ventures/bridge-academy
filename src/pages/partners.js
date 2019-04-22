@@ -21,7 +21,7 @@ export default function PartnersPage() {
       <Hero 
         className="hero"
         headline="Amplify your talent"
-        firstDesc="We recruit and train global tech talent on your tech stack, to help your top performers 10x their productivity."
+        firstDesc="We recruit and train global engineering talent on your tech stack, to help you scale your engineering efforts at the push of a button."
       />
 
       <Plans
@@ -29,13 +29,20 @@ export default function PartnersPage() {
         endSlice={null}
       />
 
-      <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+      <p style={{ width: "100%", padding: "1em 0"}}>
+        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
           Join the waitlist
-      </PrimaryButton>
+        </PrimaryButton>
+      </p>
+
+       <p style={{ width: "100%", padding: "1em 0"}}>
+          We handle payroll, time tracking and upskilling for no cost.
+          <br />Optional: Hire your developer in-house for a one-time $15k fee.
+        </p>
 
       <ApplicationProcess
         headline="How it works"
-        desc="Bridge's talent-as-a-service option provides a turn-key solution to team building and talent augmentation."
+        desc="Bridge's talent-as-a-service model offers a turn-key solution to team building and talent augmentation."
         data={partnersProcessData}
       />
 
@@ -108,6 +115,7 @@ export default function PartnersPage() {
           Join the waitlist
         </PrimaryButton>
       </ReadyTo>
+
 
       <Mentors />
       <ReadyTo headline="Want to become a mentor?">
