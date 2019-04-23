@@ -1,3 +1,21 @@
 {
-  plugins: [`gatsby-plugin-react-helmet`];
+  plugins: [
+
+  {
+     resolve: `gatsby-plugin-react-helmet`, 
+   options: { 
+     navigateFallback: null, 
+     navigateFallbackWhitelist: [], 
+   }, 
+  },
+
+  {
+     resolve: `gatsby-plugin-twitter`, 
+   options: { 
+     navigateFallback: null, 
+     navigateFallbackWhitelist: [], 
+   }, 
+  },
+
+   ];
 }
