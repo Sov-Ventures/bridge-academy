@@ -23,6 +23,7 @@ import "bootstrap/dist/js/bootstrap.min";
 // }
 
 document.addEventListener("DOMContentLoaded", function(event) {
+
   /***/
   // to top right away
   // if (window.location.hash) scroll(0, 0);

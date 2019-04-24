@@ -13,6 +13,7 @@ export default function Layout({ children, seoTitle, termsPage }) {
         <meta property="og:site_name" content="Bridge.Academy" />
         <meta property="og:title" content={`Bridge.Academy - ${seoTitle}`} />
         <meta name="msvalidate.01" content="17F132F1AE391919166D19B892AB944D" />
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </Helmet>
       <Header />
       <div id="content" className="container-fluid pub-content">

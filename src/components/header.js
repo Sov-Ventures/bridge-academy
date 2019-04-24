@@ -92,6 +92,11 @@ export default () => (
           <Link to="/partners">HIRING PARTNERS</Link>
         </li>
 
+         <li className="menu-item">
+              <a href="/community">COMMUNITY</a>
+          </li>
+
+
         <li className="menu-item">
           <AnimatedLink
             to="faq"
@@ -143,6 +148,10 @@ export default () => (
                 FAQ
               </AnimatedLink>
             </li>
+
+           <li className="menu-item">
+              <a href="/community">COMMUNITY</a>
+          </li>
 
             <li className="menu-item">
               <Link style={{ color: "#59cbb9" }} to="/apply">

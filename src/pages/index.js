@@ -9,6 +9,8 @@ import HomeHero from "../components/home-hero";
 import Investors from "../components/investors";
 import Layout from "../components/layout";
 import Mentors from "../components/mentors";
+import Tweets from "../components/tweets";
+
 import { faqData, processData } from "../api/data";
 
 export default () => (
@@ -33,11 +35,14 @@ export default () => (
           and give you detailed and personalized feedback throughout the
           program.`}
       />
+
       <FAQ data={faqData} />
+
       <Alumni />
-      <br />
-      <br />
+
       <Investors />
+    
+
     </Layout>
   </Fragment>
 );

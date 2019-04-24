@@ -93,7 +93,7 @@ export default function PlansMatrix({ headline, desc, endSlice }) {
               </table>
 
               <p align="left"><small><sup>*</sup>Technical assessment call with a Bridge architect</small></p>
-              <p align="left"><small><sup>**</sup>In the case a developer is not a good fit for your team, we will repalce them immediately.</small></p>
+              <p align="left"><small><sup>**</sup>In the case a developer is not a good fit for your team, we will replace them immediately.</small></p>
 
             </div>
           </section>
