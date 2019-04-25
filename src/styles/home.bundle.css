@@ -499,6 +499,8 @@ header .logo img {
 #home-tagline.bridge h1 {
   /* font-size: 3.25em; */
   font-size: 32px;
+  padding:0 !important;
+  width:100%;
   margin-bottom: 0.25em;
 }
 
@@ -611,9 +613,12 @@ header .logo img {
 .hero h1 {
   position: relative;
   display: inline-block;
-  margin-right: 2.35765%;
-  width: 100%;
+  width: 70%;
+  margin: 1.5em auto 0 auto;
+  float: none !important;
+  clear:both;
 }
+
 .hero h1:last-child {
   margin-right: 0;
 }
@@ -638,6 +643,8 @@ header .logo img {
   .hero {text-align: left;}
   .hero h1 {
     font-size: 1.5em !important;
+    padding:0 !important;
+    width:100% !important;
   }
 }
 
@@ -1714,6 +1721,10 @@ ul.menu-header .menu-item#navbar-login > a {
   .pricing-block {
     width: 100% !important;
   }
+}
+
+.hero.container{
+  width: 746px;
 }
 
 #pricing .container {
@@ -3842,8 +3853,8 @@ pre.language-curl .line-numbers > span:first-child:before {
 
 .description {
   padding: 0.7em 0;
-  margin: 1em 25% 1em 25%;
-  max-width: 50%;
+  margin: 1em 12% 1em 12%;
+  max-width: 76%;
 }
 
 #flash-bar {

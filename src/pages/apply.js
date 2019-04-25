@@ -29,12 +29,6 @@ export default function Apply() {
       </Hero>
 
 
-
-
-      {/*<Tracks
-        endSlice={null}
-      />*/}
-
       <ApplicationProcess
         headline="How to join"
         desc="Bridge is currently in invite-only beta."

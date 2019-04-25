@@ -46,7 +46,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active"><strong>Upfront:</strong> $500 deposit. $200 refund per completed skill track (up to 2). Total Cost: $100-$500.</td>
+                     <td class="plan-matrix-details active"><strong>Upfront:</strong> $500 deposit. $250 refund after completed. Total Cost: $250.</td>
                     <td class="plan-matrix-details active">
                       <strong>Upfront:</strong> $200 deposit. Deffered monthly payments until after being hired.  Maximum total cost: $9,500.</td>
                   </tr>

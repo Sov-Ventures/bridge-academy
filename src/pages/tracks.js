@@ -21,20 +21,17 @@ export default function TracksPage() {
       <Hero 
         headline="LevelUp Your Tech Career"
         firstDesc="Gain first-hand experience by working on side projects. Work alongside a personal mentor and find a new job."
-      >
-     
+      
 
-      <Tracks
-        endSlice={null}
-      />
+      >
 
       </Hero>
 
-
-
-
-
-
+     
+      <Tracks
+        endSlice={null}
+      />
+      
       <ApplicationProcess
         headline="How to join"
         desc="Bridge is currently in invite-only beta."
