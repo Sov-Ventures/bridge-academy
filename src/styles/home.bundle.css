@@ -643,6 +643,7 @@ header .logo img {
   .hero {text-align: left;}
   .hero h1 {
     font-size: 1.5em !important;
+    margin-top:.5em;
     padding:0 !important;
     width:100% !important;
   }
