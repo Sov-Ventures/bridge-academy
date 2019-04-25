@@ -38,7 +38,7 @@ class HomeHero extends Component {
             </h1>
 
             <p style={{ marginBottom: "0" }}>
-              Bridge is a globally distributed learning &amp; frontier-tech training community.
+              Bridge is a global learning &amp; frontier-tech training community.
             </p>
 
             <p style={{ marginBottom: "0" }}>
@@ -51,7 +51,7 @@ class HomeHero extends Component {
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our mission:</strong> Accelerating frontier technology development.&nbsp;<a
+              <strong>Our mission:</strong> Accelerating frontier-tech development.&nbsp;<a
                 href="https://medium.com/the-spectrum/%C6%80uilding-a-%C6%80ridge-to-the-%C6%80lockchain-economy-c1a25fd119bd"
                 target="_blank"
                 rel="noopener noreferrer"
