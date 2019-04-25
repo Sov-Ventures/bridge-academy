@@ -127,6 +127,10 @@ export default () => (
           <Link to="/partners">PARTNERS</Link>
         </li>
 
+        <li className="menu-item">
+              <a href="/tracks">TRACKS</a>
+          </li>
+
          <li className="menu-item">
               <a href="/community">COMMUNITY</a>
           </li>
