@@ -19,7 +19,7 @@ export default function Apply() {
   <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">     
       <Hero 
-        headline="Learn Frontier Technologies"
+        headline="Learn Frontier Technologies, by Doing"
         firstDesc="Work on your side project and meet like-minded technologists at global tech startups for mentorship and job opportunities."
       >
      

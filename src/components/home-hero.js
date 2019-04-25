@@ -9,7 +9,7 @@ class HomeHero extends Component {
       strings: [
         "Break into Blockchain",
         "Break into Full-stack",
-        "Break into Frontier-Tech",
+        "Break into Frontier Tech",
       ],
       typeSpeed: 50,
       startDelay: 120,
@@ -42,7 +42,7 @@ class HomeHero extends Component {
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our approach:</strong> A Project-based program based on peer &amp; mentor feedback.
+              <strong>Our approach:</strong> Project-based learning with peer &amp; mentor feedback.
             </p>
 
             <p style={{ marginBottom: "0" }}>
@@ -51,7 +51,7 @@ class HomeHero extends Component {
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our mission:</strong> Accelerating frontier-tech development.&nbsp;<a
+              <strong>Our mission:</strong> Accelerating technological progress.&nbsp;<a
                 href="https://medium.com/the-spectrum/%C6%80uilding-a-%C6%80ridge-to-the-%C6%80lockchain-economy-c1a25fd119bd"
                 target="_blank"
                 rel="noopener noreferrer"
