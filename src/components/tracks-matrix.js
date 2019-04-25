@@ -16,9 +16,9 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                     
 
                     </th>
-                    <th class="plan-matrix-details"><h4>Explorer Path</h4><br /><small>Good for exploring and dabbling with new technologies.</small>
+                    <th class="plan-matrix-details"><h4>Explorer Path</h4><br /><small>Ideal for exploring and dabbling with new technologies.</small>
                     </th>
-                    <th class="plan-matrix-details"><h4>Career Path</h4><br /><small>Good for transitioning into new roles or industries.</small></th>
+                    <th class="plan-matrix-details"><h4>Career Path</h4><br /><small>Ideal for transitioning into new roles or industries.</small></th>
                   </tr>
 
                   <tr>
@@ -49,7 +49,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active">Upfront: $500 deposit. $100 refund per completed skill track (up to 2). Maximum cost: $300.</td>
+                     <td class="plan-matrix-details active">Upfront: $500 deposit. $100 refund per completed skill track (up to 3). Maximum cost: $200.</td>
                     <td class="plan-matrix-details active">
                       Upfront: $200 deposit. Deffered monthly payments until after being hired.  Maximum cost: $9,500.</td>
                   </tr>

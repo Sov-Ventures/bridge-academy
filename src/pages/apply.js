@@ -19,8 +19,8 @@ export default function Apply() {
   <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">     
       <Hero 
-        headline="LevelUp Your Tech Skills"
-        firstDesc="Learn brand new frontier technologies by working on side projects. Meet like-minded technologists at global tech startups for mentorship and job opportunities."
+        headline="Learn Frontier Technologies"
+        firstDesc="Work on your side project and meet like-minded technologists at global tech startups for mentorship and job opportunities."
       >
      
       <PrimaryButton to="#plan-comparison">
