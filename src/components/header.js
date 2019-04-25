@@ -33,7 +33,7 @@ export default () => (
             <ul className="menu-skills">
               
               <li>
-                    <span className="dropdown-item-header">Tech Tracks</span>
+                    <span className="dropdown-item-header">Tech "Explorer" Tracks</span>
               </li>
 
               <li>

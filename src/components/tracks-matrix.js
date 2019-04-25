@@ -12,13 +12,10 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
               <table id="plan-matrix">
                 <thead>
                   <tr>
-                    <th class="plan-matrix-label">
-                    
-
+                  <th class="plan-matrix-details"><h4>Paths</h4><br /></th>
+                    <th class="plan-matrix-details"><big>Explorer Path</big><br /><small>Ideal for exploring and dabbling with new technologies.</small>
                     </th>
-                    <th class="plan-matrix-details"><h4>Explorer Path</h4><br /><small>Ideal for exploring and dabbling with new technologies.</small>
-                    </th>
-                    <th class="plan-matrix-details"><h4>Career Path</h4><br /><small>Ideal for transitioning into new roles or industries.</small></th>
+                    <th class="plan-matrix-details"><big>Career Path</big><br /><small>Ideal for transitioning into new roles or industries.</small></th>
                   </tr>
 
                   <tr>
@@ -189,6 +186,26 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   
 
       
+                  <tr>
+                    <th class="plan-matrix-label"></th>
+                    <th class="plan-matrix-details">
+                      <a
+                      className="btn btn-primary"
+                      href="https://apply.bridge.academy/b/lxshok/view"
+                       >
+                      Apply now
+                    </a>
+                    </th>
+                    <th class="plan-matrix-details">
+                     <a
+                      className="btn btn-primary"
+                      href="https://apply.bridge.academy/b/lxshok/view"
+                       >
+                      Apply now
+                    </a>
+                    </th>
+
+                  </tr>
                 
  
                      
