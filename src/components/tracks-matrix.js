@@ -6,7 +6,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
             <div class="container">
 
-              <h2 class="section-header"><big>Compare Paths</big></h2>
+              <h2 class="section-header"><big>Choose Your Own Path</big></h2>
 
 
               <table id="plan-matrix">
@@ -46,13 +46,19 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active">Upfront: $500 deposit. $100 refund per completed skill track (up to 3). Maximum cost: $200.</td>
+                     <td class="plan-matrix-details active"><strong>Upfront:</strong> $500 deposit. $200 refund per completed skill track (up to 2). Total Cost: $100-$500.</td>
                     <td class="plan-matrix-details active">
-                      Upfront: $200 deposit. Deffered monthly payments until after being hired.  Maximum cost: $9,500.</td>
+                      <strong>Upfront:</strong> $200 deposit. Deffered monthly payments until after being hired.  Maximum total cost: $9,500.</td>
                   </tr>
 
                   <tr>
-                    <td class="plan-matrix-label">Time</td>
+                    <td class="plan-matrix-label">Payment Options</td>
+                     <td class="plan-matrix-details active">Credit Card, Paypal or Crypto</td>
+                    <td class="plan-matrix-details active">Upfront or through our <a href="/candidate-agreement">deffered income agreement</a>.</td>
+                  </tr>
+
+                  <tr>
+                    <td class="plan-matrix-label">Time Commitment</td>
                      <td class="plan-matrix-details active">Go at your own pace</td>
                     <td class="plan-matrix-details active">3-6 months (part or full-time)</td>
                   </tr>
@@ -115,6 +121,17 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
     
 
 
+               <tr>
+                    <td class="plan-matrix-label">Additional Course Access  </td>
+                     <td class="plan-matrix-details active">
+                      $200 per course
+                     </td>
+                     <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Unlimited (free)
+                     </td>
+
+                  </tr>
+
                  <tr>
                     <td class="plan-matrix-label">Career Coaching </td>
                     <td class="plan-matrix-details active"></td>
@@ -144,16 +161,6 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   </tr>
 
 
-               <tr>
-                    <td class="plan-matrix-label">Lifetime Course Access  </td>
-                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> 
-                     </td>
-                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included
-                     </td>
-
-                  </tr>
 
                   <tr>
                     <td class="plan-matrix-label">Personal Mentor  </td>
