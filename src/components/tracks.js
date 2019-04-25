@@ -31,19 +31,19 @@ const tracks = [
   {
     name: "Career FastTrack",
     subhead: "For Senior Developers",
-    desc:"<ul><li><strong>Cost:</strong> $0 up-front.</li><li><strong>Minimal</strong> time committment.</li><li><strong>Includes:</strong> Interview Prep, Career Coaching/Mentoring &amp; Relevant Referrals</li></ul><p align='center'><a href='/tracks/fasttrack'>Learn More</a></p>",
+    desc:"<ul><li><strong>Cost:</strong> 15% Income for 1 year. Capped: $9,500 via <a href='/candidate-agreement'>agreement</a>.</li><li><strong>Minimal</strong> time committment.</li><li><strong>Includes:</strong> Interview Prep, Career Coaching/Mentoring &amp; Relevant Referrals</li></ul><p align='center'><a href='/tracks/fasttrack'>Learn More</a></p>",
     color: "#F3764B",
   },
   {
     name: "FullStack Career Track",
     subhead: "&nbsp;",
-    desc:"<ul><li><strong>Cost:</strong> $0 up-front.</li><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Node, React, Serverless, TDD, Graphql + Everything in FastTrack</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
+    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via <a href='/candidate-agreement'>agreement</a><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Node, React, Serverless, TDD, Graphql + Everything in FastTrack</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
     color: "#290f34",
   },
   {
     name: "Blockchain Career Track",
     subhead: "&nbsp;",
-    desc:"<ul><li><strong>Cost:</strong> $0 up-front.</li><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Smart Contracts & dApp development + Everything in FastTrack.</li></ul><p align='center'><a href='/tracks/blockchain' align='center'>Learn More</a></p>",
+    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via <a href='/candidate-agreement'>agreement</a><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Smart Contracts & dApp development + Everything in FastTrack.</li></ul><p align='center'><a href='/tracks/blockchain' align='center'>Learn More</a></p>",
     color: "#096ff0",
   },
   {

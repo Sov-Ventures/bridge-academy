@@ -23,9 +23,9 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                     <th class="plan-matrix-details">
                       <a
                       className="btn btn-primary"
-                      href="https://apply.bridge.academy/b/lxshok/view"
+                      href="https://apply.bridge.academy/b/vqcdrz/view"
                        >
-                      Apply now
+                      Join now
                     </a>
                     </th>
                     <th class="plan-matrix-details">
@@ -46,21 +46,20 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active"><strong>Upfront:</strong> $500 deposit. $250 refund after completed. Total Cost: $250.</td>
-                    <td class="plan-matrix-details active">
-                      <strong>Upfront:</strong> $200 deposit. Deffered monthly payments until after being hired.  Maximum total cost: $9,500.</td>
+                     <td class="plan-matrix-details active">$600 upfront or (6) $99 monthly payments + $99 back as a rebate after completion.</td>
+                    <td class="plan-matrix-details active">$600 refundable deposit or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
                   </tr>
 
                   <tr>
-                    <td class="plan-matrix-label">Payment Options</td>
+                    <td class="plan-matrix-label">Payment Plans</td>
                      <td class="plan-matrix-details active">Credit Card, Paypal or Crypto</td>
-                    <td class="plan-matrix-details active">Upfront or through our <a href="/candidate-agreement">deffered income agreement</a>.</td>
+                    <td class="plan-matrix-details active">Credit Card, Paypal or Crypto.</td>
                   </tr>
 
                   <tr>
                     <td class="plan-matrix-label">Time Commitment</td>
-                     <td class="plan-matrix-details active">Go at your own pace</td>
-                    <td class="plan-matrix-details active">3-6 months (part or full-time)</td>
+                     <td class="plan-matrix-details active">Estimated: 3 months, ~10hrs/week. Go at your own pace</td>
+                    <td class="plan-matrix-details active">3 months (ft: 40hrs/week), 6 months part-time (15-20hrs)</td>
                   </tr>
 
                  <tr>
@@ -113,7 +112,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   </tr>
 
                <tr>
-                    <td class="plan-matrix-label">Discord + Forum Access</td>
+                    <td class="plan-matrix-label">Community Chat + Forum Access</td>
                     <td class="plan-matrix-details"> <span class="ss-check"></span> Included</td>
                  <td class="plan-matrix-details"> <span class="ss-check"></span> Included</td>
    
@@ -124,7 +123,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                <tr>
                     <td class="plan-matrix-label">Additional Course Access  </td>
                      <td class="plan-matrix-details active">
-                      $200 per course
+                      10% discount on future courses
                      </td>
                      <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Unlimited (free)
@@ -151,7 +150,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   </tr>
 
           <tr>
-                    <td class="plan-matrix-label">Job Guarentee  </td>
+                    <td class="plan-matrix-label">Job Guarantee  </td>
                      <td class="plan-matrix-details active">
                      </td>
                      <td class="plan-matrix-details active">
@@ -198,9 +197,9 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                     <th class="plan-matrix-details">
                       <a
                       className="btn btn-primary"
-                      href="https://apply.bridge.academy/b/lxshok/view"
+                      href="https://apply.bridge.academy/b/vqcdrz/view"
                        >
-                      Apply now
+                      Join now
                     </a>
                     </th>
                     <th class="plan-matrix-details">
