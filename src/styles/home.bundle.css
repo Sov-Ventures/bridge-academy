@@ -1724,7 +1724,7 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 .hero.container{
-  width: 746px;
+  max-width: 746px;
 }
 
 #pricing .container {
