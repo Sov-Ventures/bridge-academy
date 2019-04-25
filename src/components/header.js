@@ -127,10 +127,6 @@ export default () => (
           <Link to="/partners">PARTNERS</Link>
         </li>
 
-        <li className="menu-item">
-              <a href="/tracks">TRACKS</a>
-          </li>
-
          <li className="menu-item">
               <a href="/community">COMMUNITY</a>
           </li>
@@ -168,6 +164,11 @@ export default () => (
             id="nav-links"
             className="nav navbar-nav  pull-right collapse navbar-collapse"
           >
+
+         <li className="menu-item">
+              <Link to="/tracks">TRACKS</Link>
+            </li>
+
             <li className="menu-item">
               <Link to="/mentors">MENTORS</Link>
             </li>
