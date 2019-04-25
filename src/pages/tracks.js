@@ -13,27 +13,27 @@ import TracksMatrix from "../components/tracks-matrix";
 
 import { faqData, processData } from "../api/data";
 
-export default function Apply() {
+export default function TracksPage() {
   return (
   <Fragment>
   <FlashBar />
-    <Layout seoTitle="Apply to Join Our Talent Network">     
+    <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
-        headline="LevelUp Your Tech Skills"
-        firstDesc="Learn brand new frontier technologies by working on side projects. Meet like-minded technologists at global tech startups for mentorship and job opportunities."
+        headline="LevelUp Your Tech Career"
+        firstDesc="Gain first-hand experience by working on side projects. Work alongside a personal mentor and find a new job."
       >
      
-      <PrimaryButton to="#plan-comparison">
-          Apply to join
-      </PrimaryButton>
+
+      <Tracks
+        endSlice={null}
+      />
+
       </Hero>
 
 
 
 
-      {/*<Tracks
-        endSlice={null}
-      />*/}
+
 
       <ApplicationProcess
         headline="How to join"

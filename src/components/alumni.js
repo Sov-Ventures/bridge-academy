@@ -75,7 +75,7 @@ export default function Alumni() {
         </h2>
 
         <p className="description">
-          Our graduates come from all over the world and from a very diverse set
+          Our members come from all over the world and from a very diverse set
           of backgrounds.
         </p>
 

@@ -9,7 +9,7 @@ class HomeHero extends Component {
       strings: [
         "Break into Blockchain",
         "Break into Full-stack",
-        "Break into Remote Work",
+        "Break into Frontier-Tech",
       ],
       typeSpeed: 50,
       startDelay: 120,
@@ -38,12 +38,11 @@ class HomeHero extends Component {
             </h1>
 
             <p style={{ marginBottom: "0" }}>
-              Bridge is a globally distributed training &amp; tech talent network.
+              Bridge is a globally distributed learning &amp; frontier-tech training community.
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our program:</strong> A project-based curriculum,
-             1:1 mentorship &amp; peer-to-peer learning.
+              <strong>Our approach:</strong> A Project-based program based on peer &amp; mentor feedback.
             </p>
 
             <p style={{ marginBottom: "0" }}>
@@ -52,9 +51,7 @@ class HomeHero extends Component {
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our mission:</strong> Enabling equal access to
-              opportunity.&nbsp;
-              <a
+              <strong>Our mission:</strong> Accelerating frontier technology development.&nbsp;<a
                 href="https://medium.com/the-spectrum/%C6%80uilding-a-%C6%80ridge-to-the-%C6%80lockchain-economy-c1a25fd119bd"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -78,7 +75,7 @@ class HomeHero extends Component {
                 type="button"
                 id="dropdownMenuButton"
               >
-              Apply to join
+              Learn more and apply
               </button>
 
 

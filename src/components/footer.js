@@ -22,6 +22,15 @@ export default function Footer() {
                 <Link to="/partners">PARTNERS</Link>
               </li>
 
+              <li className="menu-item">
+              <a href="/community">COMMUNITY</a>
+              </li>
+
+
+              <li className="menu-item">
+                <Link to="https://prism.io/#team">TEAM</Link>
+              </li>
+
               <li
                 style={{ marginTop: "4.5em" }}
                 id="menu-item-17"
@@ -33,7 +42,7 @@ export default function Footer() {
             </ul>
 
             <ul>
-              <li className="menu-item">Products</li>
+              <li className="menu-item">Our Products</li>
               <li className="menu-item">
                 <a href="https://xpo.network">Xpo.Network</a>
               </li>
@@ -42,6 +51,9 @@ export default function Footer() {
               </li>
             </ul>
           </section>
+
+
+
 
           <section className="social-links col-md-6 col-xs-pull">
             <h3>Follow along</h3>

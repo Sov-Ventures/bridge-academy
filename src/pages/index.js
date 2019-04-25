@@ -24,7 +24,7 @@ export default () => (
         data={processData}
       />
       <HiringPartners
-        headline="Featured Hiring Partners"
+        headline="Featured Technology Partners"
         desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
       >
@@ -40,8 +40,19 @@ export default () => (
 
       <Alumni />
 
+
       <Investors />
-    
+
+
+      <section>
+        <h2 class="section-header text-center"><big>Community Love</big></h2>
+        <p><a href="/community">See more</a></p>
+      </section>
+
+      <Tweets 
+        endSlice={3}
+      />
+
 
     </Layout>
   </Fragment>

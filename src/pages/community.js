@@ -12,7 +12,7 @@ export default function Community() {
     <Layout seoTitle="Community Love">
       <Hero 
         headline="Community Love"
-        firstDesc="The Bridge community is a passionate group of developers, mentors and technologists"
+        firstDesc="The Bridge community is a passionate group of developers, mentors and technology enthusiasts."
       />
       <Tweets 
         endSlice={null}

@@ -20,7 +20,7 @@ export default function FullStack() {
     <Layout seoTitle="FastTrack Your Career">
       <Hero
         headline="Career FastTrack"
-        subHeadline="$0 up-front. "
+        subHeadline="For Senior Developers. $0 up-front. "
         firstDesc="Your Bridge into a Silicon-valley tech career working remotely. Only make payments if you are earning at least a 25% higher salary."
         secondDesc="Includes: Interview Prep, Career Coaching/Mentoring & Relevant Intros & Job Referrals."
       >
@@ -38,7 +38,7 @@ export default function FullStack() {
         data={processData}
       />
       <HiringPartners
-        headline="Featured Hiring Partners"
+        headline="Featured Technology Partners"
         desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
       />

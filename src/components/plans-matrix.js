@@ -8,7 +8,6 @@ export default function PlansMatrix({ headline, desc, endSlice }) {
 
               <h2 class="section-header"><big>Compare Bridge</big></h2>
 
-              <p>Select the plan that works for you</p>
 
               <table id="plan-matrix">
                 <thead>

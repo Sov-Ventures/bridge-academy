@@ -13,7 +13,7 @@ export default function MentorsPage() {
     <FlashBar />
     <Layout seoTitle="Mentorship Info">
       <Hero
-        headline={`Becoming a Mentor`}
+        headline={`Becoming a Bridge Mentor`}
         firstDesc={`Take a moment to reflect on your career journey up until this point. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes?`}
         secondDesc={`If so, then becoming a Bridge Mentor could be for you.`}
       >
@@ -46,13 +46,13 @@ export default function MentorsPage() {
                     students who are looking for connections to the latest best
                     practices and practioners. Since our program is 100% online,
                     you'll be doing office hours and chats via your preferred
-                    method of online communication.{" "}
+                    method of online communication. We prefer Discord. {" "}
                   </p>
                 </div>
 
                 <div className="faq-item">
                   <h5>BENEFITS</h5>
-                  <p>1. One POC project of you and your mentee's choosing.</p>
+                  <p>1. One free sponsored project of you and your mentee's choosing.</p>
                   <p>
                     2. Access to our Private Discord group of mentors and
                     apprentices.

@@ -388,7 +388,7 @@ body h2 em {
 
 h1 {
   letter-spacing: -1px;
-  font-size: 2em;
+  font-size: 2.55em;
 }
 
 h2 {
@@ -1592,7 +1592,7 @@ ul.menu-header .menu-item#navbar-login > a {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 550px;
+  min-width: 600px;
   padding: 25px;
   margin: 2px 0 0;
   font-size: 14px;

@@ -36,7 +36,7 @@ export default function BlockChain() {
         data={processData}
       />
       <HiringPartners
-        headline="Featured Hiring Partners"
+        headline="Featured Technology Partners"
         desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
       />

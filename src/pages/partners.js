@@ -20,25 +20,26 @@ export default function PartnersPage() {
     <Layout seoTitle="Bridge for Hiring Partners">
       
       <Hero 
-        headline="Amplify your tech talent"
+        headline="Your Bridge to Global Tech Talent"
         firstDesc="We recruit and train global engineering talent on your tech stack, to help you scale your engineering efforts at the push of a button."
-      />
+      >
+      <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+          Join the waitlist
+        </PrimaryButton>
+      </Hero>
 
-      <Plans
+  
+
+      {/* 
+        <Plans
        
         endSlice={null}
       />
+      */}
 
-      <p style={{ width: "100%", padding: "1em 0"}}>
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
-          Join the waitlist
-        </PrimaryButton>
-        <div>or&nbsp;
-         <a href="#plan-comparison">Compare Plans</a>
-        </div>
-      </p>
 
-       <p style={{ width: "100%", padding: "1em 0"}}>
+
+       <p style={{ display:"none" ,width: "100%", padding: "1em 0"}}>
           We handle payroll, time tracking and upskilling for no cost.
           <br />Optional: Hire your developer in-house for a one-time $15k fee.
         </p>
@@ -122,7 +123,7 @@ export default function PartnersPage() {
       <FAQ data={partnersFAQData} />
 
       <HiringPartners
-        headline="Featured Hiring Partners"
+        headline="Featured Technology Partners"
         desc="Our hiring partners range from early-stage to later-stage startups."
       />
       <ReadyTo headline="Interested in becoming a hiring partner?">

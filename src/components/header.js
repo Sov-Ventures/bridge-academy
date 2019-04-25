@@ -23,7 +23,7 @@ export default () => (
             aria-haspopup="true"
             aria-expanded="false"
           >
-            PROGRAMS
+            TRACKS
           </Link>
 
           <div
@@ -31,17 +31,43 @@ export default () => (
             aria-labelledby="dropdownMenuButton1"
           >
             <ul className="menu-skills">
-          <li>
-                <span className="dropdown-item-header">Career "FastTracks"</span>
+              
+              <li>
+                    <span className="dropdown-item-header">Tech Tracks</span>
               </li>
 
               <li>
-                <Link className="dropdown-item" to="/tracks/fasttrack">
+                    dApp Development <span className="tag">(Coming)</span>
+              </li>
+   
+              <li>
+                    Serverless Development <span className="tag">(Coming)</span>
+              </li>
+
+              <li>
+                    Low-code/No-code <span className="tag">(Coming)</span>
+              </li>
+
+              <li>
+                    Machine Learning <span className="tag">(Coming)</span>
+              </li>
+              
+              <li>
+                    Unity / Unreal <span className="tag">(Coming)</span>
+              </li>
+
+               <li>
+                    MEAN Stack  <span className="tag">(Coming)</span>
+              </li>
+
+              <li>
+                <Link className="dropdown-item" to="/tracks">
                   <strong>
-                    For Senior Developers<span className="tag">New</span>
+                    <span>See All</span>
                   </strong>
                 </Link>
               </li>
+
             </ul>
 
             <ul>
@@ -52,7 +78,7 @@ export default () => (
               <li>
                 <Link className="dropdown-item" to="/tracks/fullstack">
                   <strong>
-                    Full-Stack Engineering <span className="tag">Career</span>
+                    Full-Stack Engineering <span className="tag">(Career)</span>
                   </strong>
                 </Link>
               </li>
@@ -60,25 +86,34 @@ export default () => (
               <li>
                 <Link className="dropdown-item" to="/tracks/blockchain">
                   <strong>
-                    Blockchain Engineering <span className="tag">Career</span>
+                    Blockchain Engineering <span className="tag">(Career)</span>
                   </strong>
                 </Link>
               </li>
 
               <li>
-                Backend Engineering <span className="tag">Coming</span>
+              <Link className="dropdown-item" to="/tracks/fasttrack">
+                  <strong>
+                    Fasttrack for Senior Devs<span className="tag">(New)</span>
+                  </strong>
+                </Link>
+
+                </li>
+
+              <li>
+                Backend Engineering <span className="tag">(Coming)</span>
               </li>
 
               <li>
-                DevOps Engineering <span className="tag">Coming</span>
+                DevOps Engineering <span className="tag">(Coming)</span>
               </li>
 
               <li>
-                Data Engineering <span className="tag">Coming</span>
+                Data Engineering <span className="tag">(Coming)</span>
               </li>
 
               <li>
-                AI/ML Engineering <span className="tag">Coming</span>
+                AI/ML Engineering <span className="tag">(Coming)</span>
               </li>
             </ul>
           </div>
@@ -89,7 +124,7 @@ export default () => (
         </li>
 
         <li className="menu-item">
-          <Link to="/partners">HIRING PARTNERS</Link>
+          <Link to="/partners">PARTNERS</Link>
         </li>
 
          <li className="menu-item">

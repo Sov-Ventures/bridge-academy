@@ -9,19 +9,19 @@ import kartik from "../img/home/kartik.jpg";
 
 export const processData = [
   {
-    headline: "Online Application",
+    headline: "Apply to join",
     desc:
-      "Complete a 10-15 minute application covering your background, goals, and experience.",
+      "Complete our short online application covering your background, skills and future goals.",
   },
   {
-    headline: "Fit Interview & Challenge",
+    headline: "Choose your path",
     desc:
-      "Take our short challenge to prove your skills, followed by a short interview to assess your fit for our program.",
+      "Select your area of focus from our different tracks. Some are career oriented, some just tools & technology oriented. ",
   },
   {
-    headline: "Accept & Start",
+    headline: "Kickoff your journey",
     desc:
-      "If accepted, we'll send you an offer. Select a payment plan, or choose from one of our financing options.",
+      "Once accepted, you'll be assigned a peer group or mentor to give feedback on your project. ",
   },
 ];
 

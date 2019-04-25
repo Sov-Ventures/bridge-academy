@@ -6,139 +6,189 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
             <div class="container">
 
-              <h2 class="section-header"><big>Compare Financing Options</big></h2>
+              <h2 class="section-header"><big>Compare Paths</big></h2>
 
-              <p>Select the plan that works for you</p>
 
               <table id="plan-matrix">
                 <thead>
                   <tr>
-                    <th class="plan-matrix-label"></th>
-                    <th class="plan-matrix-details">FastTrack</th>
-                    <th class="plan-matrix-details">LevelUp Career Track</th>
+                    <th class="plan-matrix-label">
+                    
+
+                    </th>
+                    <th class="plan-matrix-details"><h4>Explorer Path</h4><br /><small>Good for exploring and dabbling with new technologies.</small>
+                    </th>
+                    <th class="plan-matrix-details"><h4>Career Path</h4><br /><small>Good for transitioning into new roles or industries.</small></th>
                   </tr>
+
+                  <tr>
+                    <th class="plan-matrix-label"></th>
+                    <th class="plan-matrix-details">
+                      <a
+                      className="btn btn-primary"
+                      href="https://apply.bridge.academy/b/lxshok/view"
+                       >
+                      Apply now
+                    </a>
+                    </th>
+                    <th class="plan-matrix-details">
+                     <a
+                      className="btn btn-primary"
+                      href="https://apply.bridge.academy/b/lxshok/view"
+                       >
+                      Apply now
+                    </a>
+                    </th>
+
+                  </tr>
+
                 </thead>
 
                 <tbody>
-                  <tr>
-                    <td class="plan-matrix-label">Zero fee unless you get a job</td>
-                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included</td>
-                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included</td>
 
+
+                  <tr>
+                    <td class="plan-matrix-label">Costs</td>
+                     <td class="plan-matrix-details active">Upfront: $500 deposit. $100 refund per completed skill track (up to 2). Maximum cost: $300.</td>
+                    <td class="plan-matrix-details active">
+                      Upfront: $200 deposit. Deffered monthly payments until after being hired.  Maximum cost: $9,500.</td>
+                  </tr>
+
+                  <tr>
+                    <td class="plan-matrix-label">Time</td>
+                     <td class="plan-matrix-details active">Go at your own pace</td>
+                    <td class="plan-matrix-details active">3-6 months (part or full-time)</td>
                   </tr>
 
                  <tr>
-                    <td class="plan-matrix-label">Minimum repayment threshold  </td>
+                    <td class="plan-matrix-label">Currated Curriculum </td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> $3k USD /month</td>
+                      <span class="ss-check"></span> Included</td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> $2k USD /month</td>
+                      <span class="ss-check"></span> Included</td>
 
                   </tr>
+
+                <tr>
+                    <td class="plan-matrix-label">Side Project Ideas </td>
+                    <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included</td>
+                    <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included</td>
+
+                  </tr>
+
+                   <tr>
+                    <td class="plan-matrix-label">Paid Challenges </td>
+                    <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included</td>
+                    <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included</td>
+
+                  </tr>
+
 
                   <tr>
-                    <td class="plan-matrix-label">Deffered payment term</td>
-                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> 15% income for 12 months</td>
-                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> 15% income for 36 months</td>
-
-                  </tr>
-
-                 <tr>
-                    <td class="plan-matrix-label">Career Coach  </td>
-                    <td class="plan-matrix-details active"><span class="ss-check"></span> Included</td>
+                    <td class="plan-matrix-label">Job Board Access </td>
                     <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included</td>
-
+                    <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included</td>
+       
                   </tr>
+
+       
 
                   <tr>
-                    <td class="plan-matrix-label">Guaranteed Job Referrals </td>
-                    <td class="plan-matrix-details active">
+                    <td class="plan-matrix-label">Graduate Certificate  </td>
+                      <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included</td>
-                    <td class="plan-matrix-details active">
+       
+                     <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included</td>
-
-                  </tr>
-
-                     <tr>
-                    <td class="plan-matrix-label">Access to Interview Bank </td>
-                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included</td>
-                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included</td>
-
+       
                   </tr>
 
                <tr>
                     <td class="plan-matrix-label">Discord + Forum Access</td>
                     <td class="plan-matrix-details"> <span class="ss-check"></span> Included</td>
-                    <td class="plan-matrix-details">
-                      <span class="ss-check"></span> Included</td>
-
+                 <td class="plan-matrix-details"> <span class="ss-check"></span> Included</td>
+   
                   </tr>
     
 
 
-                  <tr>
-                    <td class="plan-matrix-label">Currated Curriculum </td>
-                      <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included
-                     </td>                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included</td>
+                 <tr>
+                    <td class="plan-matrix-label">Career Coaching </td>
+                    <td class="plan-matrix-details active"></td>
+                    <td class="plan-matrix-details active"><span class="ss-check"></span> Included</td>
 
                   </tr>
 
-               <tr>
-                    <td class="plan-matrix-label">Lifetime Course Access  </td>
-                    <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included
+
+                  <tr>
+                    <td class="plan-matrix-label">Personalized Curriculum </td>
+                      <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> 
+                     </td>
+                     <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included</td>
+  
+                  </tr>
+
+          <tr>
+                    <td class="plan-matrix-label">Job Guarentee  </td>
+                     <td class="plan-matrix-details active">
                      </td>
                      <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included
-                    </td>
+                     </td>
+
+                  </tr>
+
+
+               <tr>
+                    <td class="plan-matrix-label">Lifetime Course Access  </td>
+                     <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> 
+                     </td>
+                     <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> Included
+                     </td>
+
                   </tr>
 
                   <tr>
-                    <td class="plan-matrix-label">Dedicated Mentor  </td>
+                    <td class="plan-matrix-label">Personal Mentor  </td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> </td>
-                    <td class="plan-matrix-details active">
+                      </td>
+                      <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included</td>
-   
+       
                   </tr>
       
 
                   <tr>
                     <td class="plan-matrix-label">Lectures from top mentors</td>
                     <td class="plan-matrix-details">
-                      <span class="ss-check"></span> </td>
-                    <td class="plan-matrix-details">
+                      </td>
+                <td class="plan-matrix-details">
                       <span class="ss-check"></span> Included</td>
-
+  
                   </tr>
                   
 
                   <tr>
-                    <td class="plan-matrix-label">Teaching Assistant</td>
+                    <td class="plan-matrix-label">TA Support</td>
                     <td class="plan-matrix-details">
-                      <span class="ss-check"></span> </td>
-                    <td class="plan-matrix-details">
+                     </td>
+                   <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included</td>
-
+       
                   </tr>
                   
 
-                  <tr>
-                    <td class="plan-matrix-label">Course Certificate  </td>
-                    <td class="plan-matrix-details active"></td>
-                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included
-                    </td>
-                  </tr>
+      
                 
  
                      
