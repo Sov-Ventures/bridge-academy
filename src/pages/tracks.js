@@ -21,14 +21,14 @@ export default function TracksPage() {
     <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
         headline="Tech &amp; Career Tracks"
-        firstDesc="Gain hands-on experience with our explorer tech tracks or work alongside a personal mentor to develop your tech &amp; professional skills."
+        firstDesc="Gain hands-on experience exploring bleeding edge tools & tech alongside our community through our tech track.  Looking for a job? Work with a personal mentor to develop your tech &amp; professional skills to land your next gig."
       >
 
       </Hero>
 
 
      <TechTracks
-        headline="Technical 'Explorer' Tracks"
+        headline="Our Technical 'Explorer' Tracks"
         category="tech"
         endSlice={null}
       />
@@ -37,7 +37,7 @@ export default function TracksPage() {
 
 
       <CareerTracks
-        headline="Career 'LevelUp' Tracks"
+        headline="Our Career 'LevelUp' Tracks"
         category='career'
         endSlice={null}
       />
@@ -46,7 +46,7 @@ export default function TracksPage() {
 
       <ApplicationProcess
         headline="How to join"
-        desc="Bridge is currently in invite-only beta."
+        desc="Our simple three step process."
         data={processData}
       />
 

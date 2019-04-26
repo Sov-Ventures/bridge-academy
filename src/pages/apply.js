@@ -36,7 +36,7 @@ export default function Apply() {
 
       <ApplicationProcess
         headline="How to join"
-        desc="Bridge is currently in invite-only beta."
+        desc="Our simple three step process."
         data={processData}
       />
 
