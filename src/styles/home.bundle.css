@@ -3873,6 +3873,10 @@ pre.language-curl .line-numbers > span:first-child:before {
   }
 }
 
+.mentor img{
+  max-width:80%;
+}
+
 .hero .mentor img {
   float:right;
 }

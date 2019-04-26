@@ -37,7 +37,7 @@ export default () => (
               </li>
 
               <li>
-                  <Link className="dropdown-item" to="/tracks">
+                  <Link className="dropdown-item" to="/tracks#tech-tracks">
                     <strong>
                       Blockchain &amp; dApp Development <span className="tag"></span>
                       </strong>
@@ -45,7 +45,7 @@ export default () => (
               </li>
    
               <li>
-                <Link className="dropdown-item" to="/tracks">
+                <Link className="dropdown-item" to="/tracks#tech-tracks">
                   <strong>
                     Full Stack Web Development <span className="tag"></span>
                     </strong>
@@ -53,7 +53,7 @@ export default () => (
               </li>
 
               <li>
-                <Link className="dropdown-item" to="/tracks">
+                <Link className="dropdown-item" to="/tracks#tech-tracks">
                     <strong>
                       Introduction to Machine Learning <span className="tag"></span>
                     </strong>
@@ -61,7 +61,7 @@ export default () => (
               </li>
 
               <li>
-                 <Link className="dropdown-item" to="/tracks">
+                 <Link className="dropdown-item" to="/tracks#tech-tracks">
                    <strong>
                       Python for Data Science <span className="tag">(NEW)</span>
                     </strong>
@@ -69,7 +69,7 @@ export default () => (
               </li>
               
               <li>
-                <Link className="dropdown-item" to="/tracks">
+                <Link className="dropdown-item" to="/tracks#tech-tracks">
                     <strong>
                       Intro to Modern DevOps <span className="tag">(NEW)</span>
                     </strong>

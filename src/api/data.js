@@ -11,17 +11,17 @@ export const processData = [
   {
     headline: "Apply to join",
     desc:
-      "Complete our short online application covering your background, skills and future goals.",
+      "Complete our short online application covering your background, passions, skills and future goals.",
   },
   {
     headline: "Choose your path",
     desc:
-      "Select your area of focus from our different tracks. Some are career oriented, some just tools & technology oriented. ",
+      "Select your area of focus from our different tracks. Some are career oriented, some are tools & technology oriented. ",
   },
   {
     headline: "Kickoff your journey",
     desc:
-      "Once accepted, you'll be assigned a peer group or mentor to give feedback on your project. ",
+      "Once accepted, you'll be assigned a peer group or mentor to give you feedback on your progress and capstone project. ",
   },
 ];
 
