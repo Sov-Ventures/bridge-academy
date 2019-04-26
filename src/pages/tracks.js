@@ -8,7 +8,8 @@ import ReadyTo from "../components/readyTo";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
 import Mentors from "../components/mentors";
-import Tracks from "../components/tracks";
+import CareerTracks from "../components/career-tracks";
+import TechTracks from "../components/tech-tracks";
 import TracksMatrix from "../components/tracks-matrix";
 
 import { faqData, processData } from "../api/data";
@@ -19,19 +20,30 @@ export default function TracksPage() {
   <FlashBar />
     <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
-        headline="LevelUp Your Tech Career"
-        firstDesc="Gain first-hand experience by working on side projects. Work alongside a personal mentor and find a new job."
-      
-
+        headline="Tech &amp; Career Tracks"
+        firstDesc="Gain hands-on experience with our explorer tech tracks or work alongside a personal mentor to develop your tech &amp; professional skills."
       >
 
       </Hero>
 
-     
-      <Tracks
+
+     <TechTracks
+        headline="Technical 'Explorer' Tracks"
+        category="tech"
         endSlice={null}
       />
-      
+
+      <section><br /><br /><br /></section>
+
+
+      <CareerTracks
+        headline="Career 'LevelUp' Tracks"
+        category='career'
+        endSlice={null}
+      />
+
+
+
       <ApplicationProcess
         headline="How to join"
         desc="Bridge is currently in invite-only beta."

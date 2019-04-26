@@ -12,10 +12,10 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
               <table id="plan-matrix">
                 <thead>
                   <tr>
-                  <th class="plan-matrix-details"><h4>Paths</h4><br /></th>
-                    <th class="plan-matrix-details"><big>Explorer Path</big><br /><small>Ideal for exploring and dabbling with new technologies.</small>
+                  <th class="plan-matrix-details "><h4>Paths</h4><br /></th>
+                    <th class="plan-matrix-details"><big>Explorer Path</big><br /><small>Ideal for exploring and dabbling with new technologies. <a href="/tracks">See tracks.</a></small>
                     </th>
-                    <th class="plan-matrix-details"><big>Career Path</big><br /><small>Ideal for transitioning into new roles or industries.</small></th>
+                    <th class="plan-matrix-details"><big>Career Path</big><br /><small>Ideal for transitioning into new roles or industries. <a href="/tracks#career-tracks">See tracks.</a></small></th>
                   </tr>
 
                   <tr>

@@ -23,7 +23,7 @@ export default () => (
             aria-haspopup="true"
             aria-expanded="false"
           >
-            TRACKS
+            EXPLORE
           </Link>
 
           <div
@@ -37,28 +37,52 @@ export default () => (
               </li>
 
               <li>
-                    dApp Development <span className="tag">(Coming)</span>
+                  <Link className="dropdown-item" to="/tracks">
+                    <strong>
+                      Blockchain &amp; dApp Development <span className="tag"></span>
+                      </strong>
+                  </Link>
               </li>
    
               <li>
-                    Serverless Development <span className="tag">(Coming)</span>
+                <Link className="dropdown-item" to="/tracks">
+                  <strong>
+                    Full Stack Web Development <span className="tag"></span>
+                    </strong>
+                  </Link>              
               </li>
 
               <li>
-                    Low-code/No-code <span className="tag">(Coming)</span>
+                <Link className="dropdown-item" to="/tracks">
+                    <strong>
+                      Introduction to Machine Learning <span className="tag"></span>
+                    </strong>
+                  </Link>              
               </li>
 
               <li>
-                    Machine Learning <span className="tag">(Coming)</span>
+                 <Link className="dropdown-item" to="/tracks">
+                   <strong>
+                      Python for Data Science <span className="tag">(NEW)</span>
+                    </strong>
+                  </Link>
               </li>
               
               <li>
-                    Unity / Unreal <span className="tag">(Coming)</span>
+                <Link className="dropdown-item" to="/tracks">
+                    <strong>
+                      Intro to Modern DevOps <span className="tag">(NEW)</span>
+                    </strong>
+                  </Link>              
               </li>
 
                <li>
-                    MEAN Stack  <span className="tag">(Coming)</span>
-              </li>
+                <Link className="dropdown-item" to="/tracks">
+                   <strong>
+                      Building Low/No Code Apps <span className="tag">(NEW)</span>
+                    </strong>
+                  </Link>              
+                </li>
 
               <li>
                 <Link className="dropdown-item" to="/tracks">
@@ -166,7 +190,7 @@ export default () => (
           >
 
          <li className="menu-item">
-              <Link to="/tracks">TRACKS</Link>
+              <Link to="/tracks">EXPLORE</Link>
             </li>
 
             <li className="menu-item">

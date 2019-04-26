@@ -642,7 +642,7 @@ header .logo img {
 @media screen and (max-width: 50em) {
   .hero {text-align: left;}
   .hero h1 {
-    font-size: 1.5em !important;
+    font-size: 1.75em !important;
     margin-top:.5em;
     padding:0 !important;
     width:100% !important;
@@ -1004,17 +1004,23 @@ section.hero.explore-page .raised-paper {
   margin-top: 6em;
 }
 
-section#explore-communities {
+section.explore-communities {
 
 }
-section#explore-communities .community-item.card {
+
+section.explore-communities .community-item.card {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
   border: solid 1px #eeeeee;
   border-radius: 4px;
   margin: 1em 0;
+  padding:1.5em;
   overflow: hidden;
 }
-section#explore-communities .community-item.card .card-img-top {
+section.explore-communities .community-item.card .card-desc {
+  margin-bottom:2em;
+}
+
+section.explore-communities .community-item.card .card-img-top {
   min-height: 150px;
   display: flex;
   flex-direction: row;
@@ -1022,27 +1028,27 @@ section#explore-communities .community-item.card .card-img-top {
   align-items: center;
   text-align: center;
 }
-section#explore-communities .community-item.card .card-img-top img {
+section.explore-communities .community-item.card .card-img-top img {
   max-height: 100%;
   max-width: 70%;
 }
-section#explore-communities .community-item.card .card-body {
+section.explore-communities .community-item.card .card-body {
   text-align: left;
-  padding: 1em;
+  padding: .25em;
 }
-section#explore-communities .community-item.card .card-footer {
+section.explore-communities .community-item.card .card-footer {
   border-top: solid 1px #dddddd;
   padding: 1em;
   overflow: hidden;
 }
-section#explore-communities .community-item.card .card-footer .ss-icon {
+section.explore-communities .community-item.card .card-footer .ss-icon {
   position: relative;
   top: 2px;
 }
-section#explore-communities .community-item.card .avatars {
+section.explore-communities .community-item.card .avatars {
   overflow: hidden;
 }
-section#explore-communities .community-item.card .avatars .avatar {
+section.explore-communities .community-item.card .avatars .avatar {
   float: right;
   display: inline-block;
   width: 2em;
@@ -1053,12 +1059,12 @@ section#explore-communities .community-item.card .avatars .avatar {
   line-height: 2em;
   background-color: #92c9e6;
 }
-section#explore-communities .community-item.card .avatars .avatar img {
+section.explore-communities .community-item.card .avatars .avatar img {
   width: 100%;
   height: auto;
   border-radius: 50%;
 }
-section#explore-communities
+section.explore-communities
   .community-item.card
   .avatars
   .avatar:not(:first-child) {
@@ -1981,6 +1987,11 @@ ul.menu-header .menu-item#navbar-login > a {
   color: black;
 }
 
+.career-tracks .card,
+.tech-tracks .card{
+  padding:1.75em ;
+}
+
 h3.card-name {margin-bottom:0;}
 
 .card-desc ul {
@@ -2392,6 +2403,16 @@ h3.card-name {margin-bottom:0;}
   #faq-items .faq-item {
     width: 100%;
   }
+  .table-column-2 {
+    width: 50% !important;
+  }
+  .table-group-label-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
 }
 
 #nav-links {

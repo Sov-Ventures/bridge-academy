@@ -64,14 +64,14 @@ const partners = [
     name: "Zeppelin",
     image: zeppelin,
     desc:
-      "Zeppelin builds key infrastructure to develop and operate smart contract systems and conducts security audits.",
+      "Zeppelin builds key infrastructure for smart contract systems & security audits.",
     color: "#0e3368",
   },
   {
     name: "OpenSea",
     image: opensea,
     desc:
-      "The world’s largest digital marketplace for crypto collectibles. Buy, sell, and discover new assets.",
+      "The world’s largest marketplace for digital collectibles. Buy, sell, and discover new assets.",
     color: "#fcfcfc",
   },
   {

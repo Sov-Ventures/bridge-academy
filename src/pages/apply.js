@@ -8,8 +8,9 @@ import ReadyTo from "../components/readyTo";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
 import Mentors from "../components/mentors";
-import Tracks from "../components/tracks";
 import TracksMatrix from "../components/tracks-matrix";
+import { Link } from "gatsby";
+
 
 import { faqData, processData } from "../api/data";
 
@@ -24,10 +25,14 @@ export default function Apply() {
       >
      
       <PrimaryButton to="#plan-comparison">
-          Apply to join
+          Choose your path
       </PrimaryButton>
       </Hero>
 
+
+      <p>
+        <Link to="/tracks">See All Tracks.</Link>
+      </p>
 
       <ApplicationProcess
         headline="How to join"
