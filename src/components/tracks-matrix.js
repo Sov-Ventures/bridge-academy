@@ -46,7 +46,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active">$600 upfront or (6) $99 monthly payments + $99 back as a rebate after completion.</td>
+                     <td class="plan-matrix-details active">$600 up-front (or $110/mo for 6-months) minus $100 rebate on program completion.</td>
                     <td class="plan-matrix-details active">$600 refundable deposit or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
                   </tr>
 

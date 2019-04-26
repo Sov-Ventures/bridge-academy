@@ -11,6 +11,7 @@ import Mentors from "../components/mentors";
 import CareerTracks from "../components/career-tracks";
 import TechTracks from "../components/tech-tracks";
 import TracksMatrix from "../components/tracks-matrix";
+import { Link } from "gatsby";
 
 import { faqData, processData } from "../api/data";
 
@@ -27,10 +28,9 @@ export default function TracksPage() {
         <PrimaryButton to="#tech-tracks">
           Explore tech tracks
         </PrimaryButton>
-
-      <PrimaryButton to="#tech-tracks">
-          Explore career tracks
-        </PrimaryButton>
+      <p>
+        <Link to="/tracks#career-tracks">Explore Career Tracks.</Link>
+      </p>
 
       </Hero>
 

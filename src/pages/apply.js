@@ -27,12 +27,13 @@ export default function Apply() {
       <PrimaryButton to="#plan-comparison">
           Choose your path
       </PrimaryButton>
-      </Hero>
-
-
       <p>
         <Link to="/tracks">See All Tracks.</Link>
       </p>
+      </Hero>
+
+
+
 
       <ApplicationProcess
         headline="How to join"
