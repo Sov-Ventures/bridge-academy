@@ -25,14 +25,21 @@ export default function TracksPage() {
       >
 
         <PrimaryButton to="#tech-tracks">
-          See tech explorer tracks
+          Explore tech tracks
+        </PrimaryButton>
+
+      <PrimaryButton to="#tech-tracks">
+          Explore career tracks
         </PrimaryButton>
 
       </Hero>
 
+      <section><br /><br /><br /></section>
+
 
      <TechTracks
         headline="Our Technical 'Explorer' Tracks"
+        desc="Take part-time and set your own pace."
         category="tech"
         endSlice={null}
       />
@@ -42,6 +49,7 @@ export default function TracksPage() {
 
       <CareerTracks
         headline="Our Career 'LevelUp' Tracks"
+        desc="Part-time in 6 months @ 20hrs/week. Full-time in 3 months @ 40hrs/week."
         category='career'
         endSlice={null}
       />
