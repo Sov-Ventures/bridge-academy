@@ -99,10 +99,19 @@ export default () => (
                 <span className="dropdown-item-header">Career "LevelUp" Tracks</span>
               </li>
 
+               <li>
+              <Link className="dropdown-item" to="/tracks/fasttrack">
+                  <strong>
+                    Career FastTrack<span className="tag">(New)</span>
+                  </strong>
+                </Link>
+
+                </li>
+
               <li>
                 <Link className="dropdown-item" to="/tracks/fullstack">
                   <strong>
-                    Full-Stack Engineering <span className="tag">(Career)</span>
+                    FullStack Developer <span className="tag">(Career)</span>
                   </strong>
                 </Link>
               </li>
@@ -110,35 +119,23 @@ export default () => (
               <li>
                 <Link className="dropdown-item" to="/tracks/blockchain">
                   <strong>
-                    Blockchain Engineering <span className="tag">(Career)</span>
+                    Blockchain Engineer <span className="tag">(Career)</span>
                   </strong>
                 </Link>
               </li>
 
               <li>
-              <Link className="dropdown-item" to="/tracks/fasttrack">
-                  <strong>
-                    Fasttrack for Senior Devs<span className="tag">(New)</span>
-                  </strong>
-                </Link>
-
-                </li>
-
-              <li>
-                Backend Engineering <span className="tag">(Coming)</span>
+                Data Engineer <span className="tag">(Coming)</span>
               </li>
 
               <li>
-                DevOps Engineering <span className="tag">(Coming)</span>
+                DevOps Engineer <span className="tag">(Coming)</span>
               </li>
 
               <li>
-                Data Engineering <span className="tag">(Coming)</span>
+                AI/ML Engineer <span className="tag">(Coming)</span>
               </li>
 
-              <li>
-                AI/ML Engineering <span className="tag">(Coming)</span>
-              </li>
             </ul>
           </div>
         </li>

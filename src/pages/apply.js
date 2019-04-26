@@ -21,7 +21,7 @@ export default function Apply() {
     <Layout seoTitle="Apply to Join Our Talent Network">     
       <Hero 
         headline="Learn Frontier Technologies, by Doing"
-        firstDesc="Work on your side project and meet like-minded technologists at global tech startups for mentorship and job opportunities."
+        firstDesc="Our program is 100% project-based, because we think that's the best way to learn. Pick up bleeding edge tech tools and tactics and meet like-minded technologists at global tech startups for mentorship and job opportunities."
       >
      
       <PrimaryButton to="#plan-comparison">

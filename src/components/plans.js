@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Plans({ headline, desc, endSlice }) {
   return (
-    <section id="explore-communities">
+    <section class="explore-communities">
       <div id="plans" className="container">
         <div className="communities-container row">
           {plans.slice(0, endSlice || plans.length).map(plan => (

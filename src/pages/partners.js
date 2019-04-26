@@ -46,7 +46,7 @@ export default function PartnersPage() {
 
       <ApplicationProcess
         headline="How it works"
-        desc="Bridge's talent-as-a-service model offers a turn-key solution to team building and talent augmentation."
+        desc="Bridge's talent-as-a-service model offers a turn-key solution to team building."
         data={partnersProcessData}
       />
 

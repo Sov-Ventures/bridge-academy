@@ -14,7 +14,7 @@ export default function CareerTracks({ headline, desc, endSlice, category }) {
               <div key={track.name} className="col-md-4">
               <div className="community-item card">
                 <h3 className="card-name" dangerouslySetInnerHTML={{ __html: track.name }} />
-                <small dangerouslySetInnerHTML={{ __html: track.subhead }} />
+                <p dangerouslySetInnerHTML={{ __html: track.subhead }} />
                 <div className="card-body">
                 <div className="card-desc" dangerouslySetInnerHTML={{ __html: track.desc }} />
                   <p align="center"><a class="btn btn-primary" href={track.link}>Apply Now</a></p>
@@ -40,8 +40,8 @@ const tracks = [
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview',
   },
   {
-    name: "FullStack Career Track",
-    subhead: "&nbsp;",
+    name: "FullStack Developer",
+    subhead: "Career Track",
     desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Node, React, Serverless, TDD, Graphql + Everything in FastTrack</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
     color: "#290f34",
     category: 'career',
@@ -49,8 +49,8 @@ const tracks = [
 
   },
   {
-    name: "Blockchain Career Track",
-    subhead: "&nbsp;",
+    name: "Blockchain Engineer",
+    subhead: "Career Track",
     desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Smart Contracts & dApp development + Everything in FastTrack.</li></ul><p align='center'><a href='/tracks/blockchain' align='center'>Learn More</a></p>",
     color: "#096ff0",
     category: 'career',
@@ -58,7 +58,8 @@ const tracks = [
 
   },
   {
-    name: "Data Eng Career Track",
+    name: "Data Engineer",
+    subhead: "Career Track",
     desc:"<p align='center'>Coming soon! Pre-apply now.</p>",
     color: "#0e3368",
     category: 'career',
@@ -66,7 +67,8 @@ const tracks = [
 
   },
   {
-    name: "DevOps Career Track",
+    name: "DevOps Engineer",
+    subhead: "Career Track",
     desc: "<p align='center'>Coming soon! Pre-apply now.</p>",
     color: "#fcfcfc",
     category: 'career',
@@ -74,7 +76,8 @@ const tracks = [
 
   },
   {
-    name: "AI/ML Career Track",
+    name: "AI/ML Engineer",
+    subhead: "Career Track",
     desc:"<p align='center'>Coming soon! Pre-apply now.</p>",
     color: "#000000",
     category: 'career',

@@ -8,7 +8,7 @@ import terminal from "../img/home/terminal.png";
 
 export default function HiringPartners({ headline, desc, endSlice }) {
   return (
-    <section id="explore-communities">
+    <section class="explore-communities">
       <div id="partners" className="container">
         <h2 className="section-header">
           <big>
@@ -71,14 +71,14 @@ const partners = [
     name: "OpenSea",
     image: opensea,
     desc:
-      "The world’s largest marketplace for digital collectibles. Buy, sell, and discover new assets.",
+      "OpenSea is the world’s largest marketplace for digital collectibles. Buy, sell, and discover new assets.",
     color: "#fcfcfc",
   },
   {
     name: "Terminal",
     image: terminal,
     desc:
-      "Terminal.co is a blockchain focused startup currently in stealth-mode.",
+      "Terminal.co is a blockchain-based focused startup currently operating in stealth-mode and coming soon.",
     color: "#000000",
   },
 ];

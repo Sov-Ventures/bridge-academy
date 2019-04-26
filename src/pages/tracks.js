@@ -24,6 +24,10 @@ export default function TracksPage() {
         firstDesc="Gain hands-on experience exploring bleeding edge tools & tech alongside our community through our tech track.  Looking for a job? Work with a personal mentor to develop your tech &amp; professional skills to land your next gig."
       >
 
+        <PrimaryButton to="#tech-tracks">
+          See tech explorer tracks
+        </PrimaryButton>
+
       </Hero>
 
 
