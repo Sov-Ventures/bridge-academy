@@ -2384,7 +2384,7 @@ h3.card-name {margin-bottom:0;}
 
 #plan-matrix td,
 #plan-matrix th {
-  padding: 1.5em;
+  padding: 1em;
   text-align: left;
 }
 
@@ -2404,6 +2404,10 @@ h3.card-name {margin-bottom:0;}
 }
 
 @media screen and (max-width: 56em) {
+
+  .plan-matrix-label{
+    display:none;
+  }
   #faq-items .faq-item {
     width: 100%;
   }
