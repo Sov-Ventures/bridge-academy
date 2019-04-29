@@ -38,11 +38,11 @@ class HomeHero extends Component {
             </h1>
 
             <p style={{ marginBottom: "0" }}>
-              Bridge is a global learning &amp; frontier-tech training community.
+              Bridge is a global community of top startups &amp; technologists.
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              <strong>Our approach:</strong> Project-based learning with peer &amp; mentor feedback.
+              Our members come to learn about new technologies, get peer &amp; mentor feedback on their projects and discover new opportunities.
             </p>
 
             <p style={{ marginBottom: "0" }}>

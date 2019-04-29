@@ -21,7 +21,7 @@ export default function PartnersPage() {
       
       <Hero 
         headline="Your Bridge to Global Tech Talent"
-        firstDesc="We recruit and train global engineering talent on your tech stack, to help you scale your engineering efforts at the push of a button."
+        firstDesc="Tap into our community of top global technologists and engineers, to help you scale your vision."
       >
       <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
           Join the waitlist
@@ -46,7 +46,7 @@ export default function PartnersPage() {
 
       <ApplicationProcess
         headline="How it works"
-        desc="Bridge's talent-as-a-service model offers a turn-key solution to team building."
+        desc="We make technical team building as simple as pushing a button."
         data={partnersProcessData}
       />
 

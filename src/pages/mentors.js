@@ -14,8 +14,7 @@ export default function MentorsPage() {
     <Layout seoTitle="Mentorship Info">
       <Hero
         headline={`Becoming a Bridge Mentor`}
-        firstDesc={`Take a moment to reflect on your career journey up until this point. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes?`}
-        secondDesc={`If so, then becoming a Bridge Mentor could be for you.`}
+        firstDesc={`Take a moment to reflect on your career journey up until this point. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes? If so, then becoming a Bridge Mentor could be for you.`}
       >
         <PrimaryButton to="https://apply.bridge.academy/b/zjvgu7/view">
           Apply to become a mentor

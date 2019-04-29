@@ -46,24 +46,30 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active">$600 up-front (or $110/mo for 6-months) minus $100 rebate on program completion.</td>
+                     <td class="plan-matrix-details active">$299 up-front (or $110/mo for 3-months) minus $100 rebate on program completion.</td>
                     <td class="plan-matrix-details active">$600 refundable deposit or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
                   </tr>
 
                   <tr>
-                    <td class="plan-matrix-label">Payment Plans</td>
+                    <td class="plan-matrix-label">Scholarships Available</td>
+                     <td class="plan-matrix-details active">Need-based Scholarships</td>
+                    <td class="plan-matrix-details active">Can be earned through 'explore' program.</td>
+                  </tr>
+
+                  <tr>
+                    <td class="plan-matrix-label">Payment Methods</td>
                      <td class="plan-matrix-details active">Credit Card, Paypal or Crypto</td>
                     <td class="plan-matrix-details active">Credit Card, Paypal or Crypto.</td>
                   </tr>
 
                   <tr>
                     <td class="plan-matrix-label">Time Commitment</td>
-                     <td class="plan-matrix-details active">Estimated: 3 months, ~10hrs/week. Go at your own pace</td>
-                    <td class="plan-matrix-details active">3 months (ft: 40hrs/week), 6 months part-time (15-20hrs)</td>
+                     <td class="plan-matrix-details active">Go at your own pace. Average completion: 3 months, ~10hrs/week.</td>
+                    <td class="plan-matrix-details active">3 months (ft: 40hrs/week) <br />6 months part-time (15-20hrs)</td>
                   </tr>
 
                  <tr>
-                    <td class="plan-matrix-label">Currated Curriculum </td>
+                    <td class="plan-matrix-label">Currated Tutorials </td>
                     <td class="plan-matrix-details active">
                       <span class="ss-check"></span> Included</td>
                     <td class="plan-matrix-details active">
@@ -81,11 +87,11 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   </tr>
 
                    <tr>
-                    <td class="plan-matrix-label">Paid Challenges </td>
+                    <td class="plan-matrix-label">Sponsored Projects </td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included</td>
+                      <span class="ss-check"></span> Available</td>
                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Included</td>
+                      <span class="ss-check"></span> Available</td>
 
                   </tr>
 
@@ -121,13 +127,23 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
 
                <tr>
-                    <td class="plan-matrix-label">Additional Course Access  </td>
+                    <td class="plan-matrix-label">Additional Course Discount  </td>
                      <td class="plan-matrix-details active">
                       10% discount on future courses
                      </td>
                      <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Unlimited (free)
+                      <span class="ss-check"></span> Free for life
                      </td>
+
+                  </tr>
+
+               <tr>
+                    <td class="plan-matrix-label">Hiring bonus  </td>
+                     <td class="plan-matrix-details active">
+                      $500 Bonus if you join a hiring partner
+                     </td>
+                     <td class="plan-matrix-details active">
+                      <span class="ss-check"></span> N/A</td>
 
                   </tr>
 

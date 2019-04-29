@@ -20,8 +20,8 @@ export default function Apply() {
   <FlashBar />
     <Layout seoTitle="Apply to Join Our Talent Network">     
       <Hero 
-        headline="Learn Frontier Technologies, by Doing"
-        firstDesc="Our program is 100% project-based, because we think that's the best way to learn. Pick up bleeding edge tech tools and tactics and meet like-minded technologists at global tech startups for mentorship and job opportunities."
+        headline="Turn your passion project into your next career"
+        firstDesc="Learn new skills along-side like-minded technologists and access our network of global tech startups for mentorship and career opportunities. All of our programs are 100% project-based, because we think that's the best way to pick up new skills."
       >
      
       <PrimaryButton to="#plan-comparison">
@@ -51,7 +51,7 @@ export default function Apply() {
         endSlice={null}
       />
 
-      <ReadyTo headline="Interested in becoming a hiring partner?">
+      <ReadyTo headline="Interested in becoming a technology partner?">
         <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
          Join the Waitlist
         </PrimaryButton>

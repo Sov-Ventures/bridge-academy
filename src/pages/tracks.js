@@ -22,7 +22,7 @@ export default function TracksPage() {
     <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
         headline="Tech &amp; Career Tracks"
-        firstDesc="Gain hands-on experience exploring bleeding edge tools & tech alongside our community through our tech track.  Looking for a job? Work with a personal mentor to develop your tech &amp; professional skills to land your next gig."
+        firstDesc="Gain hands-on experience learning bleeding edge tools & tech alongside our community through one of our tech explorer tracks.  Looking for a new job? Work with a personal mentor to develop your tech &amp; professional skills to land your next opportunity via our career 'levelup' program."
       >
 
         <PrimaryButton to="#tech-tracks">
@@ -39,7 +39,7 @@ export default function TracksPage() {
 
      <TechTracks
         headline="Our Technical 'Explorer' Tracks"
-        desc="Take part-time and set your own pace."
+        desc="Take part-time and go at your own pace. Each track has Beginner, Intermediate & Advanced Sub-Tracks."
         category="tech"
         endSlice={null}
       />

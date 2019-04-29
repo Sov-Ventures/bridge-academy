@@ -11,7 +11,7 @@ export const processData = [
   {
     headline: "Apply to join",
     desc:
-      "Complete our short online application covering your background, passions, skills and future goals.",
+      "Complete our short online application covering your background, passions, skills, project idea(s) and future goals.",
   },
   {
     headline: "Choose your path",
@@ -21,7 +21,7 @@ export const processData = [
   {
     headline: "Kickoff your journey",
     desc:
-      "Once accepted, you'll be assigned a peer group or mentor to give you feedback on your progress and capstone project. ",
+      "Once accepted, you'll gain access to our community forum, chat and knowledge portal to ask questions and receive project feedback. ",
   },
 ];
 

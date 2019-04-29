@@ -55,7 +55,7 @@ export default () => (
               <li>
                 <Link className="dropdown-item" to="/tracks#tech-tracks">
                     <strong>
-                      Introduction to Machine Learning <span className="tag"></span>
+                      AI &amp; Machine Learning <span className="tag"></span>
                     </strong>
                   </Link>              
               </li>
@@ -63,31 +63,25 @@ export default () => (
               <li>
                  <Link className="dropdown-item" to="/tracks#tech-tracks">
                    <strong>
-                      Python for Data Science <span className="tag">(NEW)</span>
+                      Data Science <span className="tag">(NEW)</span>
                     </strong>
                   </Link>
               </li>
               
-              <li>
-                <Link className="dropdown-item" to="/tracks#tech-tracks">
-                    <strong>
-                      Intro to Modern DevOps <span className="tag">(NEW)</span>
-                    </strong>
-                  </Link>              
-              </li>
+     
 
                <li>
                 <Link className="dropdown-item" to="/tracks">
                    <strong>
-                      Building Low/No Code Apps <span className="tag">(NEW)</span>
+                      Low/No-Code Apps <span className="tag">(NEW)</span>
                     </strong>
                   </Link>              
                 </li>
 
               <li>
-                <Link className="dropdown-item" to="/tracks">
+                <Link className="dropdown-item" to="/tracks#tech-tracks">
                   <strong>
-                    <span>See All</span>
+                    <span>See All (5)</span>
                   </strong>
                 </Link>
               </li>
@@ -148,6 +142,11 @@ export default () => (
           <Link to="/partners">PARTNERS</Link>
         </li>
 
+          <li className="menu-item">
+              <a href="https://jobs.bridge.academy">CAREERS</a>
+          </li>
+
+
          <li className="menu-item">
               <a href="/community">COMMUNITY</a>
           </li>
@@ -195,7 +194,7 @@ export default () => (
             </li>
 
             <li className="menu-item">
-              <Link to="/partners">HIRING PARTNERS</Link>
+              <Link to="/partners">PARTNERS</Link>
             </li>
 
             <li className="menu-item">
@@ -212,6 +211,10 @@ export default () => (
 
            <li className="menu-item">
               <a href="/community">COMMUNITY</a>
+          </li>
+
+          <li className="menu-item">
+              <a href="https://jobs.bridge.academy">CAREERS</a>
           </li>
 
             <li className="menu-item">
