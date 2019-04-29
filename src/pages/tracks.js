@@ -21,15 +21,15 @@ export default function TracksPage() {
   <FlashBar />
     <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
-        headline="Tech &amp; Career Tracks"
+        headline="Tech Explorer &amp; Career Tracks"
         firstDesc="Gain hands-on experience learning bleeding edge tools & tech alongside our community through one of our tech explorer tracks.  Looking for a new job? Work with a personal mentor to develop your tech &amp; professional skills to land your next opportunity via our career 'levelup' program."
       >
 
         <PrimaryButton to="#tech-tracks">
-          Explore tech tracks
+          See Explorer Tracks
         </PrimaryButton>
       <p>
-        <Link to="/tracks#career-tracks">Explore Career Tracks.</Link>
+        <Link to="/tracks#career-tracks">See Career Tracks.</Link>
       </p>
 
       </Hero>
@@ -38,8 +38,8 @@ export default function TracksPage() {
 
 
      <TechTracks
-        headline="Our Technical 'Explorer' Tracks"
-        desc="Take part-time and go at your own pace. Each track has Beginner, Intermediate & Advanced Sub-Tracks."
+        headline="Tech 'Explorer' Tracks"
+        desc="Take part-time and go at your own pace. Most participants finish in ~3 months. <br />Each track has Beginner, Intermediate & Advanced Sub-Tracks."
         category="tech"
         endSlice={null}
       />
@@ -48,7 +48,7 @@ export default function TracksPage() {
 
 
       <CareerTracks
-        headline="Our Career 'LevelUp' Tracks"
+        headline="Career 'LevelUp' Tracks"
         desc="Part-time in 6 months @ 20hrs/week. Full-time in 3 months @ 40hrs/week."
         category='career'
         endSlice={null}
