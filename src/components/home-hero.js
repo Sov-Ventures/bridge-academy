@@ -42,7 +42,7 @@ class HomeHero extends Component {
             </p>
 
             <p style={{ marginBottom: "0" }}>
-              Our members come to learn about new technologies, get peer / mentor project feedback &amp; discover new opportunities.
+              Each month we host <a href="/build">build challenges</a> for our community sponsored by our technology partners.
             </p>
 
             <p style={{ marginBottom: "0" }}>

@@ -7,6 +7,8 @@ import FAQ from "../components/faq";
 import ReadyTo from "../components/readyTo";
 import ContestHero from "../components/contest-hero";
 import ContestHow from "../components/contest-how";
+import ContestTracks from "../components/contest-tracks";
+
 import { contestFAQData } from "../api/data";
 
 export default function Build() {
@@ -16,6 +18,9 @@ export default function Build() {
     <Layout seoTitle="Build Challenge">
       <ContestHero />
       <ContestHow />
+      <ContestTracks 
+        headline='Tracks'
+      />
       <Mentors />
       <FAQ data={contestFAQData} />
       <ReadyTo headline="Ready to join?">

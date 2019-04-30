@@ -1,4 +1,9 @@
 import React from "react";
+import blockchain from "../img/home/blockchain.png";
+import fullstack from "../img/home/fullstack.png";
+import aiml from "../img/home/aiml.png";
+import datascience from "../img/home/datascience.png";
+import lowcode from "../img/home/lowcode.png";
 
 export default function ContestHero() {
   return (
@@ -9,22 +14,24 @@ export default function ContestHero() {
             The Bridge Build Challenge
           </h1>
 
-          <h3>Starting Monday April 8th through April 30th.</h3>
+          <h3>Monday May 8th through May 30th.</h3>
 
           <p>
-            Each month new applicants to join Bridge.Academy participate in a
-            build challenge in order to demonstrate their ability to quickly
-            pick up new skills through working on a project of your choice.
+            Join the Bridge Build challenge with your project idea or pick up a sponsored project from our community.
+          </p>
+          <p>
+            <a  
+              className="btn btn-primary"
+              href="https://apply.bridge.academy/b/lxshok/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Register to join
+            </a>
           </p>
 
           <p>
-            Applicants receive points based on their progress. The more
-            impressive your pace of improvement, the higher your score will be
-            and better your chances for being accepted to our program.
-          </p>
-
-          <p>
-            You can read about past challenge winners{" "}
+            See past winners{" "}
             <a
               href="https://medium.com/the-spectrum/bridge-academy-alpha-cohort-roundup-c7ad524ba69d"
               target="_blank"
@@ -36,37 +43,19 @@ export default function ContestHero() {
           </p>
         </div>
 
-        <div className="mentor" style={{ float: "right", textAlign: "left" }}>
-          <div className="grey">
-            <h3>JOIN THE APRIL CHALLENGE</h3>
+        <div className="mentor" style={{ width: "50%", float: "right", textAlign: "left" }}>
+         
+         <iframe id="laptop-iframe" class="viewer" src="https://framer.cloud/NtohQ/23/index.html?cloud=2" frameborder="0" scrolling="no">
+        </iframe>
 
-            <ul style={{ fontSize: "12px" }}>
-              <li>- 1st prize: One $19,000 scholarship</li>
-              <li>- 2st prize(s): 2 $8,000 scholarships</li>
-              <li>- 3rd prize(s): 4 $4,000 scholarships</li>
-            </ul>
-
-            <p>
-              <a
-                style={{ float: "none" }}
-                className="btn btn-primary"
-                href="https://apply.bridge.academy/b/lxshok/view"
-              >
-                Register to join
-              </a>
-            </p>
-
-            <p>
-              <small>
-                Note: Scholarship credit is non-transferable and not redeemable
-                for cash or prizes.
-              </small>
-            </p>
-
-            <br style={{ clear: "both" }} />
-          </div>
         </div>
       </div>
     </section>
+
+
   );
 }
+
+
+
+

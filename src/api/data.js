@@ -34,22 +34,12 @@ export const faqData = [
   {
     question: "How long does the program last?",
     answer:
-      "Our default part-time program lasts for 3 months, 10-15hrs per week. The full-time program lasts for twelve weeks and is a 50-60hrs per week commitment.",
+      "Our explore program can be completed in 3-months @ 10hrs per week commitment. The part-time career track program lasts 6-months and the full-time program lasts for 3 months and is a 40-50hrs per week commitment.",
   },
   {
     question: "Why is there a deposit required?",
     answer:
-      "Once you are accepted we ask for a $100 USD deposit to secure your spot. Your deposit will be refunded after you complete the first program phase.",
-  },
-  {
-    question: "How much do I pay in total?",
-    answer:
-      "You will never pay more than the total repayment cap for your track. Payments are made month by month as a % of your salary, only if you are making above a certain amount.",
-  },
-  {
-    question: "Can I see an example fee agreement?",
-    answer:
-      "Yes, you can see the default template agreement that we use <a href='/candidate-agreement'>here</a>. Our deffered fee program is not a loan and you can think of it like a 'reverse recruiting fee'.",
+      "Once you are accepted we ask for a deposit to secure your spot. Your deposit is refunded after you complete the program.",
   },
   {
     question: "How do I know if i'm qualified to join?",
@@ -218,15 +208,15 @@ export const contestFAQData = [
     answer:
       "No. Our program is built for experienced developers, looking to gain new skills and uplevel their careers.",
   },
-  {
-    question: "How long does the core program last?",
+    {
+    question: "Is the Bridge Build Challenge a Hackathon?",
     answer:
-      "The build challenge lasts for 4 weeks. The part-time core program lasts for twelve weeks.  The full-time program lasts for sixteen weeks.",
+      "While similar to a Hackathon, the Build challenge is for those looking to learn new skills over a longer period of time.",
   },
   {
-    question: "Is playing in the build challenge required to join Bridge?",
+    question: "How long does the bridge build challenge last?",
     answer:
-      "Participating in the build challenge is not required, but it greatly increases your chances of being accepted and earning a scholarship.",
+      "The build challenge lasts for 4 weeks. You may extend your challenge till the next month if you need more time.",
   },
   {
     question: "Do I need a project idea in order to join?",

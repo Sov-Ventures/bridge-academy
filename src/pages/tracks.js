@@ -39,7 +39,7 @@ export default function TracksPage() {
 
      <TechTracks
         headline="Tech 'Explorer' Tracks"
-        desc="Take part-time and go at your own pace. Most participants finish in ~3 months. <br />Each track has Beginner, Intermediate & Advanced Sub-Tracks."
+        desc="Take part-time and go at your own pace. Most participants finish in ~3 months. <br />Each Track has Beginner, Intermediate & Advanced Sub-Tracks."
         category="tech"
         endSlice={null}
       />
