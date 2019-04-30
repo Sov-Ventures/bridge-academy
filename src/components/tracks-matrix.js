@@ -8,7 +8,6 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
               <h2 class="section-header"><big>Choose Your Own Path</big></h2>
 
-
               <table id="plan-matrix">
                 <thead>
                   <tr>
@@ -50,13 +49,6 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                     <td class="plan-matrix-details active">$600 refundable deposit or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
                   </tr>
 
-
-                  <tr>
-                    <td class="plan-matrix-label">Build Challenge Entry</td>
-                     <td class="plan-matrix-details active">One entry</td>
-                    <td class="plan-matrix-details active">One entry</td>
-                  </tr>
-
                   <tr>
                     <td class="plan-matrix-label">Scholarships Available</td>
                      <td class="plan-matrix-details active">Need-based Scholarships</td>
@@ -71,7 +63,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Time Commitment</td>
-                     <td class="plan-matrix-details active">Go at your own pace. Average completion: 2-3 months, ~10hrs/week.</td>
+                     <td class="plan-matrix-details active">Go at your own pace. Average completion: 3 months, ~10hrs/week.</td>
                     <td class="plan-matrix-details active">3 months (fulltime: 40hrs/week) <br />6 months (part-time: 15-20hrs)</td>
                   </tr>
 
