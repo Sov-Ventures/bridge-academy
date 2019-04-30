@@ -642,7 +642,7 @@ header .logo img {
 @media screen and (max-width: 50em) {
   .hero {text-align: left;}
   .hero h1 {
-    font-size: 1.7em !important;
+    font-size: 1.55em !important;
     margin-top:.5em;
     padding:0 !important;
     width:100% !important;
