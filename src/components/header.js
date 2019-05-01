@@ -33,7 +33,7 @@ export default () => (
             <ul className="menu-skills">
               
               <li>
-                    <span className="dropdown-item-header">Tech "Explorer" Tracks</span>
+                    <span className="dropdown-item-header">Techologies</span>
               </li>
 
               <li>
@@ -88,49 +88,7 @@ export default () => (
 
             </ul>
 
-            <ul>
-              <li>
-                <span className="dropdown-item-header">Career "LevelUp" Tracks</span>
-              </li>
-
-               <li>
-              <Link className="dropdown-item" to="/tracks/fasttrack">
-                  <strong>
-                    Career FastTrack<span className="tag">(New)</span>
-                  </strong>
-                </Link>
-
-                </li>
-
-              <li>
-                <Link className="dropdown-item" to="/tracks/fullstack">
-                  <strong>
-                    FullStack Developer <span className="tag">(Career)</span>
-                  </strong>
-                </Link>
-              </li>
-
-              <li>
-                <Link className="dropdown-item" to="/tracks/blockchain">
-                  <strong>
-                    Blockchain Engineer <span className="tag">(Career)</span>
-                  </strong>
-                </Link>
-              </li>
-
-              <li>
-                Data Engineer <span className="tag">(Coming)</span>
-              </li>
-
-              <li>
-                DevOps Engineer <span className="tag">(Coming)</span>
-              </li>
-
-              <li>
-                AI/ML Engineer <span className="tag">(Coming)</span>
-              </li>
-
-            </ul>
+  
           </div>
         </li>
 

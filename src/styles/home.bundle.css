@@ -741,7 +741,6 @@ header .logo img {
 }
 
 #homepage{
-  height:100vh;
   margin-top:2em !important;
 }
 
@@ -1710,7 +1709,6 @@ ul.menu-header .menu-item#navbar-login > a {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 600px;
   padding: 25px;
   margin: 2px 0 0;
   font-size: 14px;
@@ -1834,9 +1832,6 @@ ul.menu-header .menu-item#navbar-login > a {
   }
 }
 
-.hero.container{
-  max-width: 746px;
-}
 
 #pricing .container {
   padding: 1em;
@@ -3037,6 +3032,7 @@ pre.language-curl .line-numbers > span:first-child:before {
   width: 600px;
   height: 580px;
   margin-right: -75px;
+  background:no-repeat center url('../img/home/blocks.gif');
 }
 
 @media screen and (max-width: 62em) {
@@ -3987,8 +3983,8 @@ pre.language-curl .line-numbers > span:first-child:before {
 
 .description {
   padding: 0.7em 0;
-  margin: 1em 12% 1em 12%;
-  max-width: 76%;
+  margin: 1em 27% 1em 27%;
+  max-width: 46%;
 }
 
 #flash-bar {

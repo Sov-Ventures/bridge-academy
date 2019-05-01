@@ -19,7 +19,6 @@ export default function TechTracks({ headline, image, desc, endSlice, category }
           {tracks.slice(0, endSlice || tracks.length ).map(track => (
               <div key={track.name} className="container col-md-4">
               <div className="community-item card">
-                <h3 className="card-name" dangerouslySetInnerHTML={{ __html: track.name }} />
                 <img src={track.image} alt={track.name} />
                 {/*<p dangerouslySetInnerHTML={{ __html: track.subhead }} />*/}
                 <div className="card-body">

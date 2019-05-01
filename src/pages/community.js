@@ -4,28 +4,61 @@ import Layout from "../components/layout";
 import FlashBar from "../components/flash-bar";
 import Tweets from "../components/tweets";
 import Hero from "../components/hero";
-import discord from "../img/home/discord.png";
-import discourse from "../img/home/discourse.png";
+import { Link } from "gatsby";
+
 
 export default function Community() {
   return (
   <Fragment>
   <FlashBar />
-    <Layout seoTitle="Community Love">
+    <Layout seoTitle="Bridge Community">
       <Hero 
-        headline="Community Love"
+        headline="Our Community"
         firstDesc="The Bridge community is a passionate group of developers, mentors and technology enthusiasts."
       
       >
 
-      <a href="hhttps://discord.gg/mnRPFCN" class="btn btn-secondary">
-        <img style={{ display: "inline", width: "25px" }} src={discord} alt="Forum" /> Join us on Discord
-        </a>
-        &nbsp;
-      <a href="https://forum.bridge.academy" class="btn btn-secondary">
-       <img style={{ display: "inline", width: "25px" }} src={discourse} alt="Discourse" /> Join us on Discourse
-       </a>
+          <div
+              className="dropdown"
+              style={{
+                width: "100%",
+                position: "relative",
+                display: "inline-block",
+              }}
+            >
+              <button
+                onClick={() => (window.location = "https://apply.bridge.academy/register?next=https://bridge.academy/apply")}
+                className="btn btn-primary"
+                type="button"
+                id="dropdownMenuButton"
+              >
+              Join our community
+              </button>
 
+
+              <div
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <Link className="dropdown-item" to="/blockchain-pt">
+                  <strong> Blockchain Development</strong>
+                  <br />
+                  (P/t, Online, 15hrs/week)
+                </Link>
+
+                <Link className="dropdown-item" to="/blockchain-ft">
+                  <strong>Blockchain Development</strong>
+                  <br />
+                  (F/t, Online, 50hrs/week)
+                </Link>
+
+                <Link className="dropdown-item" to="/fullstack-ft">
+                  <strong>Full-stack Web Development</strong>
+                  <br />
+                  (F/t, Online, 50hrs/week)
+                </Link>
+              </div>
+            </div>
       </Hero>
 
       <Tweets 

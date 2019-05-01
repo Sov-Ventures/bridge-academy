@@ -21,35 +21,25 @@ export default function TracksPage() {
   <FlashBar />
     <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
-        headline="Tech Explorer &amp; Career Tracks"
-        firstDesc="Gain hands-on experience learning bleeding edge tools & tech alongside our community through one of our tech explorer tracks.  Looking for a new job? Work with a personal mentor to develop your tech &amp; professional skills to land your next opportunity via our career 'levelup' program."
+        headline="Learn new technologies"
+        firstDesc="Take part-time and go at your own pace. Most participants finish in ~3 months. Each Track has Beginner, Intermediate & Advanced Sub-Tracks."
+
       >
-
-        <PrimaryButton to="#tech-tracks">
-          See Explorer Tracks
-        </PrimaryButton>
-      <p>
-        <Link to="/tracks#career-tracks">See Career Tracks.</Link>
-      </p>
-
-      </Hero>
-
-      <section><br /><br /><br /></section>
-
-
      <TechTracks
-        headline="Tech 'Explorer' Tracks"
-        desc="Take part-time and go at your own pace. Most participants finish in ~3 months. <br />Each Track has Beginner, Intermediate & Advanced Sub-Tracks."
         category="tech"
         endSlice={null}
       />
+
+      </Hero>
+
+
 
       <section><br /><br /><br /></section>
 
 
       <CareerTracks
         headline="Career 'LevelUp' Tracks"
-        desc="Part-time in 6 months @ 20hrs/week. Full-time in 3 months @ 40hrs/week."
+        desc="Complete our part-time in 6 months @ 20hrs/week. Full-time program completed in 3 months @ 40hrs/week."
         category='career'
         endSlice={null}
       />

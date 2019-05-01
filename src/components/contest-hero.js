@@ -51,7 +51,7 @@ export default function ContestHero() {
 
         <div className="mentor" style={{ width: "50%", float: "right", textAlign: "left" }}>
          
-         <iframe style={{background: "no-repeat center url('/static/img/home/blocks.gif')"}} id="laptop-iframe" class="viewer" src="https://framer.cloud/NtohQ/23/index.html?cloud=2" frameborder="0" scrolling="no">
+         <iframe id="laptop-iframe" class="viewer" src="https://framer.cloud/NtohQ/23/index.html?cloud=2" frameborder="0" scrolling="no">
         </iframe>
 
         </div>
