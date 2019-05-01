@@ -671,6 +671,7 @@ header .logo img {
 
 .blocks{
   position: relative;
+  margin-top:-2em;
 }
 
 #bridge-icon{
@@ -682,10 +683,10 @@ header .logo img {
 
 #block-learn{
   top: 13em;
-  left: 8.5em;
+  left: 8em;
 }
 #block-build{
-  top: 1em;
+  top: 0em;
   left: 30.5em;
 }
 #block-earn{
@@ -701,6 +702,9 @@ header .logo img {
 .list{list-style-type: circle;padding:1em;}
 
 @media screen and (max-width: 50em) {
+.blocks{
+  margin-top:0em;
+}
 .blocks .block{
   width:100% !important;
   font-size: .8em;
@@ -3042,6 +3046,7 @@ pre.language-curl .line-numbers > span:first-child:before {
   }
 
   #laptop-iframe {
+    display: none;
     margin-top: 20px;
     margin-left: -75px;
   }
