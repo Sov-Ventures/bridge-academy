@@ -614,7 +614,7 @@ header .logo img {
 .hero h1 {
   position: relative;
   display: inline-block;
-  margin: 1em auto 0 auto;
+  margin: 0em auto 0 auto;
   font-size:2em;
   float: none !important;
   clear:both;
@@ -730,14 +730,18 @@ header .logo img {
     font-size:1.4em;
     padding:0em;
   }
+
+ #homepage{
+    margin-top: 2em !important;
+  }
 }
 
 #homepage{
   height:100vh;
+  margin-top:0;
 }
 
 @media screen and (min-width: 40em) {
-
   .hero .btn-group {
     text-align: left;
   }

@@ -31,7 +31,7 @@ class HomeHero extends Component {
           </div>
 
           <div id="block-earn" className="block">
-            <h3><a href="/earn">Earn → </a></h3>
+            <h3><a href="https://jobs.bridge.academy">Earn → </a></h3>
             <h4>Got the skills? Now it’s time to pay the bills.</h4>
           </div>
 
