@@ -156,9 +156,9 @@ export default () => (
 
 
         <li className="menu-item">
-          <Link style={{ color: "#59cbb9" }} to="/apply">
+          <a className="primary" href="https://apply.bridge.academy/register?next=https://bridge.academy/apply">
            JOIN
-          </Link>
+          </a>
         </li>
       </ul>
 
@@ -198,9 +198,9 @@ export default () => (
 
 
         <li className="menu-item">
-          <Link style={{ color: "#59cbb9" }} to="/apply">
+          <a className="primary" href="https://apply.bridge.academy/register?next=https://bridge.academy/apply">
            JOIN
-          </Link>
+          </a>
         </li>
 
 

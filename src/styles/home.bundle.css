@@ -493,7 +493,7 @@ header .logo img {
   float: left;
   width: 40%;
   text-align: left;
-  margin: 0em 0em;
+  margin: 3em 0;
 }
 
 #home-tagline.bridge h1 {
@@ -689,7 +689,7 @@ header .logo img {
   left: 30.5em;
 }
 #block-earn{
-  top: 14em;
+  top: 15em;
   right: 7.5em;
 }
 
@@ -738,7 +738,7 @@ header .logo img {
 
 #homepage{
   height:100vh;
-  margin-top:0;
+  margin-top:2em !important;
 }
 
 @media screen and (min-width: 40em) {
@@ -1368,6 +1368,10 @@ section.explore-communities
   background-image: url("/static/img/bg-section-signup.png");
   padding: 3.125em 0;
   text-align: center;
+}
+
+.primary{
+  color:#59cbb9 !important;
 }
 
 .cta h2 {
