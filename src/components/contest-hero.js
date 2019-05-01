@@ -4,6 +4,10 @@ import fullstack from "../img/home/fullstack.png";
 import aiml from "../img/home/aiml.png";
 import datascience from "../img/home/datascience.png";
 import lowcode from "../img/home/lowcode.png";
+import dharma from "../img/home/dharma.png";
+import blockstack from "../img/home/blockstack.png";
+import hydrogen from "../img/home/hyrdogen.svg";
+import near from "../img/home/near_logo.svg";
 
 export default function ContestHero() {
   return (
@@ -14,11 +18,20 @@ export default function ContestHero() {
             The Bridge Build Challenge
           </h1>
 
-          <h3>Monday May 8th through May 30th.</h3>
+          <h3>Monday May 6th through May 27th.</h3>
 
-          <p>
-            Join the Bridge Build challenge with your project idea or pick up a sponsored project from our community.
-          </p>
+          <ul className="list">
+            <li>100% online: Join the Bridge Build challenge with your project idea or pick up a sponsored project from the community.</li>
+            <li>$50k in prizes available. See <a href="#tracks">details</a>.</li>
+            <li> See past winners{" "}
+            <a
+              href="https://medium.com/the-spectrum/bridge-academy-alpha-cohort-roundup-c7ad524ba69d"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here</a>. See <a href="#tracks">sponsors</a>.
+              </li>
+          </ul>
           <p>
             <a  
               className="btn btn-primary"
@@ -30,18 +43,11 @@ export default function ContestHero() {
             </a>
           </p>
 
-          <p>
-            See past winners{" "}
-            <a
-              href="https://medium.com/the-spectrum/bridge-academy-alpha-cohort-roundup-c7ad524ba69d"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here
-            </a>
-            .
-          </p>
+
+
         </div>
+
+
 
         <div className="mentor" style={{ width: "50%", float: "right", textAlign: "left" }}>
          

@@ -75,8 +75,7 @@ export default function Alumni() {
         </h2>
 
         <p className="description">
-          Our members come from all over the world and from a very diverse set
-          of backgrounds.
+          Our community of builders come from all over the world and from diverse backgrounds.
         </p>
 
         <div className="communities-container row">

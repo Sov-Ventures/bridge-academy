@@ -19,21 +19,20 @@ export default () => (
     <Layout seoTitle="Frontier-Tech Focused Talent Accelerator">
       <HomeHero />
       <ApplicationProcess
-        headline="Application Process"
+        headline="Joining Bridge"
         desc="Our three step process to joining."
         data={processData}
       />
       <HiringPartners
         headline="Featured Technology Partners"
-        desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
+        desc="Our technology partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
       >
         <PrimaryButton to="/partners">Learn More</PrimaryButton>
       </HiringPartners>
       <Mentors
-        desc={`Our team of mentors host office hours, review your final project ideas
-          and give you detailed and personalized feedback throughout the
-          program.`}
+        desc={`Our community of mentors host office hours, review project ideas
+          and give you detailed and personalized feedback on your project.`}
       />
 
       <FAQ data={faqData} />

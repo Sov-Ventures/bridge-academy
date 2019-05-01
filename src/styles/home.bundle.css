@@ -608,13 +608,14 @@ header .logo img {
 }
 
 .hero {
+  margin-top:2em;
 }
 
 .hero h1 {
   position: relative;
   display: inline-block;
-  width: 70%;
-  margin: 1.5em auto 0 auto;
+  margin: 1em auto 0 auto;
+  font-size:2em;
   float: none !important;
   clear:both;
 }
@@ -639,17 +640,104 @@ header .logo img {
   text-align: center;
 }
 
+.hero #bridge-headline {
+  line-height: 1.75em;
+  font-weight:lighter;
+  text-align: center;
+  font-size:1.15em;
+  width:100%;
+  padding:0 6em;
+  margin-top:-4em;
+}
+
+.hero .block {
+  position:absolute;
+  text-align: left !important;
+  width:15em;
+  font-size: .9em;
+}
+
+.hero .block h4{
+  font-weight:lighter !important;
+}
+
+.hero .block h3 a{
+  font-weight: bold;
+}
+
+.hero .block h3, h4{
+  margin:.5em 0;
+}
+
+.blocks{
+  position: relative;
+}
+
+#bridge-icon{
+  max-width: 100%;
+  height: auto!important;
+  margin: 0 auto;
+  display: block;
+}
+
+#block-learn{
+  top: 13em;
+  left: 8.5em;
+}
+#block-build{
+  top: 1em;
+  left: 30.5em;
+}
+#block-earn{
+  top: 14em;
+  right: 7.5em;
+}
+
+.sponsor{
+    height:50px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.list{list-style-type: circle;padding:1em;}
+
 @media screen and (max-width: 50em) {
-  .hero {text-align: left;}
-  .hero h1 {
-    font-size: 1.55em !important;
-    margin-top:.5em;
-    padding:0 !important;
-    width:100% !important;
+.blocks .block{
+  width:100% !important;
+  font-size: .8em;
+  position: relative !important;
+  margin: 2em 0 !important;
+}
+
+#block-learn{
+  top:0em;
+  left:0em;
+}
+#block-build{
+  top:0em;
+  left:0em;
+}
+#block-earn{
+  top:0em;
+  left:0em;
+}
+.hero #bridge-icon{display:none;}
+.hero {text-align: left;}
+.hero #bridge-headline {
+    margin-top:0em;
+    font-weight:lighter;
+    width:100%;
+    text-align: left;
+    font-size:1.4em;
+    padding:0em;
   }
 }
 
+#homepage{
+  height:100vh;
+}
+
 @media screen and (min-width: 40em) {
+
   .hero .btn-group {
     text-align: left;
   }
@@ -693,7 +781,7 @@ header .logo img {
 @media screen and (min-width: 68em) {
   .hero {
     background-position: 130% top;
-    padding: 2.75em 0 0 0;
+    padding:0 0 0 0;
   }
 }
 

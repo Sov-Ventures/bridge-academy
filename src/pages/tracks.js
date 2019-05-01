@@ -68,11 +68,11 @@ export default function TracksPage() {
 
       <HiringPartners
         headline="Featured Technology Partners"
-        desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
+        desc="Our technology partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={null}
       />
 
-      <ReadyTo headline="Interested in becoming a hiring partner?">
+      <ReadyTo headline="Interested in becoming a technology partner?">
         <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
          Join the Waitlist
         </PrimaryButton>

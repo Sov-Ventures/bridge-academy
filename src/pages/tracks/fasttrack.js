@@ -32,17 +32,17 @@ export default function FullStack() {
       <FastTrackHow />
 
       <ApplicationProcess
-        headline="Application Process"
+        headline="Joining Bridge"
         repaymentcap="9,500"
         desc="Our three step process to joining."
         data={processData}
       />
       <HiringPartners
         headline="Featured Technology Partners"
-        desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
+        desc="Our technology partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
       />
-      <ReadyTo headline="Interested in becoming a hiring partner?">
+      <ReadyTo headline="Interested in becoming a technology partner?">
         <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
           Contact Us
         </PrimaryButton>

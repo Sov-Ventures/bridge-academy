@@ -11,7 +11,7 @@ export default function FlashBar() {
         href="/build"
         rel="noopener noreferrer"
       >
-        Join the Build Challenge &#187;
+        Join the May Build Challenge &#187;
       </a>
     </center>
   );

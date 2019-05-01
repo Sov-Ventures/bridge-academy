@@ -23,7 +23,7 @@ export default () => (
             aria-haspopup="true"
             aria-expanded="false"
           >
-            EXPLORE
+            LEARN
           </Link>
 
           <div
@@ -134,39 +134,30 @@ export default () => (
           </div>
         </li>
 
-        <li className="menu-item">
-          <Link to="/mentors">MENTORS</Link>
-        </li>
 
         <li className="menu-item">
-          <Link to="/partners">PARTNERS</Link>
+          <Link to="/build">
+           BUILD
+          </Link>    
         </li>
-
-          <li className="menu-item">
-              <a href="https://jobs.bridge.academy">CAREERS</a>
-          </li>
 
 
          <li className="menu-item">
-              <a href="/community">COMMUNITY</a>
-          </li>
-
-
-        <li className="menu-item">
-          <AnimatedLink
-            to="faq"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            FAQ
-          </AnimatedLink>
+          <a href="https://jobs.bridge.academy">
+           EARN
+          </a>    
         </li>
+
+      <li className="menu-item">              
+
+          <a href="/community">COMMUNITY</a>
+
+        </li>
+
 
         <li className="menu-item">
           <Link style={{ color: "#59cbb9" }} to="/apply">
-           APPLY
+           JOIN
           </Link>
         </li>
       </ul>
@@ -185,43 +176,34 @@ export default () => (
             className="nav navbar-nav  pull-right collapse navbar-collapse"
           >
 
-         <li className="menu-item">
-              <Link to="/tracks">EXPLORE</Link>
-            </li>
-
-            <li className="menu-item">
-              <Link to="/mentors">MENTORS</Link>
-            </li>
-
-            <li className="menu-item">
-              <Link to="/partners">PARTNERS</Link>
-            </li>
-
-            <li className="menu-item">
-              <AnimatedLink
-                to="faq"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                FAQ
-              </AnimatedLink>
-            </li>
-
-           <li className="menu-item">
-              <a href="/community">COMMUNITY</a>
-          </li>
-
+     
           <li className="menu-item">
-              <a href="https://jobs.bridge.academy">CAREERS</a>
-          </li>
+          <Link to="/build">
+           BUILD
+          </Link>    
+        </li>
 
-            <li className="menu-item">
-              <Link style={{ color: "#59cbb9" }} to="/apply">
-                APPLY
-              </Link>
-            </li>
+
+         <li className="menu-item">
+          <a href="https://jobs.bridge.academy">
+           EARN
+          </a>    
+        </li>
+
+      <li className="menu-item">              
+
+          <a href="/community">COMMUNITY</a>
+
+        </li>
+
+
+        <li className="menu-item">
+          <Link style={{ color: "#59cbb9" }} to="/apply">
+           JOIN
+          </Link>
+        </li>
+
+
           </ul>
         </div>
       </div>

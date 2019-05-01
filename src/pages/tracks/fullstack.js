@@ -30,14 +30,14 @@ export default function FullStack() {
       </Hero>
       <TracksHow />
       <ApplicationProcess
-        headline="Application Process"
+        headline="Joining Bridge"
         repaymentcap="19,000"
         desc="Our three step process to joining."
         data={processData}
       />
       <HiringPartners
         headline="Featured Technology Partners"
-        desc="Our hiring partners provide training materials, beta developer tools and access to real problems & projects."
+        desc="Our technology partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
       />
       <ReadyTo headline="Interested in becoming a hiring partner?">

@@ -50,7 +50,7 @@ const partners = [
     name: "Blockstack",
     image: blockstack,
     desc:
-      "Blockstack is a new digital ecosystem that users, not big Internet companies, control and users can move seamlessly.",
+      "Blockstack is a new digital ecosystem that users, not big Internet companies, control and users can move seamlessly in.",
     color: "#290f34",
   },
   {
