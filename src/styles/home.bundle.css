@@ -647,7 +647,7 @@ header .logo img {
   text-align: center;
   font-size:1.15em;
   width:100%;
-  padding:0 6em;
+  padding:0 10em;
   margin-top:-4em;
 }
 
@@ -1075,10 +1075,6 @@ section#tour section#usecases dl dd {
 
 #tracks .community-item.card .card-body{
   display: table-cell;
-}
-
-#tracks .community-item.card h3{
-  margin:0;
 }
 
 #tracks .community-item.card .btn-primary{

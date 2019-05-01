@@ -135,6 +135,13 @@ export default () => (
           >
 
      
+             <li className="menu-item">
+          <Link to="/learn">
+           LEARN
+          </Link>    
+        </li>
+
+
           <li className="menu-item">
           <Link to="/build">
            BUILD
