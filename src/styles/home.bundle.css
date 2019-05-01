@@ -618,6 +618,7 @@ header .logo img {
   font-size:2em;
   float: none !important;
   clear:both;
+  width:40%;
 }
 
 .hero h1:last-child {
@@ -753,7 +754,7 @@ header .logo img {
     margin-bottom: 1.25em;
   }
   .hero h1 {
-    float: left;
+    float: left;  
     display: block;
   }
   .hero h1:last-child {
@@ -773,6 +774,7 @@ header .logo img {
   .hero {
     padding: 2.75em 0 0 0;
   }
+
 }
 
 @media only screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 1.3),
@@ -1059,6 +1061,41 @@ section#tour section#usecases dl dd {
   margin-bottom: 2.5em;
 }
 
+#tracks .community-item.card{
+  width:100%;
+}
+
+#tracks .community-item.card .course-img{
+    display: table-cell;
+    width: 15%;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 1px;
+}
+
+#tracks .community-item.card .card-body{
+  display: table-cell;
+}
+
+#tracks .community-item.card h3{
+  margin:0;
+}
+
+#tracks .community-item.card .btn-primary{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  transition: .3s;
+  margin:2em auto;
+}
+
+
+.course-img{
+  float:left !important;
+  margin-right:2em !important;
+}
+
 section{
   padding-bottom:3em !important;
 }
@@ -1116,7 +1153,6 @@ section.explore-communities .community-item.card {
   overflow: hidden;
 }
 section.explore-communities .community-item.card .card-desc {
-  margin-bottom:2em;
 }
 
 section.explore-communities .community-item.card .card-img-top {
@@ -1147,6 +1183,7 @@ section.explore-communities .community-item.card .card-footer .ss-icon {
 section.explore-communities .community-item.card .avatars {
   overflow: hidden;
 }
+
 section.explore-communities .community-item.card .avatars .avatar {
   float: right;
   display: inline-block;
@@ -1409,6 +1446,7 @@ section.explore-communities
 }
 
 @media screen and (min-width: 40em) {
+
   .cta h2 {
     float: left;
     display: block;
@@ -1889,6 +1927,9 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 @media screen and (max-width: 56em) {
+  .hero h1{
+    width:100% !important;
+  }
   .box-grid #examples-box.tab-bar .group .videoDesc {
     display: none !important;
   }
@@ -2094,8 +2135,8 @@ ul.menu-header .menu-item#navbar-login > a {
 
 .card-desc ul {
     list-style-type: none;
-    padding: 0 1em;
-    margin:0 0 1em 0;
+    padding: 0 ;
+    margin:1em 0 0em 0;
 }
 
 .ss-check {
@@ -2425,6 +2466,9 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 @media screen and (max-width: 62em) {
+   #tracks .community-item.card .course-img {
+    width:100%;
+  }
   .mobile-nav {
     float: right;
     margin: 0.6em 0;

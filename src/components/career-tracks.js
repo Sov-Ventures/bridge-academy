@@ -37,22 +37,23 @@ export default function CareerTracks({ headline, image, desc, endSlice, category
 }
 
 const tracks = [
+
   {
-    name: "FullStack Developer",
-    image: fullstack,
+    name: "Blockchain Engineer",
+    image: blockchain,
     subhead: "Career Track",
-    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Node, React, Serverless, TDD, Graphql + Everything in FastTrack</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
-    color: "#290f34",
+    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Tracks:</strong> Part & Full-time.</li><li><strong>Careers:</strong> Blockchain Developer, dApp Developer, Blockchain Architect</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
+    color: "#096ff0",
     category: 'career',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview',
 
   },
   {
-    name: "Blockchain Engineer",
-    image: blockchain,
+    name: "FullStack Developer",
+    image: fullstack,
     subhead: "Career Track",
-    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Committment:</strong> 10-15hrs /week.</li><li><strong>Includes:</strong> Smart Contracts & dApp development + Everything in FastTrack.</li></ul><p align='center'><a href='/tracks/blockchain' align='center'>Learn More</a></p>",
-    color: "#096ff0",
+    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Tracks:</strong> Part & Full-time.</li><li><strong>Careers:</strong> Blockchain Developer, dApp Developer, Blockchain Architect</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
+    color: "#290f34",
     category: 'career',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview',
 
@@ -61,7 +62,7 @@ const tracks = [
     name: "AI/ML Engineer",
     image: aiml,
     subhead: "Career Track",
-    desc:"<p align='center'>Coming soon! Pre-apply now.</p>",
+    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Tracks:</strong> Part & Full-time.</li><li><strong>Includes:</strong> Node, React, Serverless, TDD, Graphql + Everything in FastTrack</li></ul><p align='center'><a  href='/tracks/fullstack'>Learn More</a></p>",
     color: "#000000",
     category: 'career',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview',

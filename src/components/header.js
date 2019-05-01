@@ -37,7 +37,7 @@ export default () => (
               </li>
 
               <li>
-                  <Link className="dropdown-item" to="/tracks#tech-tracks">
+                  <Link className="dropdown-item" to="/learn#tech-tracks">
                     <strong>
                       Blockchain &amp; dApp Development <span className="tag"></span>
                       </strong>
@@ -45,7 +45,7 @@ export default () => (
               </li>
    
               <li>
-                <Link className="dropdown-item" to="/tracks#tech-tracks">
+                <Link className="dropdown-item" to="/learn#tech-tracks">
                   <strong>
                     Full Stack Web Development <span className="tag"></span>
                     </strong>
@@ -53,7 +53,7 @@ export default () => (
               </li>
 
               <li>
-                <Link className="dropdown-item" to="/tracks#tech-tracks">
+                <Link className="dropdown-item" to="/learn#tech-tracks">
                     <strong>
                       AI &amp; Machine Learning <span className="tag"></span>
                     </strong>
@@ -61,7 +61,7 @@ export default () => (
               </li>
 
               <li>
-                 <Link className="dropdown-item" to="/tracks#tech-tracks">
+                 <Link className="dropdown-item" to="/learn#tech-tracks">
                    <strong>
                       Data Science <span className="tag">(NEW)</span>
                     </strong>
@@ -71,7 +71,7 @@ export default () => (
      
 
                <li>
-                <Link className="dropdown-item" to="/tracks">
+                <Link className="dropdown-item" to="/learn">
                    <strong>
                       Low/No-Code Apps <span className="tag">(NEW)</span>
                     </strong>
@@ -79,7 +79,7 @@ export default () => (
                 </li>
 
               <li>
-                <Link className="dropdown-item" to="/tracks#tech-tracks">
+                <Link className="dropdown-item" to="/learn#tech-tracks">
                   <strong>
                     <span>See All (5)</span>
                   </strong>

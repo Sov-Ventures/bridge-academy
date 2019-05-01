@@ -21,7 +21,7 @@ class HomeHero extends Component {
             </h1>
 
           <div id="block-learn" className="block">
-            <h3><a href="/tracks#tech-tracks">Learn → </a></h3>
+            <h3><a href="/learn">Learn → </a></h3>
             <h4>Curious to learn about a new tool or technology?</h4>
           </div>
 

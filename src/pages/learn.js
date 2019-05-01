@@ -4,6 +4,7 @@ import PrimaryButton from "../components/button";
 import HiringPartners from "../components/hiring-partners";
 import FlashBar from "../components/flash-bar";
 import FAQ from "../components/faq";
+import Alumni from "../components/alumni";
 import ReadyTo from "../components/readyTo";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
@@ -15,14 +16,14 @@ import { Link } from "gatsby";
 
 import { faqData, processData } from "../api/data";
 
-export default function TracksPage() {
+export default function LearnPage() {
   return (
   <Fragment>
   <FlashBar />
     <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
-        headline="Learn new technologies"
-        firstDesc="Take part-time and go at your own pace. Most participants finish in ~3 months. Each Track has Beginner, Intermediate & Advanced Sub-Tracks."
+        headline="Learn new technologies, by using new technologies"
+        firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
 
       >
      <TechTracks
@@ -69,6 +70,9 @@ export default function TracksPage() {
       </ReadyTo>
 
       <FAQ data={faqData} />
+
+      <Alumni />
+
 
       <Mentors />
 
