@@ -28,7 +28,7 @@ export default function Footer() {
 
 
               <li className="menu-item">
-                <Link to="https://prism.io/#team">TEAM</Link>
+                <a href="https://prism.io/#team">TEAM</a>
               </li>
 
               <li
