@@ -101,9 +101,9 @@ export default () => (
 
 
          <li className="menu-item">
-          <a href="https://jobs.bridge.academy">
+          <Link to="/earn">
            EARN
-          </a>    
+          </Link>    
         </li>
 
       <li className="menu-item">              
@@ -150,9 +150,9 @@ export default () => (
 
 
          <li className="menu-item">
-          <a href="https://jobs.bridge.academy">
+                <Link to="/earn">
            EARN
-          </a>    
+          </Link>    
         </li>
 
       <li className="menu-item">              

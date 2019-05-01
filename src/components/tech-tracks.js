@@ -17,7 +17,7 @@ export default function TechTracks({ headline, image, desc, endSlice, category }
       <div id="tracks" className="container">
         <div className="communities-container row">
           {tracks.slice(0, endSlice || tracks.length ).map(track => (
-              <div key={track.name} className="container">
+              <div key={track.name}>
               <div className="community-item card">
                 <img className="course-img" align="left" src={track.image} alt={track.name} />
                 <a style={{float: "right"}} class="btn btn-primary" href={track.link}>Join Now</a>

@@ -1165,7 +1165,7 @@ section.explore-communities .community-item.card .card-img-top img {
 }
 section.explore-communities .community-item.card .card-body {
   text-align: left;
-  padding: .25em;
+  padding: 0 1.5em 0 0;
 }
 section.explore-communities .community-item.card .card-footer {
   border-top: solid 1px #dddddd;
