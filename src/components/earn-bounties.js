@@ -16,7 +16,7 @@ export default function EarnBounties({ headline, image, desc, endSlice, category
               <div key={bounty.name} className="">
               <div className="community-item card">
                 <img className="course-img" align="left" src={bounty.image} alt={bounty.name} />
-                <a style={{float: "right"}} class="btn btn-primary" href={bounty.link}>View Gig</a>
+                <a style={{float: "right"}} class="btn btn-primary" href={bounty.link}>View Bounty</a>
                 <div className="card-body">
                 <h4 dangerouslySetInnerHTML={{ __html: bounty.name }} />
                 <div className="card-desc" dangerouslySetInnerHTML={{ __html: bounty.desc }} />
