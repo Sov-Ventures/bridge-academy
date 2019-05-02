@@ -27,7 +27,7 @@ export default function Community() {
               }}
             >
               <button
-                onClick={() => (window.location = "https://apply.bridge.academy/register?next=https://bridge.academy/apply")}
+                onClick={() => (window.location = "https://apply.bridge.academy/register")}
                 className="btn btn-primary"
                 type="button"
                 id="dropdownMenuButton"

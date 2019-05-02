@@ -104,7 +104,7 @@ export default () => (
 
 
         <li className="menu-item">
-          <a className="primary" href="https://apply.bridge.academy/register?next=https://bridge.academy/apply">
+          <a className="primary" href="https://apply.bridge.academy/register">
            JOIN
           </a>
         </li>
@@ -153,7 +153,7 @@ export default () => (
 
 
         <li className="menu-item">
-          <a className="primary" href="https://apply.bridge.academy/register?next=https://bridge.academy/apply">
+          <a className="primary" href="https://apply.bridge.academy/register">
            JOIN
           </a>
         </li>
