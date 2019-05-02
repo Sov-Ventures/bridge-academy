@@ -6,26 +6,23 @@ export default function Footer() {
     <footer className="col-xs-12 grey" id="footer">
       <div className="container">
         <div className="row">
-          <section className="col-md-6">
-            <ul>
+
+            <ul style={{ float: "left" }}>
               <li>About Bridge</li>
 
+
               <li className="menu-item">
-                <Link to="/apply">APPLY</Link>
+                <Link to="/mentors">LEARN</Link>
               </li>
 
               <li className="menu-item">
-                <Link to="/mentors">MENTORS</Link>
+                <Link to="/partners">BUILD</Link>
               </li>
+
 
               <li className="menu-item">
-                <Link to="/partners">PARTNERS</Link>
+                <Link to="/earn">EARN</Link>
               </li>
-
-              <li className="menu-item">
-              <a href="/community">COMMUNITY</a>
-              </li>
-
 
               <li className="menu-item">
                 <a href="https://prism.io/#team">TEAM</a>
@@ -41,7 +38,26 @@ export default function Footer() {
               </li>
             </ul>
 
-            <ul>
+   
+
+      <ul style={{ float: "left" }}>
+
+              <li className="menu-item">Our Community</li>
+            <li className="menu-item">
+              <a href="/community">JOIN</a>
+              </li>
+            <li className="menu-item">
+              <a href="/mentors">MENTORS</a>
+              </li>
+            <li className="menu-item">
+              <a href="/partners">PARTNERS</a>
+              </li>
+
+            </ul>
+
+
+      <ul style={{ float: "left" }}>
+
               <li className="menu-item">Our Products</li>
               <li className="menu-item">
                 <a href="https://xpo.network">Xpo.Network</a>
@@ -50,12 +66,9 @@ export default function Footer() {
                 <a href="https://bridge.academy">Bridge.Academy</a>
               </li>
             </ul>
-          </section>
 
 
-
-
-          <section className="social-links col-md-6 col-xs-pull">
+          <section className="social-links col-md-3 col-xs-pull col-xs-pull-left">
             <h3>Follow along</h3>
 
             <a
