@@ -738,6 +738,7 @@ header .logo img {
 
  #homepage{
     margin-top: 2em !important;
+    margin-bottom:0;
   }
 }
 

@@ -45,7 +45,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active"><strong>100% refundable</strong> on full course completion, e.g: if you complete 20%, you get 20% back from your deposit. Up-front deposit required.</td>
+                     <td class="plan-matrix-details active">Pro-rated refund <strong>up to 100%</strong><br /> e.g: Complete 50%, get 50% back from your deposit.</td>
                     <td class="plan-matrix-details active"><strong>$600 refundable deposit</strong> or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
                   </tr>
 

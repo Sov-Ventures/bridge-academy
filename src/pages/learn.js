@@ -24,7 +24,7 @@ export default function LearnPage() {
       <Hero 
         headline="Learn new technologies, by using new technologies"
         firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
-        secondDesc="<strong>Note:</strong> All of our courses come with a guaranteed <a href='#plan-comparison'>100% refund</a> if you complete them."
+        secondDesc="<strong>Note:</strong> All of our courses come with a <a href='#plan-comparison'>guaranteed refund</a> up to 100%, just for completing them."
 
       >
      <TechTracks
@@ -50,7 +50,7 @@ export default function LearnPage() {
 
       <ApplicationProcess
         headline="How to join"
-        desc="Our simple three step process."
+        desc="Fast-track your personal learning & development by joining our community."
         data={processData}
       />
 

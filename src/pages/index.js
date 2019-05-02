@@ -20,7 +20,7 @@ export default () => (
       <HomeHero />
       <ApplicationProcess
         headline="How it works"
-        desc="Learn the latest tech skills to propel your career."
+        desc="Fast-track your personal learning & development by joining our community."
         data={processData}
       />
       <HiringPartners

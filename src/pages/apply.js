@@ -37,7 +37,7 @@ export default function Apply() {
 
       <ApplicationProcess
         headline="How to join"
-        desc="Our simple three step process."
+        desc="Fast-track your personal learning & development by joining our community."
         data={processData}
       />
 

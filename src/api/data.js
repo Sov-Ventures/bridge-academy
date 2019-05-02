@@ -11,12 +11,12 @@ export const processData = [
   {
     headline: "Choose your path",
     desc:
-      "Select your area of focus from our different techology-focused courses &amp; tracks.  ",
+      "Select your area of focus from our different techology-focused courses & career tracks. Some are focused on specific tools, some on broad new areas of technology. ",
   },
   {
     headline: "Kickoff your journey",
     desc:
-      "Once you join a track, you'll gain access to our community forum, chat and knowledge portal to ask questions and receive project feedback. ",
+      "Once you join a track, you'll gain access to our community forum, chat and knowledge portal to ask questions and receive project feedback from peers. ",
   },
   {
     headline: "Learn. Build. Earn. Repeat.",
