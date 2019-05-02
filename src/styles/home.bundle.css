@@ -742,7 +742,7 @@ header .logo img {
 }
 
 #homepage{
-  margin-top:2em !important;
+  margin-top:1.5em !important;
 }
 
 @media screen and (min-width: 40em) {
@@ -853,6 +853,9 @@ header .logo img {
 /* #how-items img {
 } */
 
+.section-header{
+  text-align: center;
+}
 section#how-it-works {
   background-color: #def4f1;
   margin-top: 3.1em;
@@ -2531,7 +2534,7 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 #faq-items .faq-item {
-  padding: 2em 1em;
+  padding:2em 1em;
   text-align: left;
   width: 50%;
   float: left;
@@ -2544,6 +2547,7 @@ ul.menu-header .menu-item#navbar-login > a {
   }
   #faq-items .faq-item {
     width: 100%;
+    padding:2em 0;
   }
   .table-column-2 {
     width: 50% !important;

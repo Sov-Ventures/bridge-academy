@@ -37,51 +37,41 @@ export default () => (
               </li>
 
               <li>
-                  <Link className="dropdown-item" to="/learn#tech-tracks">
+                  <Link className="dropdown-item" to="/learn/blockchain/blockchain-intro">
                     <strong>
-                      Blockchain &amp; dApp Development <span className="tag"></span>
+                      Intro to Blockchain<span className="tag"></span>
                       </strong>
                   </Link>
               </li>
    
               <li>
-                <Link className="dropdown-item" to="/learn#tech-tracks">
+                <Link className="dropdown-item" to="/learn/blockchain/blockstack-dapp-development">
                   <strong>
-                    Full Stack Web Development <span className="tag"></span>
+                    Blockstack dApp Development <span className="tag"></span>
                     </strong>
                   </Link>              
               </li>
 
               <li>
-                <Link className="dropdown-item" to="/learn#tech-tracks">
+                <Link className="dropdown-item" to="/learn/blockchain/ethereum-dapp-development">
                     <strong>
-                      AI &amp; Machine Learning <span className="tag"></span>
+                      Ethereum dApp Development <span className="tag"></span>
                     </strong>
                   </Link>              
               </li>
 
               <li>
-                 <Link className="dropdown-item" to="/learn#tech-tracks">
-                   <strong>
-                      Data Science <span className="tag">(NEW)</span>
+                <Link className="dropdown-item" to="/learn/blockchain/ethereum-development-advanced">
+                    <strong>
+                      Ethereum Development (Advanced) <span className="tag"></span>
                     </strong>
-                  </Link>
+                  </Link>              
               </li>
-              
-     
 
-               <li>
+              <li>
                 <Link className="dropdown-item" to="/learn">
-                   <strong>
-                      Low/No-Code Apps <span className="tag">(NEW)</span>
-                    </strong>
-                  </Link>              
-                </li>
-
-              <li>
-                <Link className="dropdown-item" to="/learn#tech-tracks">
                   <strong>
-                    <span>See All (5)</span>
+                    <span>See All (9)</span>
                   </strong>
                 </Link>
               </li>

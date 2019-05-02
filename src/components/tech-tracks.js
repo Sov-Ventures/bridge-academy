@@ -6,7 +6,7 @@ import datascience from "../img/home/datascience.png";
 import lowcode from "../img/home/lowcode.png";
 
 
-export default function TechTracks({ headline, image, desc, endSlice, category }) {
+export default function TechTracks({ headline, image, desc, endSlice, category, cta }) {
 
 
    return (
@@ -20,7 +20,7 @@ export default function TechTracks({ headline, image, desc, endSlice, category }
               <div key={track.name}>
               <div className="community-item card">
                 <img className="course-img" align="left" src={track.image} alt={track.name} />
-                <a style={{float: "right"}} class="btn btn-primary" href={track.link}>Join Now</a>
+                <a style={{float: "right"}} class="btn btn-primary" href={track.link}>{track.cta}</a>
                 <div className="card-body">
                 <h4 dangerouslySetInnerHTML={{ __html: track.name }} />
                 <div className="card-desc" dangerouslySetInnerHTML={{ __html: track.desc }} />
@@ -38,47 +38,52 @@ export default function TechTracks({ headline, image, desc, endSlice, category }
 
 const tracks = [
   {
-    name: "Blockchain Basics (Beginners)",
+    name: "Intro to Blockchain (Beginners)",
     image: blockchain,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Time:</strong> 1 week, 10-15hrs /week</li><li><strong>Learn:</strong> Blockchain fundamentals, Key concepts + more.</li><li><strong>Cost:</strong> FREE</li></ul>",
+    desc:"<ul><li><strong>Time:</strong> 1 week, ~10hrs</li><li><strong>Learn:</strong> Blockchain fundamentals, Key technical & non-technical concepts.</li><li><strong>Deposit:</strong> $125</li></ul>",
     color: "#096ff0",
+    cta: "See Details",
     category: 'tech',
-    link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
+    link: '/learn/blockchain/blockchain-intro',
   },
   {
-    name: "Blockstack &amp; Ethereum dApp Development (Beginners)",
+    name: "Blockstack dApp Development (Beginners)",
     image: blockchain,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Time:</strong> 4 weeks, 10-15hrs /week</li><li><strong>Build:</strong> (3) Mini-projects incl: ERC-20 Token, Domain Marketplace + more.</li><li><strong>Learn:</strong> Blockstack.js, Web3.js, Smart Contracts + more.</li><li><strong>Cost:</strong> $499 (or $110/mo for 5-months) minus $100 completion rebate.</li></ul>",
+    desc:"<ul><li><strong>Time:</strong> 4 weeks @ 10hrs /week</li><li><strong>Build:</strong> (3) Mini-projects incl: ERC-20 Token, Domain Marketplace + more.</li><li><strong>Learn:</strong> Blockstack.js, Web3.js, Smart Contracts + more.</li><li><strong>Deposit:</strong> $499 (or $100/mo for 5-months)</li></ul>",
     color: "#096ff0",
+    cta: "See Details",
     category: 'tech',
-    link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
+    link: '/learn/blockchain/blockstack-dapp-development',
   },
     {
-    name: "Ethereum Developer Bootcamp (Intermediate)",
+    name: "Ethereum dApp Development (Beginners)",
     image: blockchain,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Time:</strong> 8 weeks, 10-15hrs /week</li><li><strong>Build:</strong> (6) Mini-projects incl: Security Audit, ENS Registrar + more.</li><li><strong>Learn:</strong> State Channels, Snarks/Starks, Smart Contracts + more.</li><li><strong>Cost:</strong> $999 (or $110/mo for 10-months) minus $100 completion rebate.</li></ul>",
+    desc:"<ul><li><strong>Time:</strong> 6 weeks @ 10hrs /week</li><li><strong>Build:</strong> (6) Mini-projects incl: ERC-20 Token, Domain Marketplace + more.</li><li><strong>Learn:</strong> Solidity, Web3.js, Smart Contracts + more.</li><li><strong>Deposit:</strong> $749 (or $110/mo for 7-months)</li></ul>",
     color: "#096ff0",
+    cta: "See Details",
     category: 'tech',
-    link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
+    link: '/learn/blockchain/ethereum-dapp-development',
   },
     {
-    name: "Ethereum Developer Bootcamp (Advanced)",
+    name: "Advanced Ethereum Development (Intermediate/Advanced)",
     image: blockchain,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Time:</strong> 8 weeks, 10-15hrs /week</li><li><strong>Build:</strong> (6) Mini-projects incl: Smart Contract Security, .</li><li><strong>Learn:</strong> State Channels, Snarks/Starks, Smart Contracts + more.</li><li><strong>Cost:</strong> $999 (or $110/mo for 10-months) minus $100 completion rebate.</li></ul>",
+    desc:"<ul><li><strong>Time:</strong> 12 weeks @ 10hrs /week</li><li><strong>Build:</strong> (6) Mini-projects incl: Security Audit, ENS Registrar + more.</li><li><strong>Learn:</strong> State Channels, Snarks/Starks, Smart Contracts + more.</li><li><strong>Deposit:</strong> $1,499 (or $125/mo for 12-months).</li></ul>",
     color: "#096ff0",
+    cta: "See Details",
     category: 'tech',
-    link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
+    link: '/learn/blockchain/ethereum-development-advanced',
   },
   {
     name: "Intro to Full-Stack Web Development (Beginners)",
     image: fullstack,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Build:</strong> A Smart-Recipe Website, TODO List or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> node, react, redux, mongo, git, graphql, continuous integration and serverless development.</li><li><strong>Cost:</strong> $499 (or $110/mo for 5-months) minus $100 completion rebate.</li></ul>",
+    desc:"<ul><li><strong>Build:</strong> A Smart-Recipe Website, TODO List or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> node, react, redux, mongo, git, graphql, continuous integration and serverless development.</li><li><strong>Deposit:</strong> $499 (or $100/mo for 5-months).</li></ul>",
     color: "#096ff0",
+    cta: "Pre-register",
     category: 'tech',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
   },
@@ -86,8 +91,9 @@ const tracks = [
     name: "Intro to AI &amp Machine Learning (Beginners)",
     image: aiml,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Build:</strong> An image classifier, prediction api, customer segementation tool or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> Supervised Learning, Deep Learning & Unsupervised Learning.</li><li><strong>Cost:</strong> $499 (or $110/mo for 5-months) minus $100 completion rebate.</li></ul>",
+    desc:"<ul><li><strong>Build:</strong> An image classifier, prediction api, customer segementation tool or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> Supervised Learning, Deep Learning & Unsupervised Learning.</li><li><strong>Deposit:</strong> $499 (or $100/mo for 5-months).</li></ul>",
     color: "#096ff0",
+    cta: "Pre-register",
     category: 'tech',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
   },
@@ -95,8 +101,9 @@ const tracks = [
     name: "Intro to Data Science (Beginners)",
     image: datascience,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Build:</strong> A customer churn predictor, exploratory data analyzer or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow + more.</li><li><strong>Cost:</strong> $499 (or $110/mo for 5-months) minus $100 completion rebate.</li></ul>",
+    desc:"<ul><li><strong>Build:</strong> A customer churn predictor, exploratory data analyzer or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> NumPy, Pandas, Seaborn, Matplotlib, Plotly, Scikit-Learn, Tensorflow + more.</li><li><strong>Cost:</strong> $499 (or $100/mo for 5-months) minus $100 completion rebate.</li></ul>",
     color: "#096ff0",
+    cta: "Pre-register",
     category: 'tech',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
   },
@@ -104,8 +111,9 @@ const tracks = [
     name: "Intro to Low/No-Code Track (Beginners)",
     image: lowcode,
     subhead: "Join Monthly",
-    desc:"<ul><li><strong>Build:</strong> A flight comparison website, mobile workforce app or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> Airtable, Segment, Zapier, Clay, RapidAPI, Retool, Webflow, Bubble & Glide.</li><li><strong>Cost:</strong> $499 (or $110/mo for 5-months) minus $100 completion rebate.</li></ul>",
+    desc:"<ul><li><strong>Build:</strong> A flight comparison website, mobile workforce app or your own personal project in the monthly build challenge.</li><li><strong>Learn:</strong> Airtable, Segment, Zapier, Clay, RapidAPI, Retool, Webflow, Bubble & Glide.</li><li><strong>Cost:</strong> $499 (or $100/mo for 5-months) minus $100 completion rebate.</li></ul>",
     color: "#096ff0",
+    cta: "Pre-register",
     category: 'tech',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview',
   },

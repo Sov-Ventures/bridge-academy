@@ -9,19 +9,19 @@ import kartik from "../img/home/kartik.jpg";
 
 export const processData = [
   {
-    headline: "Apply to join",
-    desc:
-      "Complete our short online application covering your background, passions, skills, project idea(s) and future goals.",
-  },
-  {
     headline: "Choose your path",
     desc:
-      "Select your area of focus from our different tracks. Some are career oriented, some are tools & technology oriented. ",
+      "Select your area of focus from our different techology-focused courses &amp; tracks.  ",
   },
   {
     headline: "Kickoff your journey",
     desc:
-      "Once accepted, you'll gain access to our community forum, chat and knowledge portal to ask questions and receive project feedback. ",
+      "Once you join a track, you'll gain access to our community forum, chat and knowledge portal to ask questions and receive project feedback. ",
+  },
+  {
+    headline: "Learn. Build. Earn. Repeat.",
+    desc:
+      "As a member of the Bridge community you'll continue have access to benefits including: sponsored build-challenges, new courses and our career portal.",
   },
 ];
 
@@ -32,9 +32,9 @@ export const faqData = [
       "No. Our program is built for experienced developers, looking to gain new skills and uplevel their careers.",
   },
   {
-    question: "How long does the program last?",
+    question: "How long do Bridge programs last?",
     answer:
-      "Our explore program can be completed in 3-months @ 10hrs per week commitment. The part-time career track program lasts 6-months and the full-time program lasts for 3 months and is a 40-50hrs per week commitment.",
+      "Many of our programs can be completed in one month, while others take 2-3 months. ",
   },
   {
     question: "Why is there a deposit required?",
@@ -42,9 +42,9 @@ export const faqData = [
       "Once you are accepted we ask for a deposit to secure your spot. Your deposit is refunded after you complete the program.",
   },
   {
-    question: "How do I know if i'm qualified to join?",
+    question: "How do I know if i'm qualified for a course or track?",
     answer:
-      "Please read the specific track requirements before applying. Most candidates have at least 2+ years of programming experience w/ general web or mobile development.",
+      "Please read the specific track requirements before joining. Most learners have at least 2+ years of programming experience w/ general web or mobile development.",
   },
   {
     question: "Can I enroll from anywhere?",
@@ -62,9 +62,9 @@ export const faqData = [
       "It depends, but if your primary interest is starting a company, you should apply to Y Combinator.",
   },
   {
-    question: "How many Bridge applicants come from outside the U.S?",
+    question: "How many Bridge learners come from outside the U.S?",
     answer:
-      "Over 80% of Bridge applicants come from outside the U.S. We strongly encourage International applicants to apply.",
+      "Over 2/3 of Bridge learners come from outside the U.S. In fact, we strongly encourage International applicants to apply.",
   },
 ];
 
@@ -216,12 +216,12 @@ export const contestFAQData = [
   {
     question: "How long does the bridge build challenge last?",
     answer:
-      "The build challenge lasts for 4 weeks. You may extend your challenge till the next month if you need more time.",
+      "The build challenge lasts for 3 weeks, at the end of which your project will be judged.",
   },
   {
     question: "Do I need a project idea in order to join?",
     answer:
-      "You don't need your own project in order to join, you can select from our list. Your project should reflect the skills you would like to pick up and enhance when joining Bridge and related to the career track you would like to join.",
+      "You don't need your own project in order to join, you can select from our list. ",
   },
   {
     question: "Can I participate from anywhere? ",

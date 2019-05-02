@@ -22,9 +22,9 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                     <th class="plan-matrix-details">
                       <a
                       className="btn btn-primary"
-                      href="https://apply.bridge.academy/b/vqcdrz/view"
+                      href="/learn#tech-tracks"
                        >
-                      Join now
+                      Explore courses
                     </a>
                     </th>
                     <th class="plan-matrix-details">
@@ -45,8 +45,8 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
-                     <td class="plan-matrix-details active">$499 per course (or $110/mo for 5-months) minus $100 rebate on program completion.</td>
-                    <td class="plan-matrix-details active">$600 refundable deposit or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
+                     <td class="plan-matrix-details active"><strong>100% refundable</strong> on full course completion, e.g: if you complete 20%, you get 20% back from your deposit. Up-front deposit required.</td>
+                    <td class="plan-matrix-details active"><strong>$600 refundable deposit</strong> or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
                   </tr>
 
                   <tr>
@@ -63,7 +63,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
 
                   <tr>
                     <td class="plan-matrix-label">Time Commitment</td>
-                     <td class="plan-matrix-details active">Go at your own pace. Average completion: 3 months, ~10hrs/week.</td>
+                     <td class="plan-matrix-details active">Go at your own pace. Courses vary from 1-2 months @ ~10hrs/week.</td>
                     <td class="plan-matrix-details active">3 months (fulltime: 40hrs/week) <br />6 months (part-time: 15-20hrs)</td>
                   </tr>
 
@@ -124,17 +124,6 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   </tr>
     
 
-
-               <tr>
-                    <td class="plan-matrix-label">Additional Course Discount  </td>
-                     <td class="plan-matrix-details active">
-                      10% discount on future courses
-                     </td>
-                     <td class="plan-matrix-details active">
-                      <span class="ss-check"></span> Free for life
-                     </td>
-
-                  </tr>
 
                <tr>
                     <td class="plan-matrix-label">Hiring bonus  </td>
@@ -206,27 +195,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   </tr>
                   
 
-      
-                  <tr>
-                    <th class="plan-matrix-label"></th>
-                    <th class="plan-matrix-details">
-                      <a
-                      className="btn btn-primary"
-                      href="https://apply.bridge.academy/b/vqcdrz/view"
-                       >
-                      Join now
-                    </a>
-                    </th>
-                    <th class="plan-matrix-details">
-                     <a
-                      className="btn btn-primary"
-                      href="https://apply.bridge.academy/b/lxshok/view"
-                       >
-                      Apply now
-                    </a>
-                    </th>
 
-                  </tr>
                 
  
                      

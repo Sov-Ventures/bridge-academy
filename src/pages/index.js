@@ -19,8 +19,8 @@ export default () => (
     <Layout seoTitle="Frontier-Tech Focused Talent Accelerator">
       <HomeHero />
       <ApplicationProcess
-        headline="Joining Bridge"
-        desc="Our three step process to joining."
+        headline="How it works"
+        desc="Learn the latest tech skills to propel your career."
         data={processData}
       />
       <HiringPartners
