@@ -24,7 +24,7 @@ export default function LearnPage() {
       <Hero 
         headline="Learn new technologies, by using new technologies"
         firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
-        secondDesc="<strong>Note:</strong> All of our courses come with a <a href='#plan-comparison'>guaranteed refund</a> up to 100%, just for completing them."
+        secondDesc="<strong>Note:</strong> All of our explorer courses come with a <a href='#plan-comparison'>guaranteed completion rebate</a> up to 100%."
 
       >
      <TechTracks
