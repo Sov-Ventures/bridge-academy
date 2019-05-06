@@ -7,10 +7,16 @@ export default function Hero({
   firstDesc,
   secondDesc,
   className,
+  id,
+  heroimg,
 }) {
   return (
-    <section className="hero container">
-      <div className={className}>
+    <section id="homepage" className="hero">
+    <div className="container">
+    
+
+
+      <div  id={id}  className={className}>
         {headline && (
           <h1>
             <span style={{ textAlign: "center" }}>
@@ -31,6 +37,14 @@ export default function Hero({
         )}
 
         {children}
+      </div>
+
+          {heroimg && (
+      <div className='feature-hero'>
+        <img  src={heroimg}   />
+      </div>
+    )}
+
       </div>
     </section>
   );

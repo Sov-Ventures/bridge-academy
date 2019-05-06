@@ -8,33 +8,29 @@ export default function Footer() {
         <div className="row">
 
             <ul style={{ float: "left" }}>
-              <li>About Bridge</li>
+              <li>COMPANY</li>
 
 
               <li className="menu-item">
-                <Link to="/mentors">LEARN</Link>
-              </li>
-
-              <li className="menu-item">
-                <Link to="/partners">BUILD</Link>
-              </li>
-
-
-              <li className="menu-item">
-                <Link to="/earn">EARN</Link>
+                <a href="/fund">FUND</a>
               </li>
 
               <li className="menu-item">
                 <a href="https://prism.io/#team">TEAM</a>
               </li>
 
+              <li className="menu-item">
+                <a href="/candidate-agreement">TERMS</a>
+              </li>
+
+
               <li
                 style={{ marginTop: "4.5em" }}
                 id="menu-item-17"
                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"
               >
-                Copyright © 2019 <br />
-                <a href="https://prism.io">Prism Labs</a>, Inc.
+                © 2019 <br />
+                <a href="https://prism.io">Prism Labs</a>
               </li>
             </ul>
 
@@ -42,7 +38,7 @@ export default function Footer() {
 
       <ul style={{ float: "left" }}>
 
-              <li className="menu-item">Our Community</li>
+              <li className="menu-item">PARTNERS</li>
             <li className="menu-item">
               <a href="/community">JOIN</a>
               </li>
@@ -58,12 +54,19 @@ export default function Footer() {
 
       <ul style={{ float: "left" }}>
 
-              <li className="menu-item">Our Products</li>
+              <li className="menu-item">DEVELOPERS</li>
+       
               <li className="menu-item">
-                <a href="https://xpo.network">Xpo.Network</a>
+                <Link to="/mentors">LEARN</Link>
               </li>
+
               <li className="menu-item">
-                <a href="https://bridge.academy">Bridge.Academy</a>
+                <Link to="/partners">BUILD</Link>
+              </li>
+
+
+              <li className="menu-item">
+                <Link to="/earn">EARN</Link>
               </li>
             </ul>
 

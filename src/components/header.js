@@ -17,16 +17,17 @@ export default () => (
       <ul className="menu-header">
         <li className="menu-item">
           <Link
-            to="/#"
+            /*to="/#"*/
+            to="/learn"
             id="dropdownMenuButton1"
-            data-toggle="dropdown"
+            /*data-toggle="dropdown"
             aria-haspopup="true"
-            aria-expanded="false"
+            aria-expanded="false"*/
           >
             LEARN
           </Link>
 
-          <div
+          {/*<div
             className="dropdown-menu dropdown-menu-center"
             aria-labelledby="dropdownMenuButton1"
           >
@@ -79,7 +80,7 @@ export default () => (
             </ul>
 
   
-          </div>
+          </div>*/}
         </li>
 
 
@@ -99,6 +100,13 @@ export default () => (
       <li className="menu-item">              
 
           <a href="/community">COMMUNITY</a>
+
+        </li>
+
+
+      <li className="menu-item">              
+
+          <a href="/fund">FUND</a>
 
         </li>
 
@@ -145,10 +153,18 @@ export default () => (
           </Link>    
         </li>
 
+
+
       <li className="menu-item">              
 
           <a href="/community">COMMUNITY</a>
 
+        </li>
+
+         <li className="menu-item">
+                <Link to="/fund">
+           FUND
+          </Link>    
         </li>
 
 

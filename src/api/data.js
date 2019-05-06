@@ -39,7 +39,7 @@ export const faqData = [
   {
     question: "Why is there a deposit required?",
     answer:
-      "Once you are accepted we ask for a deposit to secure your spot. Your deposit is refunded after you complete the program.",
+      "Once you are accepted we ask for a deposit to secure your spot. Your deposit is refunded after you complete the program. Scholarships can be provided through our <a href='/fund'>scholarship fund</a> to offset these costs. ",
   },
   {
     question: "How do I know if i'm qualified for a course or track?",
@@ -201,6 +201,31 @@ export const mentors = [
     },
   },
 ];
+
+
+export const scholarshipFAQData = [
+  {
+    question: "How do i provide a scholarship?",
+    answer:
+      "Scholarships are provided through deposits for Bridge courses and career track programs, where we reserve 50% of the deposits to fund the scholarship fund.",
+  },
+    {
+    question: "How do I get a scholarship for myself?",
+    answer:
+      "In order to receive a scholarship, you must apply for one when you fill out your application for a bridge course or career track program.",
+  },
+  {
+    question: "How do I know if i'm qualified for a scholarship?",
+    answer:
+      "Scholarship funds will be given out on a basis of need, first to those currently living in developing countries, and then everyone outside the U.S.",
+  },
+  {
+    question: "Are scholarships tax deductable?",
+    answer:
+      "Scholarships are not currently deductable, but we are workign to make them so by launching our non-profit arm. ",
+  }
+];
+
 
 export const contestFAQData = [
   {

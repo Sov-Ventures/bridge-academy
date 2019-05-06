@@ -1169,7 +1169,7 @@ section.explore-communities .community-item.card .card-img-top img {
 }
 section.explore-communities .community-item.card .card-body {
   text-align: left;
-  padding: 0 1.5em 0 0;
+  padding: 0 ;
 }
 section.explore-communities .community-item.card .card-footer {
   border-top: solid 1px #dddddd;
@@ -2466,6 +2466,7 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 @media screen and (max-width: 62em) {
+
    #tracks .community-item.card .course-img {
     width:100%;
   }
@@ -2663,6 +2664,7 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 @media (min-width: 670px) {
+
   .platforms nav {
     position: absolute;
     right: 20px;
@@ -3081,6 +3083,11 @@ pre.language-curl .line-numbers > span:first-child:before {
 }
 
 @media screen and (max-width: 62em) {
+  .feature-hero,
+  .feature-hero img{
+    width:100% !important;
+    max-width:100% !important;
+  }
   .description {
     max-width: 100% !important;
     margin: 0 !important;
@@ -4012,10 +4019,19 @@ pre.language-curl .line-numbers > span:first-child:before {
   border: 0;
 }
 
-@media screen and (min-width: 68em) {
-  .contest .mentor {
-    width: 33%;
-  }
+.feature-hero{
+    width: 60% ;
+    float: right; 
+    text-align: left;
+}
+
+.hero #home-tagline h1,
+.hero #home-tagline p,
+#home-tagline h3 {
+  width:100% !important;
+  max-width: 100%;
+  padding:1em 0 0 0;
+  margin:0;
 }
 
 .mentor img{

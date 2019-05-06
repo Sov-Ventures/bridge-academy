@@ -52,7 +52,7 @@ const tracks = [
     name: "FullStack Developer",
     image: fullstack,
     subhead: "Career Track",
-    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Tracks:</strong> Part & Full-time.</li><li><strong>Careers:</strong> Blockchain Developer, dApp Developer, Blockchain Architect</li></ul><p align='center'><a  href='/learn/fullstack'>Learn More</a></p>",
+    desc:"<ul><li><strong>Cost:</strong> 15% Income for 3 years. Capped: $19,000 via our <a href='/candidate-agreement'>deffered fee agreement</a><li><strong>Tracks:</strong> Part & Full-time.</li><li><strong>Careers:</strong> Fullstack Developer, Web Developer, Software Architect</li></ul><p align='center'><a  href='/learn/fullstack'>Learn More</a></p>",
     color: "#290f34",
     category: 'career',
     link: 'https://apply.bridge.academy/register?next=%2Fb%2Frvd2ba%2Fview',

@@ -1,39 +1,9 @@
 import React from "react";
-import kshaun from "../img/home/kshaun.jpg";
 import jbeard from "../img/home/jbeard.jpg";
 import saraw from "../img/home/saraw.jpg";
-import salilg from "../img/home/salilg.jpg";
 import cdepman from "../img/home/cdepman.jpg";
-import ankushm from "../img/home/ankushm.jpg";
 
-const alumni = [
-  {
-    name: "Kyle Aquino",
-    image: kshaun,
-    note:
-      "Bridge was the community I'm looking for. It helped me meet amazing developers around the world. It gave me an opportunity to see beyond and gave me have a new vision of the future.",
-    social: {
-      github: "https://github.com/kyleaquino",
-    },
-  },
-  {
-    name: "Salil Gautam",
-    image: salilg,
-    note:
-      "If you are a highly motivated individual who likes to keep their skills updated and want to be a part of a community with similar intentions, this is the program for you!",
-    social: {
-      github: "https://github.com/salil-gtm",
-    },
-  },
-  {
-    name: "Ankush Malik",
-    image: ankushm,
-    note:
-      "The Bridge program was especially helpful for newbies to the Blockchain space like me. From the mentors to the curriculum to the projects, it has everything.",
-    social: {
-      github: "https://github.com/AnkushMalik",
-    },
-  },
+const benefactors = [
   {
     name: "Jacob Beard",
     image: jbeard,
@@ -59,28 +29,27 @@ const alumni = [
       "Bridge Academy gave me the chance to explore blockchain technology and get some guidance on other technologies I hadn't used before. My mentor provided me with great feedback as I was developing my project.",
     social: {
       github: "https://github.com/cdepman",
-    },
   }
-
+  },
 ];
 
-export default function Alumni({limit, endSlice}) {
+export default function Benefactors() {
   return (
     <section id="alumni">
       <div className="container">
         <h2 className="section-header">
           <big>
             <br />
-            <span style={{ textAlign: "center" }}>Our Alumni</span>
+            <span style={{ textAlign: "center" }}>Bridge Benefactors</span>
           </big>
         </h2>
 
         <p className="description">
-          Our community of builders come from all over the world and from diverse backgrounds.
+          Our community of benefactors help us pay it forward.
         </p>
 
         <div className="communities-container row">
-          {alumni.slice(0, endSlice || alumni.length).map(cur => (
+          {benefactors.map(cur => (
             <AlumniCard
               key={cur.name}
               image={cur.image}

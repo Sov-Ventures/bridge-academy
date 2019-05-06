@@ -24,17 +24,17 @@ export default function LearnPage() {
       <Hero 
         headline="Learn new technologies, by using new technologies"
         firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
-        secondDesc="<strong>Note:</strong> All of our explorer courses come with a <a href='#plan-comparison'>guaranteed completion rebate</a> up to 100%."
-
+        secondDesc="All of our courses and programs send 50% of the deposits to our <a href='/fund'>scholarship fund</a>. The other 50% is reserved for a <a href='#plan-comparison'>completion rebate</a>."
       >
+        <PrimaryButton to="#tech-tracks">Explore Courses</PrimaryButton>
+
+
+      </Hero>
+
      <TechTracks
         category="tech"
         endSlice={null}
       />
-
-      </Hero>
-
-
 
       <section><br /><br /><br /></section>
 

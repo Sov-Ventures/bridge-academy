@@ -37,7 +37,9 @@ export default () => (
 
       <FAQ data={faqData} />
 
-      <Alumni />
+      <Alumni 
+        endSlice={6}
+      />
 
 
       <Investors />
