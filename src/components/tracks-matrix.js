@@ -12,9 +12,9 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                 <thead>
                   <tr>
                   <th class="plan-matrix-label"><h4>Paths</h4><br /></th>
-                    <th class="plan-matrix-details"><big>Explorer Path</big><br /><small>Ideal for exploring and dabbling with new technologies. <a href="/tracks">See tracks.</a></small>
+                    <th class="plan-matrix-details"><big>Explorer Path</big><br /><small>Ideal for exploring and dabbling with new technologies. <a href="/learn#tech-tracks">See tracks.</a></small>
                     </th>
-                    <th class="plan-matrix-details"><big>Career Path</big><br /><small>Ideal for transitioning into new roles or industries. <a href="/tracks#career-tracks">See tracks.</a></small></th>
+                    <th class="plan-matrix-details"><big>Career Path</big><br /><small>Ideal for transitioning into new roles or industries. <a href="/learn#career-tracks">See tracks.</a></small></th>
                   </tr>
 
                   <tr>
@@ -46,7 +46,7 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                   <tr>
                     <td class="plan-matrix-label">Costs</td>
                      <td class="plan-matrix-details active">Pro-rated refund <strong>up to 50%</strong><br /> Complete a course, get 50% back from your deposit. 50% is donated to our <a href="/fund">scholarship fund</a>.</td>
-                    <td class="plan-matrix-details active"><strong>$600 refundable deposit</strong> or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/tracks">see terms</a>.</td>
+                    <td class="plan-matrix-details active"><strong>$600 refundable deposit</strong> or (3) $199 monthly payments, 100% refunded on completion + 15% income share, <a href="/candidate-agreement">see terms</a>.</td>
                   </tr>
 
                   <tr>
