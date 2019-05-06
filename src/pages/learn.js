@@ -24,7 +24,7 @@ export default function LearnPage() {
       <Hero 
         headline="Learn new technologies, by using new technologies"
         firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
-        secondDesc="All of our courses and programs send 50% of the deposits to our <a href='/fund'>scholarship fund</a>. The other 50% is reserved for a <a href='#plan-comparison'>completion rebate</a>."
+        secondDesc="50% of deposits are allocated for the bridge <a href='/fund'>scholarship fund</a>. The other 50% is reserved for <a href='#plan-comparison'>rebates</a>."
       >
         <PrimaryButton to="#tech-tracks">Explore Courses</PrimaryButton>
 

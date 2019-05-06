@@ -36,21 +36,6 @@ export default function Footer() {
 
    
 
-      <ul style={{ float: "left" }}>
-
-              <li className="menu-item">PARTNERS</li>
-            <li className="menu-item">
-              <a href="/community">JOIN</a>
-              </li>
-            <li className="menu-item">
-              <a href="/mentors">MENTORS</a>
-              </li>
-            <li className="menu-item">
-              <a href="/partners">PARTNERS</a>
-              </li>
-
-            </ul>
-
 
       <ul style={{ float: "left" }}>
 
@@ -69,6 +54,21 @@ export default function Footer() {
                 <Link to="/earn">EARN</Link>
               </li>
             </ul>
+
+
+      <ul style={{ float: "left" }}>
+
+              <li className="menu-item">PARTNERS</li>
+
+            <li className="menu-item">
+              <a href="/mentors">MENTORS</a>
+              </li>
+            <li className="menu-item">
+              <a href="/partners">EMPLOYERS</a>
+              </li>
+
+            </ul>
+
 
 
           <section className="social-links col-md-3 col-xs-pull col-xs-pull-left">

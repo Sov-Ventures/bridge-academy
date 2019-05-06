@@ -4025,13 +4025,18 @@ pre.language-curl .line-numbers > span:first-child:before {
     text-align: left;
 }
 
-.hero #home-tagline h1,
-.hero #home-tagline p,
-#home-tagline h3 {
+.hero #home-tagline p{
+  width:100% !important;
+  max-width: 100% !important;
+  padding:0 !important;
+  margin-left:0px !important;
+}
+
+.hero #home-tagline h1{
   width:100% !important;
   max-width: 100%;
-  padding:1em 0 0 0;
-  margin:0;
+  padding:0 0 0 0;
+  margin:0 !important;
 }
 
 .mentor img{
