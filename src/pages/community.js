@@ -17,24 +17,27 @@ export default function Community() {
       <Hero 
         className="inner"
         headline="Our Community"
-        firstDesc="The Bridge community is a passionate group of developers, mentors and technology enthusiasts."
+        firstDesc="The Bridge community is a passionate group of life-long learners including developers, mentors and technology enthusiasts."
       
       >
 
           <p>
-              <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/register">Join our community</PrimaryButton><br /><br />
+              <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/register">Join our community</PrimaryButton>
               <SecondaryButton className="btn btn-secondary" to="#tweets">Explore community</SecondaryButton>
-
           </p>
 
-
-  
       </Hero>
 
       <Tweets 
         headline="Community Love"
         endSlice={null}
-      />
+      >
+      <p>
+        <PrimaryButton className="btn btn-primary" to="https://twitter.com/join_bridge">Follow on Twitter</PrimaryButton><br /><br />
+        <SecondaryButton className="btn btn-secondary" to="https://discord.gg/FRevr2N">Join our Discord</SecondaryButton>
+      </p>
+
+      </Tweets>
     </Layout>
     </Fragment>
   );

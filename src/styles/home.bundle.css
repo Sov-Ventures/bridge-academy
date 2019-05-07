@@ -769,6 +769,7 @@ header .logo img {
 
 .hero .btn{
   margin-right:1em;
+  margin-bottom:1em;
 }
 
 @media screen and (min-width: 40em) {
@@ -1962,7 +1963,7 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 @media screen and (max-width: 56em) {
-  
+
 .hero .inner{
   padding-top:0vh;
 }
