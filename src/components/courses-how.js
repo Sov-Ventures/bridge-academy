@@ -3,8 +3,23 @@ import React from "react";
 export default function CoursesHow({headline, firstDesc}) {
   return (
     <section id="how-items" className="tools">
+      <div className="triangle triangle--bottom triangle--gray">
+        <svg
+          x="0"
+          y="0"
+          viewBox="0 0 2560 100"
+          preserveAspectRatio="none"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polygon points="2560 0 2560 100 0 100" />
+        </svg>
+      </div>
 
-      <div class="container">
+      <div className="grey">
+      
+      <div className="container">
+
       <h2 class="section-header"><big>{headline}</big></h2>
       <p className="description">{firstDesc}</p>
       <div id="faq-items">
@@ -39,8 +54,20 @@ export default function CoursesHow({headline, firstDesc}) {
             <br />
          <br /> 
         </div>
+        </div>
       </div>
-
+      <div className="triangle triangle--top triangle--gray triangle--rotated">
+        <svg
+          x="0"
+          y="0"
+          viewBox="0 0 2560 100"
+          preserveAspectRatio="none"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polygon points="2560 0 2560 100 0 100" />
+        </svg>
+      </div>
 
 
      

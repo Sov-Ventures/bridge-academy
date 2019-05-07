@@ -19,7 +19,7 @@ export default function Scholarship() {
         className="hero contest"
         id="home-tagline"
         headline="Pay it forward"
-        subHeadline="To the next generation of software developers."
+        subHeadline="To the next generation of global software developers."
         firstDesc="For each purchase of a Bridge course, we earmark 50% of the proceeds for scholarships."
         secondDesc="Scholarship funds go directly towards offsetting the cost of our programs for aspiring developers in develping countries."
         heroimg={scholarship}

@@ -3,6 +3,13 @@ module.exports = {
   plugins: [
 
   {
+     resolve: "@raae/gatsby-remark-oembed", 
+   options: { 
+     navigateFallback: null, 
+     navigateFallbackWhitelist: [], 
+     }
+  },
+  {
      resolve: "gatsby-plugin-react-helmet", 
    options: { 
      navigateFallback: null, 

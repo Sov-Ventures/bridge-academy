@@ -10,9 +10,8 @@ export default function Footer() {
             <ul style={{ float: "left" }}>
               <li>COMPANY</li>
 
-
               <li className="menu-item">
-                <a href="/fund">FUND</a>
+                <a href="/manifesto">MISSION</a>
               </li>
 
               <li className="menu-item">
@@ -23,6 +22,10 @@ export default function Footer() {
                 <a href="/candidate-agreement">TERMS</a>
               </li>
 
+
+              <li className="menu-item">
+                <a href="/fund">FUND</a>
+              </li>
 
               <li
                 style={{ marginTop: "4.5em" }}
