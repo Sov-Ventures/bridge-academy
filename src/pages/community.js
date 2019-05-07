@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import PrimaryButton from "../components/button";
+import SecondaryButton from "../components/button";
 import ReadyTo from "../components/readyTo";
 import Layout from "../components/layout";
 import FlashBar from "../components/flash-bar";
@@ -19,50 +21,18 @@ export default function Community() {
       
       >
 
-          <div
-              className="dropdown"
-              style={{
-                width: "100%",
-                position: "relative",
-                display: "inline-block",
-              }}
-            >
-              <button
-                onClick={() => (window.location = "https://apply.bridge.academy/register")}
-                className="btn btn-primary"
-                type="button"
-                id="dropdownMenuButton"
-              >
-              Join our community
-              </button>
+          <p>
+              <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/register">Join our community</PrimaryButton><br /><br />
+              <SecondaryButton className="btn btn-secondary" to="#tweets">Explore community</SecondaryButton>
+
+          </p>
 
 
-              <div
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuButton"
-              >
-                <Link className="dropdown-item" to="/blockchain-pt">
-                  <strong> Blockchain Development</strong>
-                  <br />
-                  (P/t, Online, 15hrs/week)
-                </Link>
-
-                <Link className="dropdown-item" to="/blockchain-ft">
-                  <strong>Blockchain Development</strong>
-                  <br />
-                  (F/t, Online, 50hrs/week)
-                </Link>
-
-                <Link className="dropdown-item" to="/fullstack-ft">
-                  <strong>Full-stack Web Development</strong>
-                  <br />
-                  (F/t, Online, 50hrs/week)
-                </Link>
-              </div>
-            </div>
+  
       </Hero>
 
       <Tweets 
+        headline="Community Love"
         endSlice={null}
       />
     </Layout>

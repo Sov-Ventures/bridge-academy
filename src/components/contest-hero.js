@@ -1,4 +1,6 @@
 import React from "react";
+import PrimaryButton from "../components/button";
+import SecondaryButton from "../components/button";
 import blockchain from "../img/home/blockchain.png";
 import fullstack from "../img/home/fullstack.png";
 import aiml from "../img/home/aiml.png";
@@ -32,16 +34,12 @@ export default function ContestHero() {
               here</a>. See <a href="#tracks">sponsors</a>.
               </li>
           </ul>
+
           <p>
-            <a  
-              className="btn btn-primary"
-              href="https://apply.bridge.academy/b/lxshok/view"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Register to join
-            </a>
+          <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/lxshok/view">Register Now</PrimaryButton>
+          <SecondaryButton className="btn btn-secondary" to="#how-items">Learn More</SecondaryButton>
           </p>
+  
 
 
 

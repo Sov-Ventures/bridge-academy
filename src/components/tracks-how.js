@@ -16,7 +16,7 @@ export default function TracksHow() {
         <div className="faq-item">
           <h5>PAYMENT OPTIONS</h5>
           <p>
-            1. $600 up-front deposit + $19,000 maximum repayment via our <a href="/candidate-agreement">deffered fee agreement</a>. <a href="#faq">See our FAQ</a> for details.
+            1. $500 up-front deposit + $19,000 maximum repayment via our <a href="/candidate-agreement">deffered fee agreement</a>. <a href="#faq">See our FAQ</a> for details.
           </p>
           <p>2. $9,500 up-front.</p>
         </div>

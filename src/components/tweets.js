@@ -38,9 +38,10 @@ const tweets = [
 
 
 
-export default function Tweets({limit, endSlice}) {
+export default function Tweets({limit, endSlice, headline}) {
   return (
     <section id="tweets">
+    <h2>{headline}</h2>
       <div className="container">
         <div className="communities-container row">
           {tweets.slice(0, endSlice || tweets.length).map(cur => (

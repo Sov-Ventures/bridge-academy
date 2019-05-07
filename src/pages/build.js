@@ -24,7 +24,7 @@ export default function Build() {
       <Mentors />
       <FAQ data={contestFAQData} />
       <ReadyTo headline="Ready to join?">
-        <PrimaryButton to="https://apply.bridge.academy/b/lxshok/view">
+        <PrimaryButton className="btn btn-primary"  to="https://apply.bridge.academy/b/lxshok/view">
           Apply now
         </PrimaryButton>
       </ReadyTo>

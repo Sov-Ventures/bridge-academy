@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import ApplicationProcess from "../components/application-process";
 import PrimaryButton from "../components/button";
+import SecondaryButton from "../components/button";
 import HiringPartners from "../components/hiring-partners";
 import FlashBar from "../components/flash-bar";
 import FAQ from "../components/faq";
@@ -27,21 +28,24 @@ export default function LearnPage() {
         firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
         secondDesc="50% of deposits are allocated for the bridge <a href='/fund'>scholarship fund</a>. 50% is reserved for <a href='#plan-comparison'>rebates</a>."
       >
+        <p>
         <PrimaryButton className="btn btn-primary" to="#tech-tracks">Explore Courses</PrimaryButton>
-
+        <SecondaryButton className="btn btn-secondary" to="#career-tracks">Explore Tracks</SecondaryButton>
+        </p>
 
       </Hero>
 
      <TechTracks
+        headline="Tech Explorer Courses"
+        desc="All courses are go at your own pace."
         category="tech"
         endSlice={null}
       />
 
-      <section><br /><br /><br /></section>
-
+ 
 
       <CareerTracks
-        headline="Career 'LevelUp' Tracks"
+        headline="Career LevelUp Tracks"
         desc="Complete our part-time in 6 months @ 20hrs/week. Full-time program completed in 3 months @ 40hrs/week."
         category='career'
         endSlice={null}

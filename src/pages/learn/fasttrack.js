@@ -22,7 +22,7 @@ export default function FullStack() {
         className="inner"
         headline="Career FastTrack"
         subHeadline="For Senior Developers. "
-        firstDesc="Your Bridge into a Silicon-valley tech career working remotely. Only make payments if you are earning at least a 25% higher salary."
+        firstDesc="Your Bridge into a Silicon-valley tech career working remotely."
         secondDesc="Includes: Interview Prep, Career Coaching/Mentoring & Relevant Intros & Job Referrals."
       >
         <PrimaryButton className="btn btn-primary"to="https://apply.bridge.academy/b/rvd2ba/view">

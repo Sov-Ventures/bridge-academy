@@ -26,8 +26,9 @@ export default function EarnPage() {
         firstDesc="Here we showcase selected jobs, gigs and bounties from our network of hiring partners."
         secondDesc="Looking to post your job, gig or bounty? Apply as a <a href='https://apply.bridge.academy/b/axv6ye/view'>hiring partner</a>."
       >
+        <p>
         <PrimaryButton className="btn btn-primary" to="#tech-tracks">Explore Jobs</PrimaryButton>
-
+        </p>
       </Hero>
 
      <EarnJobs

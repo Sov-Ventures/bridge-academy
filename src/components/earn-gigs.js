@@ -29,7 +29,7 @@ export default function EarnGigs({ headline, image, desc, endSlice, category }) 
       </div>
 
 
-        <PrimaryButton to="https://www.upwork.com/o/jobs/browse/?q=blockchain">
+        <PrimaryButton className="btn btn-primary" to="https://www.upwork.com/o/jobs/browse/?q=blockchain">
           See All Gigs
         </PrimaryButton>
 

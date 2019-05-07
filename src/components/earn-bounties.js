@@ -29,7 +29,7 @@ export default function EarnBounties({ headline, image, desc, endSlice, category
       </div>
 
 
-        <PrimaryButton to="https://explorer.bounties.network/explorer?bountyStage=active&platform=bounties-network%2Cgitcoin">
+        <PrimaryButton className="btn btn-primary" to="https://explorer.bounties.network/explorer?bountyStage=active&platform=bounties-network%2Cgitcoin">
           See All Bounties
         </PrimaryButton>
 

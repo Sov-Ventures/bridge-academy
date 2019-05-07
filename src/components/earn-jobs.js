@@ -31,7 +31,7 @@ export default function EarnJobs({ headline, image, desc, endSlice, category }) 
       </div>
 
 
-        <PrimaryButton to="https://jobs.bridge.academy">
+        <PrimaryButton className="btn btn-primary"to="https://jobs.bridge.academy">
           See All Jobs
         </PrimaryButton>
 

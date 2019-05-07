@@ -609,7 +609,12 @@ header .logo img {
 }
 
 .hero {
-  margin-top:2em;
+  margin-top:3em;
+  height:100vh;
+}
+
+.hero .inner{
+  padding-top:10vh;
 }
 
 .hero h1 {
@@ -809,6 +814,7 @@ header .logo img {
 }
 
 @media screen and (min-width: 68em) {
+
   .hero {
     background-position: 130% top;
     padding:0 0 0 0;
@@ -1956,6 +1962,11 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 @media screen and (max-width: 56em) {
+  
+.hero .inner{
+  padding-top:0vh;
+}
+
   .hero h1{
     width:100% !important;
   }
