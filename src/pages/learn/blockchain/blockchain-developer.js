@@ -19,6 +19,7 @@ export default function BlockChain() {
    <FlashBar />
     <Layout seoTitle="Blockchain Engineer Career Track">
       <Hero
+        className="inner"
         headline="Blockchain (Career Track)"
         subHeadline="Part-time: 10-15hrs /week."
         firstDesc="Your bridge into a Silicon-valley tech career working remotely as a Blockchain Developer, dApp Developer + more."
@@ -45,31 +46,11 @@ export default function BlockChain() {
           Contact Us
         </PrimaryButton>
       </ReadyTo>
-      <Mentors />
       <FAQ data={faqData} />
 
-      <section id="referrals">
-        <div className="container">
-          <h2 className="section-header">
-            <big>
-              <br />
-              <span style={{ textAlign: "center" }}>Ready to apply?</span>
-            </big>
-          </h2>
+      <Mentors />
 
-          <p className="description">Fill out our quick online application.</p>
-
-          <PrimaryButton to="https://apply.bridge.academy/b/rvd2ba/view">
-            Apply now
-          </PrimaryButton>
-
-          <p>
-            <br />
-          </p>
-          <br />
-          <br />
-        </div>
-      </section>
+     
     </Layout>
     </Fragment>
   );

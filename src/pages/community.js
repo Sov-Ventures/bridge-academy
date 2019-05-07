@@ -13,6 +13,7 @@ export default function Community() {
   <FlashBar />
     <Layout seoTitle="Bridge Community">
       <Hero 
+        className="inner"
         headline="Our Community"
         firstDesc="The Bridge community is a passionate group of developers, mentors and technology enthusiasts."
       

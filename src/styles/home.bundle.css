@@ -327,7 +327,7 @@ picture {
 }
 
 .container .inner {
-  width: 60%;
+  width: 40%;
   float: none;
   margin: 0px auto;
 }
@@ -618,7 +618,6 @@ header .logo img {
   font-size:2em;
   float: none !important;
   clear:both;
-  width:40%;
 }
 
 .hero h1:last-child {
@@ -725,6 +724,7 @@ header .logo img {
   top:0em;
   left:0em;
 }
+
 .hero #bridge-icon{display:none;}
 .hero {text-align: left;}
 .hero #bridge-headline {
@@ -745,6 +745,20 @@ header .logo img {
 #homepage{
   margin-top:1.5em !important;
 }
+
+.inner,
+.description{
+  width:45%;
+  margin:2em auto;
+}
+
+.description,
+.hero-desc
+{
+  margin:1em auto;
+  text-align: center;
+}
+
 
 @media screen and (min-width: 40em) {
   .hero .btn-group {
@@ -1357,6 +1371,7 @@ section.explore-communities
 }
 
 @media screen and (min-width: 68em) {
+
   .feature {
     max-height: 38.125em;
     padding: 5em 0 3.125em;
@@ -1446,7 +1461,6 @@ section.explore-communities
 }
 
 @media screen and (min-width: 40em) {
-
   .cta h2 {
     float: left;
     display: block;
@@ -1865,9 +1879,18 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 @media only screen and (max-width: 48em) {
+  .inner,
+  .description,
+  .hero-desc{
+    width:100% !important;
+  }
+  .description,
+  .hero-desc
+  {text-align: left;}
   .pricing-block {
     width: 100% !important;
   }
+
 }
 
 
@@ -3088,10 +3111,7 @@ pre.language-curl .line-numbers > span:first-child:before {
     width:100% !important;
     max-width:100% !important;
   }
-  .description {
-    max-width: 100% !important;
-    margin: 0 !important;
-  }
+
 
   #laptop-iframe {
     display: none;
@@ -4047,11 +4067,6 @@ pre.language-curl .line-numbers > span:first-child:before {
   float:right;
 }
 
-.description {
-  padding: 0.7em 0;
-  margin: 1em 27% 1em 27%;
-  max-width: 46%;
-}
 
 #flash-bar {
   margin-top: -1em;

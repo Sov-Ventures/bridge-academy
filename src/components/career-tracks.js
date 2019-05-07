@@ -13,7 +13,7 @@ export default function CareerTracks({ headline, image, desc, endSlice, category
 
     <section id="career-tracks" class="explore-communities">
       <h2>{headline}</h2>
-      <p dangerouslySetInnerHTML={{ __html: desc }} />
+      <p className="description" dangerouslySetInnerHTML={{ __html: desc }} />
       <div id="tracks" className="container">
         <div className="communities-container row">
           {tracks.slice(0, endSlice || tracks.length ).map(track => (

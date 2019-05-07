@@ -22,6 +22,7 @@ export default function LearnPage() {
   <FlashBar />
     <Layout seoTitle="Bridge Career Tracks">     
       <Hero 
+        className="inner"
         headline="Learn new technologies, by using new technologies"
         firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
         secondDesc="50% of deposits are allocated for the bridge <a href='/fund'>scholarship fund</a>. The other 50% is reserved for <a href='#plan-comparison'>rebates</a>."

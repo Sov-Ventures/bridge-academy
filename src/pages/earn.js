@@ -20,6 +20,7 @@ export default function EarnPage() {
   <FlashBar />
     <Layout seoTitle="Earn">     
       <Hero 
+        className="inner"
         headline="Find Jobs, Gigs and Bounties"
         firstDesc="Looking to post your job, gig or bounty? <br />Apply as a hiring partner <a href='https://apply.bridge.academy/b/axv6ye/view'>here</a>."
       >

@@ -39,17 +39,22 @@ export const faqData = [
   {
     question: "Why is there a deposit required?",
     answer:
-      "Once you are accepted we ask for a deposit to secure your spot. Your deposit is refunded after you complete the program. Scholarships can be provided through our <a href='/fund'>scholarship fund</a> to offset these costs. ",
+      "Once you are accepted we ask for a deposit to secure your spot. Your deposit is refunded after you complete the program. ",
   },
   {
-    question: "How do I know if i'm qualified for a course or track?",
+    question: "How do scholarships work?",
     answer:
-      "Please read the specific track requirements before joining. Most learners have at least 2+ years of programming experience w/ general web or mobile development.",
+      "Scholarships are given out according to need and sponsored from our community of benefactors. Please see scholarship fund <a href='/fund'>link here</a> for details.",
+  },
+  {
+    question: "How do I know if i'm qualified?",
+    answer:
+      "Please read the specific track requirements before joining. Applicants come from all different levels of programming experience.",
   },
   {
     question: "Can I enroll from anywhere?",
     answer:
-      "As long as you have a reliable internet connection to join in on weekly office hours calls with your mentor.",
+      "Yes! As long as you have a reliable internet connection and are able to dedicate the required time for your program.",
   },
   {
     question: "Can I participate while employed?",
@@ -57,12 +62,7 @@ export const faqData = [
       "Sure! Many of our applicants manage to balance full-time jobs as well as our program.",
   },
   {
-    question: "I’d like to start my own company. Should I apply?",
-    answer:
-      "It depends, but if your primary interest is starting a company, you should apply to Y Combinator.",
-  },
-  {
-    question: "How many Bridge learners come from outside the U.S?",
+    question: "How many applicants are outside the U.S?",
     answer:
       "Over 2/3 of Bridge learners come from outside the U.S. In fact, we strongly encourage International applicants to apply.",
   },

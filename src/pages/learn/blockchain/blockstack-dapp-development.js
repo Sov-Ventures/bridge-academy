@@ -20,6 +20,7 @@ export default function ShowCourse() {
    <FlashBar />
     <Layout seoTitle="Intro to Blockstack & Ethereum dApp Development (Beginners)">
       <Hero
+        className="inner"
         headline="Blockstack dApp Development"
         subHeadline="Level: Beginner"
         firstDesc="Demand for blockchain developers is skyrocketing. In this program, you'll work with the Blockstack protocol, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
@@ -53,11 +54,11 @@ export default function ShowCourse() {
         </PrimaryButton>
       </ReadyTo>
 
-      <Mentors />
 
       <FAQ data={faqData} />
 
-   
+      <Mentors />
+
     </Layout>
     </Fragment>
   );

@@ -19,10 +19,11 @@ export default function ShowCourse() {
    <FlashBar />
     <Layout seoTitle="Introduction to Blockchain">
       <Hero
+        className="inner"
         headline="Introduction to Blockchain"
         subHeadline="Level: Beginner"
         firstDesc="Demand for blockchain developers is skyrocketing. In this program, you'll work with the Blockstack and Ethereum protocols, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
-        secondDesc="<ul><li><strong>Time:</strong> 1 week, 10-15hrs /week</li><li><strong>Learn:</strong> Blockchain fundamentals, Key concepts + more. <li><strong>Deposit:</strong> $125.</li></li></ul>"
+        secondDesc="<ul><li><strong>Time:</strong> 1 week, 10-15hrs /week</li><li><strong>Learn:</strong> Blockchain fundamentals, Key concepts + more. <li><strong>Deposit:</strong> $125. <a href='/fund'>Scholarships Available</a>.</li></li></ul>"
       >
         <PrimaryButton to="https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview">
           Join Now
@@ -47,9 +48,9 @@ export default function ShowCourse() {
         </PrimaryButton>
       </ReadyTo>
 
-      <Mentors />
 
       <FAQ data={faqData} />
+      <Mentors />
 
    
     </Layout>

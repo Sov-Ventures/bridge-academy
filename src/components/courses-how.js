@@ -24,28 +24,28 @@ export default function CoursesHow({headline, firstDesc}) {
       <p className="description">{firstDesc}</p>
       <div id="faq-items">
         <div className="faq-item">
-          <h5>Real-world projects from industry experts</h5>
+          <h3>Real-world projects guided by experts</h3>
           <p>
-           With real world projects built in partnership with industry experts, you’ll build a job-ready portfolio graded by experienced reviewers.
+           With real world projects built in partnership with industry experts, you’ll build a job-ready portfolio graded by our reviewers.
           </p>
         </div>
 
         <div className="faq-item">
-          <h5>Get technical guidance</h5>
+          <h3>Get technical guidance</h3>
           <p>
            Get paired with a knowledgeable peer whos a few steps ahead of you in your learning journey, motivating you and keeping you on track.
           </p>
         </div>
 
         <div className="faq-item">
-          <h5>Flexible learning program</h5>
+          <h3>Flexible learning program</h3>
           <p>
             Choose a program to fit into your busy life. Along with easy monthly payments you can learn at your own pace to better reach your personal goals.
           </p>
         </div>
 
         <div className="faq-item">
-          <h5>Grow your network</h5>
+          <h3>Grow your network</h3>
           <p>
            We only accept the best mentors, technology partners and learners, so you can make meaningful connections in your chosen field.
           </p>

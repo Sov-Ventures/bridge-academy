@@ -20,6 +20,7 @@ export default function ShowCourse() {
    <FlashBar />
     <Layout seoTitle="Advanced Ethereum Development">
       <Hero
+        className="inner"
         headline="Advanced Ethereum Development"
         subHeadline="Level: Intermediate/Advanced"
         firstDesc="Demand for blockchain developers is skyrocketing. In this program, you'll work with the Ethereum protocol, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
@@ -53,11 +54,11 @@ export default function ShowCourse() {
         </PrimaryButton>
       </ReadyTo>
 
-      <Mentors />
-
       <FAQ data={faqData} />
 
    
+      <Mentors />
+
     </Layout>
     </Fragment>
   );
