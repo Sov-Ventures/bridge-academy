@@ -24,7 +24,7 @@ export default function PartnersPage() {
         headline="Your Bridge to Global Tech Talent"
         firstDesc="Tap into our community of top global technologists and engineers, to help you scale your vision."
       >
-      <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+      <PrimaryButton className="btn btn-primary" className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
           Join the waitlist
         </PrimaryButton>
       </Hero>
@@ -116,7 +116,7 @@ export default function PartnersPage() {
 
 
       <ReadyTo headline="Ready to try it out?">
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
           Join the waitlist
         </PrimaryButton>
       </ReadyTo>
@@ -128,7 +128,7 @@ export default function PartnersPage() {
         desc="Our hiring partners range from early-stage to later-stage startups."
       />
       <ReadyTo headline="Interested in becoming a hiring partner?">
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
           Join the waitlist
         </PrimaryButton>
       </ReadyTo>

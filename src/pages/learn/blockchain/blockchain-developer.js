@@ -25,7 +25,7 @@ export default function BlockChain() {
         firstDesc="Your bridge into a Silicon-valley tech career working remotely as a Blockchain Developer, dApp Developer + more."
         secondDesc="Learn: Smart Contracts & dApp development + more alongside top industry mentors."
       >
-        <PrimaryButton to="https://apply.bridge.academy/b/rvd2ba/view">
+        <PrimaryButton className="btn btn-primary"to="https://apply.bridge.academy/b/rvd2ba/view">
           Apply Now
         </PrimaryButton>
       </Hero>
@@ -42,7 +42,7 @@ export default function BlockChain() {
         endSlice={3}
       />
       <ReadyTo headline="Interested in becoming a technology partner?">
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
           Contact Us
         </PrimaryButton>
       </ReadyTo>

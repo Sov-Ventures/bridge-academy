@@ -25,7 +25,7 @@ export default function ShowCourse() {
         firstDesc="Demand for blockchain developers is skyrocketing. In this program, you'll work with the Blockstack and Ethereum protocols, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
         secondDesc="<ul><li><strong>Time:</strong> 1 week, 10-15hrs /week</li><li><strong>Learn:</strong> Blockchain fundamentals, Key concepts + more. <li><strong>Deposit:</strong> $125. <a href='/fund'>Scholarships Available</a>.</li></li></ul>"
       >
-        <PrimaryButton to="https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview">
           Join Now
         </PrimaryButton>
       </Hero>
@@ -43,7 +43,7 @@ export default function ShowCourse() {
       />
 
       <ReadyTo headline="Interested in becoming a technology partner?">
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
           Contact Us
         </PrimaryButton>
       </ReadyTo>

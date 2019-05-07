@@ -30,9 +30,9 @@ export default function TracksMatrix({ headline, desc, endSlice }) {
                     <th class="plan-matrix-details">
                      <a
                       className="btn btn-primary"
-                      href="https://apply.bridge.academy/b/lxshok/view"
+                      href="/learn#career-tracks"
                        >
-                      Apply now
+                      Explore tracks
                     </a>
                     </th>
 

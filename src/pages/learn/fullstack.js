@@ -19,12 +19,13 @@ export default function FullStack() {
    <FlashBar />
     <Layout seoTitle="Full-Stack Engineer Career Track">
       <Hero
+        className="inner"
         headline="Full Stack (Career Track)"
         subHeadline="Part-time: 10-15hrs /week."
         firstDesc="Your bridge into a Silicon-valley tech career working remotely as a Full-stack Engineer, Principal Product Engineer, Lead Software Engineer, Ruby on Rails Engineer + more."
         secondDesc="Learn: node, react, redux, serverless, typescript, test driven development, mongo, git, graphql, continuous integration + more"
       >
-        <PrimaryButton to="https://apply.bridge.academy/b/rvd2ba/view">
+        <PrimaryButton  className="btn btn-primary" to="https://apply.bridge.academy/b/rvd2ba/view">
           Apply Now
         </PrimaryButton>
       </Hero>
@@ -41,7 +42,7 @@ export default function FullStack() {
         endSlice={3}
       />
       <ReadyTo headline="Interested in becoming a hiring partner?">
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
           Contact Us
         </PrimaryButton>
       </ReadyTo>
@@ -59,7 +60,7 @@ export default function FullStack() {
 
           <p className="description">Fill out our quick online application.</p>
 
-          <PrimaryButton to="https://apply.bridge.academy/b/rvd2ba/view">
+          <PrimaryButton className="btn btn-primary"to="https://apply.bridge.academy/b/rvd2ba/view">
             Apply now
           </PrimaryButton>
 

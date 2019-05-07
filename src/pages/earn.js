@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import ApplicationProcess from "../components/application-process";
 import PrimaryButton from "../components/button";
+import SecondaryButton from "../components/button";
 import FlashBar from "../components/flash-bar";
 import FAQ from "../components/faq";
 import ReadyTo from "../components/readyTo";
@@ -22,8 +23,10 @@ export default function EarnPage() {
       <Hero 
         className="inner"
         headline="Find Jobs, Gigs and Bounties"
-        firstDesc="Looking to post your job, gig or bounty? <br />Apply as a hiring partner <a href='https://apply.bridge.academy/b/axv6ye/view'>here</a>."
+        firstDesc="Here we showcase selected jobs, gigs and bounties from our network of hiring partners."
+        secondDesc="Looking to post your job, gig or bounty? Apply as a <a href='https://apply.bridge.academy/b/axv6ye/view'>hiring partner</a>."
       >
+        <PrimaryButton className="btn btn-primary" to="#tech-tracks">Explore Jobs</PrimaryButton>
 
       </Hero>
 

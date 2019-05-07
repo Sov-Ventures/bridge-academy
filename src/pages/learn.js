@@ -25,9 +25,9 @@ export default function LearnPage() {
         className="inner"
         headline="Learn new technologies, by using new technologies"
         firstDesc="Go at your own pace with our explorer path courses. Choose from Beginner, Intermediate & Advanced courses."
-        secondDesc="50% of deposits are allocated for the bridge <a href='/fund'>scholarship fund</a>. The other 50% is reserved for <a href='#plan-comparison'>rebates</a>."
+        secondDesc="50% of deposits are allocated for the bridge <a href='/fund'>scholarship fund</a>. 50% is reserved for <a href='#plan-comparison'>rebates</a>."
       >
-        <PrimaryButton to="#tech-tracks">Explore Courses</PrimaryButton>
+        <PrimaryButton className="btn btn-primary" to="#tech-tracks">Explore Courses</PrimaryButton>
 
 
       </Hero>
@@ -66,7 +66,7 @@ export default function LearnPage() {
       />
 
       <ReadyTo headline="Interested in becoming a technology partner?">
-        <PrimaryButton to="https://apply.bridge.academy/b/axv6ye/view">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
          Join the Waitlist
         </PrimaryButton>
       </ReadyTo>
@@ -79,7 +79,7 @@ export default function LearnPage() {
       <Mentors />
 
       <ReadyTo headline="Want to become a mentor?">
-        <PrimaryButton to="https://apply.bridge.academy/b/zjvgu7/view">
+        <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/zjvgu7/view">
           Apply Now
         </PrimaryButton>
       </ReadyTo>

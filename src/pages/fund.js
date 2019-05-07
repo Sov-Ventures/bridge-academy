@@ -4,6 +4,7 @@ import Benefactors from "../components/benefactors";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
 import PrimaryButton from "../components/button";
+import SecondaryButton from "../components/button";
 import FAQ from "../components/faq";
 import FlashBar from "../components/flash-bar";
 import scholarship from "../img/home/scholarship.png";
@@ -24,7 +25,8 @@ export default function Scholarship() {
         secondDesc="Scholarship funds go directly towards offsetting the cost of our programs for aspiring developers in develping countries."
         heroimg={scholarship}
       >
-        <PrimaryButton to="#faq">Learn more</PrimaryButton>
+        <PrimaryButton className="btn btn-primary" to="/learn">Get Started</PrimaryButton>
+        <SecondaryButton className="btn btn-secondary" to="#faq">Learn more</SecondaryButton>
 
       </Hero>
 

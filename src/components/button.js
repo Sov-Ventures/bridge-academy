@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from "gatsby";
 
-export default function Button({ children, to }) {
+export default function Button({ children, to, className }) {
   return (
-    <p>
+    <span>
       {/^\/(?!\/)/.test(to) ? (
-        <Link to={to} className="btn btn-primary">
+        <Link to={to} className={className}>
           {children}
         </Link>
       ) : (
         <a
           style={{ display: "inline-block" }}
-          className="btn btn-primary"
+          className={className}
           href={to}
         >
           {children}
         </a>
       )}
-    </p>
+    </span>
   );
 }
