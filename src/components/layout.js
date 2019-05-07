@@ -8,7 +8,7 @@ export default function Layout({ children, seoTitle, termsPage }) {
     <Fragment>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Bridge.Academy - {seoTitle}</title>
+        <title>{seoTitle} - Bridge.Academy</title>
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
         <meta property="og:site_name" content="Bridge.Academy" />
         <meta property="og:title" content={`Bridge.Academy - ${seoTitle}`} />

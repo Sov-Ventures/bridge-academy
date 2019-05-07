@@ -9,8 +9,7 @@ export default () => (
     <nav className="container menu-main-navigation-container">
       <Link to="/" className="logo no-ripple">
         <img
-          // src="https://bridge.academy/static/img/logo/logo%403x.png"
-          alt="Xpo.Network"
+          alt="Bridge Academy"
         />
       </Link>
 
