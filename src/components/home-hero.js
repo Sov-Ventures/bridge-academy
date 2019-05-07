@@ -17,7 +17,7 @@ class HomeHero extends Component {
 
 
             <h1 id="bridge-headline">
-             <strong>Bridge</strong> is a global community of technology <a href="/#alumni">builders</a>, <a href="/mentors">mentors</a> & <a href="/partners">organizations</a> who's mission is to accelerate technological progress.
+             <strong>Bridge</strong> is a global community of technology <a href="/#alumni">builders</a>, <a href="/mentors">mentors</a> & <a href="/partners">organizations</a> who's <a href="/manifesto">mission</a> is to accelerate technological progress.
             </h1>
 
           <div id="block-learn" className="block">
