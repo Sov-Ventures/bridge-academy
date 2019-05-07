@@ -16,7 +16,7 @@ export default function FastTrackHow() {
         <div className="faq-item">
           <h5>PAYMENT OPTIONS</h5>
           <p>
-            1. $0 up-front + $9,500 maximum repayment via our <a href="/candidate-agreement">deffered fee agreement</a>. <a href="#faq">See our FAQ</a> for details.
+            1. $0 up-front + 15% income for 1-year via our <a href="/candidate-agreement">deffered fee agreement</a>. <a href="#faq">See our FAQ</a> for details.
           </p>
         </div>
 
