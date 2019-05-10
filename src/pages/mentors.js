@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import PrimaryButton from "../components/button";
+import SecondaryButton from "../components/button";
 import FAQ from "../components/faq";
 import FlashBar from "../components/flash-bar";
 import Hero from "../components/hero";
@@ -18,8 +19,13 @@ export default function MentorsPage() {
         firstDesc={`Take a moment to reflect on your career journey up until this point. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes? If so, then becoming a Bridge Mentor could be for you.`}
       >
         <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/zjvgu7/view">
-          Apply to become a mentor
+          Apply as a mentor
         </PrimaryButton>
+
+        <SecondaryButton className="btn btn-secondary" to="#how-items">
+          See how it works
+        </SecondaryButton>
+
       </Hero>
       <section id="apply" className="tools">
         <div className="triangle triangle--bottom triangle--gray">

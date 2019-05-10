@@ -23,7 +23,7 @@ export default function ShowCourse() {
         className="inner"
         headline="Blockstack dApp Development"
         subHeadline="Level: Beginner"
-        firstDesc="Demand for blockchain developers is skyrocketing. In this program, you'll work with the Blockstack protocol, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
+        firstDesc="In this program, you'll work with the Blockstack protocol, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
         secondDesc="<ul><li><strong>Time:</strong>~4 weeks @ 10hrs /week</li><li><strong>Build:</strong> (3) Mini-projects incl: ToDo-list, Animal Kingdom + more.</li><li><strong>Learn:</strong> Blockstack.js, IPFS + more.</li><li><strong>Deposit:</strong> $499 (or $100/mo for 5-months).</li></ul>"
       >
         <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview">

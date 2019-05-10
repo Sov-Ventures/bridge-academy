@@ -23,7 +23,7 @@ export default function ShowCourse() {
         className="inner"
         headline="Ethereum dApp Development"
         subHeadline="Level: Beginner"
-        firstDesc="Demand for blockchain developers is skyrocketing. In this program, you'll work with the Ethereum protocol, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
+        firstDesc="In this program, you'll work with the Ethereum protocol, build projects for real-world application, and gain the essential skills for a future career in this dynamic space."
         secondDesc="<ul><li><strong>Time:</strong>~6 weeks @ 10hrs /week</li><li><strong>Build:</strong> (3) Mini-projects incl: Create a Token, Domain Marketplace + more.</li><li><strong>Learn:</strong> Web3.js, Swarm, Zeppelin + more.</li><li><strong>Deposit:</strong> $749 (or $110/mo for 7-months).</li></ul>"
       >
         <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/register?next=%2Fb%2Fvqcdrz%2Fview">
