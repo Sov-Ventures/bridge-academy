@@ -28,10 +28,11 @@ export default function EarnBounties({ headline, image, desc, endSlice, category
         </div>
       </div>
 
-
+      <p>
         <PrimaryButton className="btn btn-primary" to="https://explorer.bounties.network/explorer?bountyStage=active&platform=bounties-network%2Cgitcoin">
           See All Bounties
         </PrimaryButton>
+      </p>
 
     </section>
   );

@@ -620,7 +620,7 @@ header .logo img {
 .hero h1 {
   position: relative;
   display: inline-block;
-  margin: 0em auto 0 auto;
+  margin: 0em auto 1em auto;
   font-size:2em;
   float: none !important;
   clear:both;
@@ -761,7 +761,7 @@ header .logo img {
 .description,
 .hero-desc
 {
-  margin:1em auto;
+  margin:0 auto 1em auto;
 }
 .description{
   text-align: center;
@@ -1080,6 +1080,7 @@ section#tour section#usecases dl dd {
 #footer ul {
   float: left;
   margin-right: 3em;
+  margin-bottom:2em;
 }
 
 #footer ul li {
@@ -1099,9 +1100,8 @@ section#tour section#usecases dl dd {
 #tracks .community-item.card .course-img{
     display: table-cell;
     width: 15%;
-    max-width: 300px;
-    max-height: 300px;
     min-height: 1px;
+    margin-right:2em;
 }
 
 #tracks .community-item.card .card-body{
@@ -1118,11 +1118,6 @@ section#tour section#usecases dl dd {
 }
 
 
-.course-img{
-  float:left !important;
-  margin-right:2em !important;
-}
-
 section{
   padding-bottom:3em !important;
 }
@@ -1130,6 +1125,7 @@ section{
 section.social-links {
   margin-top: 4em;
   float: right;
+  padding:0em;
 }
 section.social-links h2 {
   font-size: 2em;
@@ -1970,6 +1966,7 @@ ul.menu-header .menu-item#navbar-login > a {
 
   .hero h1{
     width:100% !important;
+    margin-bottom: .5em;
   }
   .box-grid #examples-box.tab-bar .group .videoDesc {
     display: none !important;

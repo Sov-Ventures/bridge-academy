@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import ApplicationProcess from "../components/application-process";
 import PrimaryButton from "../components/button";
+import SecondaryButton from "../components/button";
 import FAQ from "../components/faq";
 import FlashBar from "../components/flash-bar";
 import Hero from "../components/hero";
@@ -22,11 +23,22 @@ export default function PartnersPage() {
       <Hero 
         className="inner"
         headline="Your Bridge to Global Tech Talent"
-        firstDesc="Tap into our community of top global technologists and engineers, to help you scale your vision."
+        firstDesc="Tap into our community of top global technologists and engineers to help you scale your vision."
+        secondDesc="Hire for full-time positions or flexible positions."
+
       >
-      <PrimaryButton className="btn btn-primary" className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
+      <p>
+        <PrimaryButton className="btn btn-primary" className="btn btn-primary" to="https://apply.bridge.academy/b/axv6ye/view">
           Join the waitlist
         </PrimaryButton>
+       <SecondaryButton className="btn btn-secondary" className="btn btn-secondary" to="#apply">
+          See how it works
+        </SecondaryButton>
+      
+          
+
+      </p>
+
       </Hero>
 
   

@@ -18,6 +18,7 @@ export default function MentorsPage() {
         headline={`Mentoring at Bridge`}
         firstDesc={`Take a moment to reflect on your career journey up until this point. Did you have an inspirational teacher, a co-worker or a manager who took you under their wing and showed you the ropes? If so, then becoming a Bridge Mentor could be for you.`}
       >
+        <p>
         <PrimaryButton className="btn btn-primary" to="https://apply.bridge.academy/b/zjvgu7/view">
           Apply as a mentor
         </PrimaryButton>
@@ -25,6 +26,7 @@ export default function MentorsPage() {
         <SecondaryButton className="btn btn-secondary" to="#how-items">
           See how it works
         </SecondaryButton>
+        </p>
 
       </Hero>
       <section id="apply" className="tools">

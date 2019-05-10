@@ -36,7 +36,7 @@ export default function PlansMatrix({ headline, desc, endSlice }) {
                  <tr>
                     <td class="plan-matrix-label">Time you spend interviewing </td>
                     <td class="plan-matrix-details active">
-                      1hr * 
+                      0-1hrs * 
                     </td>
                     <td class="plan-matrix-details active">
                      2 - 20 hours 
