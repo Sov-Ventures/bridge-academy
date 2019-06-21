@@ -19,7 +19,7 @@ export default function Layout({ children, seoTitle, termsPage }) {
       <div id="content" className="container-fluid pub-content">
         <div className="row">{children}</div>
       </div>
-      <Footer />
+          {/*<Footer /> */}
     </Fragment>
   );
 }

@@ -1702,6 +1702,7 @@ ul#screeners li {
 }
 
 ul.menu-header {
+  display: none;
   margin: 0.2em;
   padding-left: 20px;
   float: right;
@@ -1726,6 +1727,7 @@ ul.menu-header li.menu-item .ss-icon {
 ul.menu-header .menu-item#navbar-login > a {
   color: #59cbb9;
 }
+
 
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -2470,7 +2472,8 @@ ul.menu-header .menu-item#navbar-login > a {
 }
 
 .menu-btn {
-  display: inline-block;
+  display:none;
+  /*display: inline-block;*/
   left: 20px;
   top: 40px;
   margin: 0em;

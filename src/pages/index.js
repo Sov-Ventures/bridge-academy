@@ -15,15 +15,18 @@ import { faqData, processData } from "../api/data";
 
 export default () => (
   <Fragment>
+    {/*
     <FlashBar />
+  */}
     <Layout seoTitle="Frontier-Tech Focused Talent Accelerator">
       <HomeHero />
-      <ApplicationProcess
+      {/*<ApplicationProcess
         headline="How it works"
         desc="Fast-track your personal learning & development by joining our community."
         data={processData}
       />
-      <HiringPartners
+      
+        <HiringPartners
         headline="Featured Technology Partners"
         desc="Our technology partners provide training materials, beta developer tools and access to real problems & projects."
         endSlice={3}
@@ -53,6 +56,8 @@ export default () => (
       <Tweets 
         endSlice={3}
       />
+
+      */}
 
 
     </Layout>
