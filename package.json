@@ -16,7 +16,7 @@
     "@raae/gatsby-remark-oembed": "0.0.6",
     "@weknow/gatsby-remark-twitter": "^0.2.1",
     "bootstrap": "3.3.0",
-    "gatsby": "^2.3.22",
+    "gatsby": "^2.32.13",
     "gatsby-cli": "^2.5.7",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-segment-js": "^3.0.1",
